@@ -1,0 +1,6 @@
+AD5160 help
+
+Pins:
+A- Upper Pot pin.
+W- Middle Pot pin.
+B- Lower Pot pin.

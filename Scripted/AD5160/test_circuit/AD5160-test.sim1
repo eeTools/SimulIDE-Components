@@ -1,0 +1,29 @@
+<circuit version="1.1.0" rev="2020" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Oscope" CircId="Oscope-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,-252" rotation="0" hflip="1" vflip="1" label="Oscope-11" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="300000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Subcircuit" CircId="Nano-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,-252" rotation="0" hflip="1" vflip="1" label="Nano" idLabPos="8.70149,-14.199" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="m328 TQFP-269" Frequency="16 MHz" Program="SPIDigipot-ino.hex" Auto_Load="false" saveEepr="false" SerialMon="-1" />
+</item>
+
+<item itemtype="Ground" CircId="Ground-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,-268" rotation="0" hflip="1" vflip="1" label="Ground-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-12" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-212,-340" rotation="90" hflip="1" vflip="1" label="Rail-12" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="AD5160-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-260,-316" rotation="0" hflip="1" vflip="1" label="AD5160" idLabPos="-1.1469,-15.4994" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true">
+<mainCompProps MainCompId="ScriptSPI-3" Resistance="100000" Links="7_Potentiometer-9," />
+</item>
+
+<item itemtype="Connector" uid="Connector-55" startpinid="AD5160-7-SDI" endpinid="Nano-14-11" pointList="-268,-308,-300,-308,-300,-132,-268,-132" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="AD5160-7-CLK" endpinid="Nano-14-13" pointList="-268,-300,-292,-300,-292,-260,-204,-260,-204,-124,-220,-124" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="AD5160-7-W" endpinid="Oscope-11-Pin0" pointList="-220,-300,-188,-300" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Nano-14-10" endpinid="AD5160-7-CS" pointList="-268,-140,-284,-140,-284,-292,-268,-292" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Rail-12-outnod" endpinid="AD5160-7-A" pointList="-212,-324,-212,-308,-220,-308" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="AD5160-7-B" endpinid="Ground-13-Gnd" pointList="-220,-292,-212,-292,-212,-284" />
+
+</circuit>

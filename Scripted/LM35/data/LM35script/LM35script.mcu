@@ -1,0 +1,7 @@
+<!DOCTYPE SimulIDE>
+
+<iou name="LM35_script" core="scripted" script="LM35script.as" linker="true">
+    
+    <ioport name="PORTB" pins="Out" />
+    
+</iou>

@@ -1,0 +1,15 @@
+<circuit version="" rev="2262" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Subcircuit" CircId="ENCODER_16-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-168,68" rotation="0" hflip="1" vflip="1" label="ENCODER_16-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-68,36" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-4" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="ENCODER_16-1-1" endpinid="7-Seg BCD-4-in0" pointList="-104,76,-56,76,-56,68" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="7-Seg BCD-4-in1" endpinid="ENCODER_16-1-2" pointList="-64,68,-64,84,-104,84" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="7-Seg BCD-4-in2" endpinid="ENCODER_16-1-4" pointList="-72,68,-72,92,-104,92" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="7-Seg BCD-4-in3" endpinid="ENCODER_16-1-8" pointList="-80,68,-80,100,-104,100" />
+
+</circuit>

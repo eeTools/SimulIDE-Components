@@ -1,0 +1,15 @@
+<circuit version="" rev="2262" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-6" mainComp="false" Show_id="true" Show_Val="false" Pos="-120,84" rotation="0" hflip="1" vflip="1" label="Package-6" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="5" Height="6" Package_File="LM35.package" Background="color(10,10,10)" Logic_Symbol="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,92" rotation="0" hflip="1" vflip="1" label="TextComponent-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,4" circPos="-44,92" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="-4 _px" Border="0 _px" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Color="#FFFFFF" Font_Size="7 _px" Fixed_Width="false" Text="82.35 Cº" />
+
+<item itemtype="Dial" CircId="Dial-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-20,124" rotation="-90" hflip="1" vflip="1" label="Dial-3" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" boardPos="32,32" circPos="-20,124" boardRot="-90" circRot="-90" boardHflip="1" boardVflip="1" Min_Val="0" Max_Val="1000" Steps="1000" Slider="false" Scale="1" Links="LM35script-2," Value="500" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="44,124" rotation="0" hflip="-1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="208,0" circPos="44,124" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="Out" IsBus="false" />
+
+<item itemtype="MCU" CircId="LM35script-2" mainComp="false" Show_id="true" Show_Val="true" Pos="-4,108" rotation="0" hflip="1" vflip="1" label="LM35script-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="160,-16" circPos="-4,108" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Links="TextComponent-4," />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Tunnel-7-pin" endpinid="LM35script-2-PORTBOut" pointList="44,124,36,124" />
+
+</circuit>

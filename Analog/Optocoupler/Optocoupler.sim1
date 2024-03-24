@@ -1,0 +1,39 @@
+<circuit version="1.1.0" rev="2092" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Tunnel" CircId="Tunnel-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-84" rotation="0" hflip="-1" vflip="1" label="Tunnel-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Em" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,-84" rotation="0" hflip="1" vflip="1" label="Tunnel-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="C" IsBus="false" />
+
+<item itemtype="Package" CircId="Package-39" mainComp="false" Show_id="true" Show_Val="false" Pos="-368,-128" rotation="0" hflip="1" vflip="1" label="Package-39" idLabPos="-11.0197,-16.3268" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="3 _Cells" Height="3 _Cells" Package_File="Optocoupler.package" Background="opto.png" Logic_Symbol="true" />
+
+<item itemtype="Mosfet" CircId="Mosfet-9" mainComp="true" Show_id="false" Show_Val="false" Pos="-172,-156" rotation="0" hflip="1" vflip="1" label="Mosfet-9" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.05 Ω" Threshold="3 V" />
+
+<item itemtype="Resistor" CircId="Resistor-4" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-260,-148" rotation="0" hflip="1" vflip="1" label="Resistor-4" idLabPos="-16,-24" labelrot="0" valLabPos="-10.3232,-15.3716" valLabRot="0" Resistance="330 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,-180" rotation="0" hflip="-1" vflip="1" label="Tunnel-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Co" IsBus="false" />
+
+<item itemtype="Csource" CircId="Csource-8" mainComp="false" ShowProp="Gain" Show_id="false" Show_Val="true" Pos="-212,-112" rotation="0" hflip="1" vflip="1" label="Csource-8" idLabPos="4,-28" labelrot="0" valLabPos="8.02156,3.35002" valLabRot="0" CurrSource="false" CurrControl="false" Control_Pins="false" Gain="600" Voltage="5 V" Current="1 A" />
+
+<item itemtype="Tunnel" CircId="Tunnel-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="A" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-5" mainComp="true" ShowProp="MaxCurrent" Show_id="false" Show_Val="true" Pos="-236,-116" rotation="90" hflip="1" vflip="1" label="Led-5" idLabPos="-16,-24" labelrot="0" valLabPos="-2.55295,31.8294" valLabRot="-90" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="8 mA" Resistance="0.6 Ω" Links="Csource-8," />
+
+<item itemtype="Node" CircId="Node-43" mainComp="false" Pos="-164,-84" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="Mosfet-9-Gate" endpinid="Csource-8-s1Pin" pointList="-188,-156,-212,-156,-212,-132" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Resistor-4-rPin" endpinid="Led-5-lPin" pointList="-244,-148,-236,-148,-236,-132" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="Tunnel-44-pin" endpinid="Mosfet-9-Dren" pointList="-148,-180,-164,-180,-164,-172" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Node-43-2" endpinid="Tunnel-42-pin" pointList="-164,-84,-148,-84" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Tunnel-40-pin" endpinid="Resistor-4-lPin" pointList="-284,-148,-276,-148" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Tunnel-41-pin" endpinid="Led-5-rPin" pointList="-284,-84,-236,-84,-236,-100" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Mosfet-9-Sour" endpinid="Node-43-0" pointList="-164,-140,-164,-84" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Node-43-1" endpinid="Csource-8-s2Pin" pointList="-164,-84,-212,-84,-212,-92" />
+
+</circuit>

@@ -1,0 +1,87 @@
+<circuit version="" rev="2178" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Package" CircId="Package-496" mainComp="false" Show_id="true" Show_Val="false" Pos="-780,-380" rotation="0" hflip="1" vflip="1" label="Package-496" idLabPos="0,-20" labelrot="0" valLabPos="0,0" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="6.57819e-313" boardHflip="1" boardVflip="1" SubcType="Board" Width="7 _Cells" Height="7 _Cells" Package_File="ENCODER_16_LS.package" Background="color(0,0,0)" Logic_Symbol="false" />
+
+<item itemtype="Dial" CircId="Dial-1956" mainComp="false" Show_id="false" Show_Val="false" Pos="-724,-424" rotation="90" hflip="1" vflip="1" label="Dial-1956" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" boardPos="-4,28" circPos="-724,-424" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Min_Val="0" Max_Val="15" Steps="16" Slider="true" Scale="1" Links="SwitchDip-1957," />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-1957" mainComp="false" Show_id="false" Show_Val="false" Pos="-676,-420" rotation="0" hflip="1" vflip="1" label="SwitchDip-1957" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="132,12" circPos="-676,-420" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Size="16" Exclusive="true" CommonPin="true" State="1" />
+
+<item itemtype="Rail" CircId="Rail-1958" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-692,-468" rotation="90" hflip="1" vflip="1" label="Rail-1958" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" boardPos="116,-36" circPos="-692,-468" boardRot="90" circRot="90" boardHflip="1" boardVflip="1" Voltage="5 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-1960" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-356" rotation="0" hflip="-1" vflip="1" label="Tunnel-1960" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="180,28" circPos="-560,-356" boardRot="0" circRot="0" boardHflip="-1" boardVflip="1" Name="1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-1961" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-348" rotation="0" hflip="-1" vflip="1" label="Tunnel-1961" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="180,36" circPos="-560,-348" boardRot="0" circRot="0" boardHflip="-1" boardVflip="1" Name="2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-1962" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-340" rotation="0" hflip="-1" vflip="1" label="Tunnel-1962" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="180,44" circPos="-560,-340" boardRot="0" circRot="0" boardHflip="-1" boardVflip="1" Name="4" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-1963" mainComp="false" Show_id="false" Show_Val="false" Pos="-560,-332" rotation="0" hflip="-1" vflip="1" label="Tunnel-1963" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="180,52" circPos="-560,-332" boardRot="0" circRot="0" boardHflip="-1" boardVflip="1" Name="8" IsBus="false" />
+
+<item itemtype="DecToBcd" CircId="DecToBcd-1968" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,-380" rotation="0" hflip="1" vflip="1" label="DecToBcd-1968" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="180,20" circPos="-628,-380" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-1975" mainComp="false" Show_id="false" Show_Val="false" Pos="-584,-436" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-1975" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="32,28" circPos="-584,-436" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Node" CircId="Node-1976" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-596,-372" />
+
+<item itemtype="Node" CircId="Node-1977" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-588,-380" />
+
+<item itemtype="Node" CircId="Node-1978" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-580,-388" />
+
+<item itemtype="Node" CircId="Node-1979" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-572,-396" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Rail-1958-outnod" endpinid="SwitchDip-1957-switch0-pinP" pointList="-692,-452,-692,-444,-684,-444" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="SwitchDip-1957-switch1-pinN" endpinid="DecToBcd-1968-in0" pointList="-660,-436,-652,-436" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="SwitchDip-1957-switch2-pinN" endpinid="DecToBcd-1968-in1" pointList="-660,-428,-652,-428" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="SwitchDip-1957-switch3-pinN" endpinid="DecToBcd-1968-in2" pointList="-660,-420,-652,-420" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="SwitchDip-1957-switch4-pinN" endpinid="DecToBcd-1968-in3" pointList="-660,-412,-652,-412" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="SwitchDip-1957-switch5-pinN" endpinid="DecToBcd-1968-in4" pointList="-660,-404,-652,-404" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="SwitchDip-1957-switch6-pinN" endpinid="DecToBcd-1968-in5" pointList="-660,-396,-652,-396" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="SwitchDip-1957-switch7-pinN" endpinid="DecToBcd-1968-in6" pointList="-660,-388,-652,-388" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="SwitchDip-1957-switch8-pinN" endpinid="DecToBcd-1968-in7" pointList="-660,-380,-652,-380" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="SwitchDip-1957-switch9-pinN" endpinid="DecToBcd-1968-in8" pointList="-660,-372,-652,-372" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="SwitchDip-1957-switch10-pinN" endpinid="DecToBcd-1968-in9" pointList="-660,-364,-652,-364" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="SwitchDip-1957-switch11-pinN" endpinid="DecToBcd-1968-in10" pointList="-660,-356,-652,-356" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="SwitchDip-1957-switch12-pinN" endpinid="DecToBcd-1968-in11" pointList="-660,-348,-652,-348" />
+
+<item itemtype="Connector" uid="Connector-85" startpinid="SwitchDip-1957-switch13-pinN" endpinid="DecToBcd-1968-in12" pointList="-660,-340,-652,-340" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="SwitchDip-1957-switch14-pinN" endpinid="DecToBcd-1968-in13" pointList="-660,-332,-652,-332" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="SwitchDip-1957-switch15-pinN" endpinid="DecToBcd-1968-in14" pointList="-660,-324,-652,-324" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-1976-1" endpinid="7-Seg BCD-1975-in3" pointList="-596,-372,-596,-404" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="Tunnel-1963-pin" endpinid="Node-1976-0" pointList="-560,-332,-596,-332,-596,-372" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="Node-1976-2" endpinid="DecToBcd-1968-out3" pointList="-596,-372,-604,-372" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="Node-1977-1" endpinid="7-Seg BCD-1975-in2" pointList="-588,-380,-588,-404" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="Tunnel-1962-pin" endpinid="Node-1977-0" pointList="-560,-340,-588,-340,-588,-380" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="Node-1977-2" endpinid="DecToBcd-1968-out2" pointList="-588,-380,-604,-380" />
+
+<item itemtype="Connector" uid="Connector-98" startpinid="Node-1978-1" endpinid="7-Seg BCD-1975-in1" pointList="-580,-388,-580,-404" />
+
+<item itemtype="Connector" uid="Connector-99" startpinid="Tunnel-1961-pin" endpinid="Node-1978-0" pointList="-560,-348,-580,-348,-580,-388" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="Node-1978-2" endpinid="DecToBcd-1968-out1" pointList="-580,-388,-604,-388" />
+
+<item itemtype="Connector" uid="Connector-101" startpinid="Node-1979-1" endpinid="7-Seg BCD-1975-in0" pointList="-572,-396,-572,-404" />
+
+<item itemtype="Connector" uid="Connector-102" startpinid="Tunnel-1960-pin" endpinid="Node-1979-0" pointList="-560,-356,-572,-356,-572,-396" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Node-1979-2" endpinid="DecToBcd-1968-out0" pointList="-572,-396,-604,-396" />
+
+</circuit>
