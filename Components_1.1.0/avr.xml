@@ -14,6 +14,9 @@
         <item name="tiny4313" package="AVR/tinyx313/tinyx313" data="AVR/tiny4313" />
     </itemset>
     <itemset category="AVR/atmega" type="MCU">
+        
+        <item name="mega8"     package="AVR/megax8/megax8"    data="AVR/mega8" />
+        <item name="m8 TQFP"   package="AVR/megax8/mx8_tqfp"  data="AVR/mega8" />
         <item name="mega16"    package="AVR/mega32/mega32"    data="AVR/mega16" />
         <item name="mega32"    package="AVR/mega32/mega32"    data="AVR/mega32" />
         <item name="mega48"    package="AVR/megax8/megax8"    data="AVR/mega48" />
