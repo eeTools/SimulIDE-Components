@@ -1,0 +1,19 @@
+<libitem itemtype="Subcircuit" category="Logic/Tools" compname="2L_Display" compinfo="   2-bit probe. (L)" icondata="">
+
+<circuit version="" rev="e6539ad9" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-11" mainComp="false" Show_id="true" Show_Val="false" Pos="-388,-252" rotation="0" hflip="1" vflip="1" label="Package-11" idLabPos="-16,-23" labelrot="0" valLabPos="0,0" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="3" Height="4" Package_File="2L_Display_LS.package" Logic_Symbol="true" Pins="Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;0; label&#x3D;0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;1; label&#x3D;1&#xa;" />
+
+<item itemtype="Probe" CircId="Probe-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-264" rotation="-45" hflip="1" vflip="1" label="Probe-12" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" boardPos="16,8" circPos="-296,-264" boardRot="-45" circRot="-45" boardHflip="1" boardVflip="1" ShowVolt="false" Threshold="2.5 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,-248" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" boardPos="68,4" circPos="-320,-248" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,-232" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" boardPos="68,20" circPos="-320,-232" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="1" IsBus="false" />
+
+<item itemtype="Probe" CircId="Probe-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-248" rotation="-45" hflip="1" vflip="1" label="Probe-12" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" boardPos="16,24" circPos="-296,-248" boardRot="-45" circRot="-45" boardHflip="1" boardVflip="1" ShowVolt="false" Threshold="2.5 V" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Tunnel-13-pin" endpinid="Probe-12-inpin" pointList="-320,-248,-312,-248" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Tunnel-15-pin" endpinid="Probe-16-inpin" pointList="-320,-232,-312,-232" />
+
+</circuit></libitem>
