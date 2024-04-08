@@ -1,0 +1,605 @@
+<libitem itemtype="MCU" category="AVR/atmega" compname="mega640" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-404,100" rotation="0" hflip="1" vflip="1" label="1- TQFP" idLabPos="1.0743,-24.8343" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="28" Height="28" Name="atmega640" Package_File="m640_1280_2560/m640.package" Logic_Symbol="false" Pins="Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PG5; label&#x3D;G5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE0; label&#x3D;E0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE1; label&#x3D;E1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;40; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE2; label&#x3D;E2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;48; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE3; label&#x3D;E3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;56; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE4; label&#x3D;E4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;64; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE5; label&#x3D;E5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;72; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE6; label&#x3D;E6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;80; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE7; label&#x3D;E7&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;88; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VCC0; label&#x3D;Vcc&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;96; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;GND0; label&#x3D;Gnd&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;104; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH0; label&#x3D;H0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;112; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH1; label&#x3D;H1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;120; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH2; label&#x3D;H2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;128; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH3; label&#x3D;H3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;136; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH4; label&#x3D;H4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;144; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH5; label&#x3D;H5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;152; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PH6; label&#x3D;H6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;160; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB0; label&#x3D;B0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;168; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB1; label&#x3D;B1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;176; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB2; label&#x3D;B2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;184; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB3; label&#x3D;B3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;192; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB4; label&#x3D;B4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;200; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB5; label&#x3D;B5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;208; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB6; label&#x3D;B6&#xa;Pin; type&#x3D;; xpos&#x3D;16; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PB7; label&#x3D;B7&#xa;Pin; type&#x3D;; xpos&#x3D;24; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PH7; label&#x3D;H7&#xa;Pin; type&#x3D;; xpos&#x3D;32; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PG3; label&#x3D;G3&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PG4; label&#x3D;G4&#xa;Pin; type&#x3D;rst; xpos&#x3D;48; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;RST; label&#x3D;Rst&#xa;Pin; type&#x3D;nc; xpos&#x3D;56; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;VCC1; label&#x3D;Vcc&#xa;Pin; type&#x3D;nc; xpos&#x3D;64; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;GND1; label&#x3D;Gnd&#xa;Pin; type&#x3D;nc; xpos&#x3D;72; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;XTAL2; label&#x3D;XTAL2&#xa;Pin; type&#x3D;nc; xpos&#x3D;80; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;XTAL1; label&#x3D;XTAL1&#xa;Pin; type&#x3D;; xpos&#x3D;88; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL0; label&#x3D;L0&#xa;Pin; type&#x3D;; xpos&#x3D;96; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL1; label&#x3D;L1&#xa;Pin; type&#x3D;; xpos&#x3D;104; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL2; label&#x3D;L2&#xa;Pin; type&#x3D;; xpos&#x3D;112; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL3; label&#x3D;L3&#xa;Pin; type&#x3D;; xpos&#x3D;120; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL4; label&#x3D;L4&#xa;Pin; type&#x3D;; xpos&#x3D;128; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL5; label&#x3D;L5&#xa;Pin; type&#x3D;; xpos&#x3D;136; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL6; label&#x3D;L6&#xa;Pin; type&#x3D;; xpos&#x3D;144; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PL7; label&#x3D;L7&#xa;Pin; type&#x3D;; xpos&#x3D;152; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD0; label&#x3D;D0&#xa;Pin; type&#x3D;; xpos&#x3D;160; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD1; label&#x3D;D1&#xa;Pin; type&#x3D;; xpos&#x3D;168; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD2; label&#x3D;D2&#xa;Pin; type&#x3D;; xpos&#x3D;176; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD3; label&#x3D;D3&#xa;Pin; type&#x3D;; xpos&#x3D;184; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD4; label&#x3D;D4&#xa;Pin; type&#x3D;; xpos&#x3D;192; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD5; label&#x3D;D5&#xa;Pin; type&#x3D;; xpos&#x3D;200; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD6; label&#x3D;D6&#xa;Pin; type&#x3D;; xpos&#x3D;208; ypos&#x3D;232; angle&#x3D;270; length&#x3D;8; space&#x3D;0; id&#x3D;PD7; label&#x3D;D7&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;208; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG0; label&#x3D;G0&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;200; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG1; label&#x3D;G1&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;192; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC0; label&#x3D;C0&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;184; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC1; label&#x3D;C1&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;176; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC2; label&#x3D;C2&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;168; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC3; label&#x3D;C3&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;160; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC4; label&#x3D;C4&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;152; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC5; label&#x3D;C5&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;144; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC6; label&#x3D;C6&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;136; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC7; label&#x3D;C7&#xa;Pin; type&#x3D;nc; xpos&#x3D;232; ypos&#x3D;128; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VCC2; label&#x3D;Vcc&#xa;Pin; type&#x3D;nc; xpos&#x3D;232; ypos&#x3D;120; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;GND2; label&#x3D;Gnd&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;112; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ0; label&#x3D;J0&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;104; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ1; label&#x3D;J1&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;96; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ2; label&#x3D;J2&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;88; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ3; label&#x3D;J3&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;80; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ4; label&#x3D;J4&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;72; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ5; label&#x3D;J5&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;64; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ6; label&#x3D;J6&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;56; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG2; label&#x3D;G2&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;48; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PA7; label&#x3D;A7&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;40; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PA6; label&#x3D;A6&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PA5; label&#x3D;A5&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PA4; label&#x3D;A4&#xa;Pin; type&#x3D;; xpos&#x3D;232; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PA3; label&#x3D;A3&#xa;Pin; type&#x3D;; xpos&#x3D;208; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PA2; label&#x3D;A2&#xa;Pin; type&#x3D;; xpos&#x3D;200; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PA1; label&#x3D;A1&#xa;Pin; type&#x3D;; xpos&#x3D;192; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PA0; label&#x3D;A0&#xa;Pin; type&#x3D;; xpos&#x3D;184; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PJ7; label&#x3D;J7&#xa;Pin; type&#x3D;nc; xpos&#x3D;176; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;VCC3; label&#x3D;Vcc&#xa;Pin; type&#x3D;nc; xpos&#x3D;168; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;GND3; label&#x3D;Gnd&#xa;Pin; type&#x3D;; xpos&#x3D;160; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK7; label&#x3D;K7&#xa;Pin; type&#x3D;; xpos&#x3D;152; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK6; label&#x3D;K6&#xa;Pin; type&#x3D;; xpos&#x3D;144; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK5; label&#x3D;K5&#xa;Pin; type&#x3D;; xpos&#x3D;136; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK4; label&#x3D;K4&#xa;Pin; type&#x3D;; xpos&#x3D;128; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK3; label&#x3D;K3&#xa;Pin; type&#x3D;; xpos&#x3D;120; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK2; label&#x3D;K2&#xa;Pin; type&#x3D;; xpos&#x3D;112; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK1; label&#x3D;K1&#xa;Pin; type&#x3D;; xpos&#x3D;104; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PK0; label&#x3D;K0&#xa;Pin; type&#x3D;; xpos&#x3D;96; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF7; label&#x3D;F7&#xa;Pin; type&#x3D;; xpos&#x3D;88; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF6; label&#x3D;F6&#xa;Pin; type&#x3D;; xpos&#x3D;80; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF5; label&#x3D;F5&#xa;Pin; type&#x3D;; xpos&#x3D;72; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF4; label&#x3D;F4&#xa;Pin; type&#x3D;; xpos&#x3D;64; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF3; label&#x3D;F3&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF2; label&#x3D;F2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF1; label&#x3D;F1&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PF0; label&#x3D;F0&#xa;Pin; type&#x3D;; xpos&#x3D;32; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PV1; label&#x3D;Aref&#xa;Pin; type&#x3D;nc; xpos&#x3D;24; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;GND4; label&#x3D;Gnd&#xa;Pin; type&#x3D;; xpos&#x3D;16; ypos&#x3D;-8; angle&#x3D;90; length&#x3D;8; space&#x3D;0; id&#x3D;PV0; label&#x3D;Avcc&#xa;" />
+
+<item itemtype="Package" CircId="Package-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-56,-16" rotation="0" hflip="1" vflip="1" label="2- Logic Symbol" idLabPos="-12.623,-25.3715" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="5" Height="52" Name="atmega640" Package_File="m640_1280_2560/m640_LS.package" Logic_Symbol="true" Pins="Pin; type&#x3D;rst; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;RST; label&#x3D;!RES&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;40; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA0; label&#x3D;A0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;48; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA1; label&#x3D;A1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;56; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA2; label&#x3D;A2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;64; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA3; label&#x3D;A3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;72; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA4; label&#x3D;A4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;80; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA5; label&#x3D;A5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;88; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA6; label&#x3D;A6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;96; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA7; label&#x3D;A7&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;112; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB0; label&#x3D;B0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;120; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB1; label&#x3D;B1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;128; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB2; label&#x3D;B2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;136; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB3; label&#x3D;B3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;144; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB4; label&#x3D;B4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;152; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB5; label&#x3D;B5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;160; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB6; label&#x3D;B6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;168; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB7; label&#x3D;B7&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;184; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC0; label&#x3D;C0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;192; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC1; label&#x3D;C1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;200; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC2; label&#x3D;C2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;208; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC3; label&#x3D;C3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;216; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC4; label&#x3D;C4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;224; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC5; label&#x3D;C5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;232; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC6; label&#x3D;C6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;240; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC7; label&#x3D;C7&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;256; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD0; label&#x3D;D0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;264; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD1; label&#x3D;D1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;272; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD2; label&#x3D;D2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;280; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD3; label&#x3D;D3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;288; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD4; label&#x3D;D4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;296; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD5; label&#x3D;D5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;304; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD6; label&#x3D;D6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;312; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD7; label&#x3D;D7&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;328; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE0; label&#x3D;E0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;336; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE1; label&#x3D;E1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;344; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE2; label&#x3D;E2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;352; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE3; label&#x3D;E3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;360; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE4; label&#x3D;E4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;368; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE5; label&#x3D;E5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;376; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE6; label&#x3D;E6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;384; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE7; label&#x3D;E7&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;400; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PV1; label&#x3D;Aref&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;408; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PV0; label&#x3D;Avcc&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF0; label&#x3D;F0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF1; label&#x3D;F1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF2; label&#x3D;F2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF3; label&#x3D;F3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;40; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF4; label&#x3D;F4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;48; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF5; label&#x3D;F5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;56; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF6; label&#x3D;F6&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;64; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PF7; label&#x3D;F7&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;80; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG0; label&#x3D;G0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;88; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG1; label&#x3D;G1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;96; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG2; label&#x3D;G2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;104; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG3; label&#x3D;G3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;112; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG4; label&#x3D;G4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;120; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PG5; label&#x3D;G5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;136; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH0; label&#x3D;H0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;144; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH1; label&#x3D;H1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;152; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH2; label&#x3D;H2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;160; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH3; label&#x3D;H3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;168; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH4; label&#x3D;H4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;176; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH5; label&#x3D;H5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;184; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH6; label&#x3D;H6&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;192; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PH7; label&#x3D;H7&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;208; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ0; label&#x3D;J0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;216; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ1; label&#x3D;J1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;224; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ2; label&#x3D;J2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;232; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ3; label&#x3D;J3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;240; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ4; label&#x3D;J4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;248; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ5; label&#x3D;J5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;256; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ6; label&#x3D;J6&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;264; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PJ7; label&#x3D;J7&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;280; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK0; label&#x3D;K0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;288; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK1; label&#x3D;K1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;296; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK2; label&#x3D;K2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;304; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK3; label&#x3D;K3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;312; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK4; label&#x3D;K4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;320; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK5; label&#x3D;K5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;328; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK6; label&#x3D;K6&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;336; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PK7; label&#x3D;K7&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;352; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL0; label&#x3D;L0&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;360; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL1; label&#x3D;L1&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;368; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL2; label&#x3D;L2&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;376; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL3; label&#x3D;L3&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;384; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL4; label&#x3D;L4&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;392; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL5; label&#x3D;L5&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;400; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL6; label&#x3D;L6&#xa;Pin; type&#x3D;; xpos&#x3D;48; ypos&#x3D;408; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PL7; label&#x3D;L7&#xa;" />
+
+</circuit>
+<mcu name="mega640" core="AVR" data="8704" prog="32768" progword="2" eeprom="4096" inst_cycle="1" freq="16000000" >
+
+  <datablock  name="GPR" start="0x0000" end="0x001F">
+    <register name="R00"   addr="0"   bits=""/>
+    <register name="R01"   addr="1"   bits=""/>
+    <register name="R02"   addr="2"   bits=""/>
+    <register name="R03"   addr="3"   bits=""/>
+    <register name="R04"   addr="4"   bits=""/>
+    <register name="R05"   addr="5"   bits=""/>
+    <register name="R06"   addr="6"   bits=""/>
+    <register name="R07"   addr="7"   bits=""/>
+    <register name="R08"   addr="8"   bits=""/>
+    <register name="R09"   addr="9"   bits=""/>
+    <register name="R10"   addr="10"  bits=""/>
+    <register name="R11"   addr="11"  bits=""/>
+    <register name="R12"   addr="12"  bits=""/>
+    <register name="R13"   addr="13"  bits=""/>
+    <register name="R14"   addr="14"  bits=""/>
+    <register name="R15"   addr="15"  bits=""/>
+    <register name="R16"   addr="16"  bits=""/>
+    <register name="R17"   addr="17"  bits=""/>
+    <register name="R18"   addr="18"  bits=""/>
+    <register name="R19"   addr="19"  bits=""/>
+    <register name="R20"   addr="20"  bits=""/>
+    <register name="R21"   addr="21"  bits=""/>
+    <register name="R22"   addr="22"  bits=""/>
+    <register name="R23"   addr="23"  bits=""/>
+    <register name="R24"   addr="24"  bits=""/>
+    <register name="R25"   addr="25"  bits=""/>
+    <register name="R26"   addr="26"  bits=""/>
+    <register name="R27"   addr="27"  bits=""/>
+    <register name="R28"   addr="28"  bits=""/>
+    <register name="R29"   addr="29"  bits=""/>
+    <register name="R30"   addr="30"  bits=""/>
+    <register name="R31"   addr="31"  bits=""/>
+  </datablock>
+  <regblock  name="STATUS" start="0x003F" end="0x003F" offset="32" streg="SREG">
+    <register name="SREG"   addr="0x003F" bits="C,Z,N,V,S,H,T,I"/>
+  </regblock>
+
+
+  <regblock  name="I/O_REG" start="0x0020" end="0x005F" offset="32">
+      
+    <register  name="PINA"    addr="0x0000" />
+    <register  name="DDRA"    addr="0x0001" />
+    <register  name="PORTA"   addr="0x0002" />
+    
+    <register  name="PINB"    addr="0x0003" />
+    <register  name="DDRB"    addr="0x0004" />
+    <register  name="PORTB"   addr="0x0005" />
+    
+    <register  name="PINC"    addr="0x0006" />
+    <register  name="DDRC"    addr="0x0007" />
+    <register  name="PORTC"   addr="0x0008" />
+    
+    <register  name="PIND"    addr="0x0009" />
+    <register  name="DDRD"    addr="0x000A" />
+    <register  name="PORTD"   addr="0x000B" />
+    
+    <register  name="PINE"    addr="0x000C" />
+    <register  name="DDRE"    addr="0x000D" />
+    <register  name="PORTE"   addr="0x000E" />
+    
+    <register  name="PINF"    addr="0x000F" />
+    <register  name="DDRF"    addr="0x0010" />
+    <register  name="PORTF"   addr="0x0011" />
+    
+    <register  name="PING"    addr="0x0012"  reset=""  mask="00111111"/>
+    <register  name="DDRG"    addr="0x0013"  reset=""  mask="00111111"/>
+    <register  name="PORTG"   addr="0x0014"  reset=""  mask="00111111"/>
+               
+    <register  name="TIFR0"   addr="0x0015"  reset=""  mask="00000111" 
+               bits="TOV0,OCF0A,OCF0B,0,0,0,0,0" />
+               
+    <register  name="TIFR1"   addr="0x0016"  reset=""  mask="00100111" 
+               bits="TOV1,OCF1A,OCF1B,OCF1C,0,ICF1,0,0" />
+               
+    <register  name="TIFR2"   addr="0x0017" reset=""  mask="00000111" 
+               bits="TOV2,OCF2A,OCF2B,0,0,0,0,0" />
+               
+    <register  name="TIFR3"   addr="0x0018"  reset=""  mask="00100111" 
+               bits="TOV3,OCF3A,OCF3B,OCF3C,0,ICF3,0,0" />
+               
+    <register  name="TIFR4"   addr="0x0019"  reset=""  mask="00100111" 
+               bits="TOV4,OCF4A,OCF4B,OCF4C,0,ICF4,0,0" />
+               
+    <register  name="TIFR5"   addr="0x001A"  reset=""  mask="00100111" 
+               bits="TOV5,OCF5A,OCF5B,OCF5C,0,ICF5,0,0" />
+               
+    <register  name="PCIFR"   addr="0x001B" bits="PCIF0,PCIF1,PCIF2,0,0,0,0,0" />
+    <register  name="EIFR"    addr="0x001C" bits="INTF0,INTF1,INTF2,INTF3,INTF4,INTF5,INTF6,INTF7" />
+    <register  name="EIMSK"   addr="0x001D" bits="INT0,INT1,INT2,INT3,INT4,INT5,INT6,INT7" />
+    <register  name="GPIOR0"  addr="0x001E" />
+    <register  name="EECR"    addr="0x001F" bits="EERE,EEPE,EEMPE,EERIE,EEPM0,EEPM1,0,0" />
+    <register  name="EEDR"    addr="0x0020" bits="EEDR0,EEDR1,EEDR2,EEDR3,EEDR4,EEDR5,EEDR6,EEDR7" />
+    <register  name="EEARL"   addr="0x0021" bits="EEAR0,EEAR1,EEAR2,EEAR3,EEAR4,EEAR5,EEAR6,EEAR7" />
+    <register  name="EEARH"   addr="0x0022" bits="EEAR8,EEAR9,EEAR10,EEAR11,0,0,0,0" />
+    <register  name="GTCCR"   addr="0x0023" reset=""  mask="10000011" 
+               bits="PSR10,PSR2,0,0,0,0,0,TSM" />
+               
+    <register  name="TCCR0A"  addr="0x0024"  reset=""  mask="11110011"
+               bits="WGM00,WGM01,0,0,COM0B0,COM0B1,COM0A0,COM0A1" />
+               
+    <register  name="TCCR0B"  addr="0x0025"  reset=""  mask="11001111"
+               bits="CS00,CS01,CS02,WGM02,0,0,FOC0B,FOC0A" />
+               
+    <register  name="TCNT0"   addr="0x0026" />
+    <register  name="OCR0A"   addr="0x0027" />
+    <register  name="OCR0B"   addr="0x0028" />
+    <register  name="GPIOR1"  addr="0x002A" />
+    <register  name="GPIOR2"  addr="0x002B" />
+    <register  name="SPCR"    addr="0x002C" 
+               bits="SPR0,SPR1,CPHA,CPOL,MSTR,DORD,SPE,SPIE" />
+               
+    <register  name="SPSR"    addr="0x002D"  reset=""  mask="00000001" 
+               bits="SPI2X,0,0,0,0,0,WCOL,SPIF" />
+               
+    <register  name="SPDR"    addr="0x002E" />
+    <register  name="ACSR"    addr="0x0030"  reset=""  mask="11011111"
+               bits="ACIS0,ACIS1,ACIC,ACIE,ACI,ACO,ACBG,ACD" />
+               
+    <register  name="OCDR"    addr="0x0031" bits="OCDR0,OCDR1,OCDR2,OCDR3,OCDR4,OCDR5,OCDR6,IDRD" />
+    <register  name="SMCR"    addr="0x0033" bits="SE,SM0,SM1,SM2,0,0,0,0" />
+    <register  name="MCUSR"   addr="0x0034" bits="PORF,EXTRF,BORF,WDRF,JTRF,0,0,0" />
+    <register  name="MCUCR"   addr="0x0035" reset=""  mask="10010011" 
+               bits="IVCE,IVSEL,0,0,PUD,0,0,JTD" />
+               
+    <register  name="SPMCSR"  addr="0x0037" bits="SPMEN,PGERS,PGWRT,BLBSET,RWWSRE,SIGRD,RWWSB,SPMIE" />
+    <register  name="RAMPZ"   addr="0x003B" bits="RAMPZ0,RAMPZ1,0,0,0,0,0,0" />
+    <register  name="EIND"    addr="0x003C" bits="EIND0,0,0,0,0,0,0,0" />
+    <register  name="SPL"     addr="0x003D"  />
+    <register  name="SPH"     addr="0x003E"  />
+  </regblock>
+  <regblock  name="EXT_I/O_REG" start="0x0060" end="0x01FF" offset="0">
+    <register  name="WDTCSR"  addr="0x0060" 
+               bits="WDP0,WDP1,WDP2,WDE,WDCE,WDP3,WDIE,WDIF" />
+               
+    <register  name="CLKPR"   addr="0x0061" 
+               bits="CLKPS0,CLKPS1,CLKPS2,CLKPS3,0,0,0,CLKPCE" />
+               
+    <register  name="PRR0"    addr="0x0064" 
+               bits="PRADC,PRUSART0,PRSPI,PRTIM1,0,PRTIM0,PRTIM2,PRTWI" />
+               
+    <register  name="PRR1"    addr="0x0065" 
+    
+               bits="PRUSART1,PRUSART2,PRUSART3,PRTIM3,PRTIM4,PRTIM5,0,0" />
+    <register  name="OSCCAL"  addr="0x0066" />
+    <register  name="PCICR"   addr="0x0068" bits="PCIE0,PCIE1,PCIE2,0,0,0,0,0" />
+    <register  name="EICRA"   addr="0x0069" bits="ISC00,ISC01,ISC10,ISC11,ISC20,ISC21,ISC30,ISC31" />
+    <register  name="EICRB"   addr="0x006A" bits="ISC40,ISC41,ISC50,ISC51,ISC60,ISC61,ISC70,ISC71" />
+    <register  name="PCMSK0"  addr="0x006B" bits="PCINT0,PCINT1,PCINT2,PCINT3,PCINT4,PCINT5,PCINT6,PCINT7" />
+    <register  name="PCMSK1"  addr="0x006C" bits="PCINT8,PCINT9,PCINT10,PCINT11,PCINT12,PCINT13,PCINT14,PCINT15" />
+    <register  name="PCMSK2"  addr="0x006D" bits="PCINT16,PCINT17,PCINT18,PCINT19,PCINT20,PCINT21,PCINT22,PCINT23" />
+    <register  name="TIMSK0"  addr="0x006E"  reset=""  mask="00000111" 
+               bits="TOIE0,OCIE0A,OCIE0B,0,0,0,0,0" />
+               
+    <register  name="TIMSK1"  addr="0x006F"  reset=""  mask="00101111" 
+               bits="TOIE1,OCIE1A,OCIE1B,OCIE1C,0,ICIE1,0,0" />
+               
+    <register  name="TIMSK2"  addr="0x0070"  reset=""  mask="00000111" 
+               bits="TOIE2A,OCIE2A,OCIE2B,0,0,0,0,0" />
+               
+    <register  name="TIMSK3"  addr="0x0071"  reset=""  mask="00101111" 
+               bits="TOIE3,OCIE3A,OCIE3B,OCIE3C,0,ICIE3,0,0" />
+               
+    <register  name="TIMSK4"  addr="0x0072"  reset=""  mask="00101111" 
+               bits="TOIE4,OCIE4A,OCIE4B,OCIE4C,0,ICIE4,0,0" />
+               
+    <register  name="TIMSK5"  addr="0x0073"  reset=""  mask="00101111" 
+               bits="TOIE5,OCIE5A,OCIE5B,OCIE5C,0,ICIE5,0,0" />
+               
+    <register  name="XMCRA"   addr="0x0074" 
+               bits="SRW00,SRW01,SRW10,SRW11,SRL0,SRL1,SRL2,SRE" />
+               
+    <register  name="XMCRB"   addr="0x0075" 
+               bits="XMM0,XMM1,XMM2,0,0,0,0,XMBK" />
+               
+    <register  name="ADCL"    addr="0x0078"  reset=""  mask="00000000" />
+    <register  name="ADCH"    addr="0x0079"  reset=""  mask="00000000" />
+               
+    <register  name="ADCSRA"  addr="0x007A" 
+               bits="ADPS0,ADPS1,ADPS2,ADIE,ADIF,ADATE,ADSC,ADEN" />
+               
+    <register  name="ADCSRB"  addr="0x007B"  reset=""  mask="01001111"
+               bits="ADTS0,ADTS1,ADTS2,MUX5,0,0,ACME,0" />
+               
+    <register  name="ADMUX"   addr="0x007C" 
+               bits="MUX0,MUX1,MUX2,MUX3,MUX4,ADLAR,REFS0,REFS1" />
+               
+    <register  name="DIDR2"   addr="0x007D" bits="ADC8D,ADC9D,ADC10D,ADC11D,ADC12D,ADC13D,ADC14D,ADC15D" />
+    <register  name="DIDR0"   addr="0x007E" bits="ADC0D,ADC1D,ADC2D,ADC3D,ADC4D,ADC5D,ADC6D,ADC7D" />
+    <register  name="DIDR1"   addr="0x007F"  reset=""  mask="00000011"
+               bits="AIN0D,AIN1D,0,0,0,0,0,0" />
+               
+    <register  name="TCCR1A"  addr="0x0080" 
+               bits="WGM10,WGM11,COM1C0,COM1C1,COM1B0,COM1B1,COM1A0,COM1A1" />
+               
+    <register  name="TCCR1B"  addr="0x0081"  reset=""  mask="11011111"
+               bits="CS10,CS11,CS12,WGM12,WGM13,0,ICES1,ICNC1" />
+               
+    <register  name="TCCR1C"  addr="0x0082"  reset=""  mask="11100000"
+               bits="0,0,0,0,0,FOC1C,FOC1B,FOC1A" />
+               
+    <register  name="TCNT1L"  addr="0x0084"  />
+    <register  name="TCNT1H"  addr="0x0085"  />
+    <register  name="ICR1L"   addr="0x0086"  />
+    <register  name="ICR1H"   addr="0x0087"  />
+    <register  name="OCR1AL"  addr="0x0088"  />
+    <register  name="OCR1AH"  addr="0x0089"  />
+    <register  name="OCR1BL"  addr="0x008A"  />
+    <register  name="OCR1BH"  addr="0x008B"  />
+    <register  name="OCR1CL"  addr="0x008C"  />
+    <register  name="OCR1CH"  addr="0x008D"  />
+    <register  name="TCCR3A"  addr="0x0090"
+               bits="WGM30,WGM31,COM3C0,COM3C1,COM3B0,COM3B1,COM3A0,COM3A1" />
+               
+    <register  name="TCCR3B"  addr="0x0091"  reset=""  mask="11011111"
+               bits="CS30,CS31,CS32,WGM32,WGM33,0,ICES3,ICNC3" />
+               
+    <register  name="TCCR3C"  addr="0x0092"  reset=""  mask="11100000"
+               bits="0,0,0,0,0,FOC3C,FOC3B,FOC3A" />
+               
+    <register  name="TCNT3L"  addr="0x0094"  />
+    <register  name="TCNT3H"  addr="0x0095"  />
+    <register  name="ICR3L"   addr="0x0096"  />
+    <register  name="ICR3H"   addr="0x0097"  />
+    <register  name="OCR3AL"  addr="0x0098"  />
+    <register  name="OCR3AH"  addr="0x0099"  />
+    <register  name="OCR3BL"  addr="0x009A"  />
+    <register  name="OCR3BH"  addr="0x009B"  />
+    <register  name="OCR3CL"  addr="0x009C"  />
+    <register  name="OCR3CH"  addr="0x009D"  />
+    <register  name="TCCR4A"  addr="0x00A0" 
+               bits="WGM40,WGM41,COM4C0,COM4C1,COM4B0,COM4B1,COM4A0,COM4A1" />
+               
+    <register  name="TCCR4B"  addr="0x00A1"  reset=""  mask="11011111"
+               bits="CS40,CS41,CS42,WGM42,WGM43,0,ICES4,ICNC4" />
+               
+    <register  name="TCCR4C"  addr="0x00A2"  reset=""  mask="11100000"
+               bits="0,0,0,0,0,FOC4C,FOC4B,FOC4A" />
+               
+    <register  name="TCNT4L"  addr="0x00A4"  />
+    <register  name="TCNT4H"  addr="0x00A5"  />
+    <register  name="ICR4L"   addr="0x00A6"  />
+    <register  name="ICR4H"   addr="0x00A7"  />
+    <register  name="OCR4AL"  addr="0x00A8"  />
+    <register  name="OCR4AH"  addr="0x00A9"  />
+    <register  name="OCR4BL"  addr="0x00AA"  />
+    <register  name="OCR4BH"  addr="0x00AB"  />
+    <register  name="OCR4CL"  addr="0x00AC"  />
+    <register  name="OCR4CH"  addr="0x00AD"  />
+    <register  name="TCCR2A"  addr="0x00B0"  reset=""  mask="11110011"
+               bits="WGM20,WGM21,0,0,COM2B0,COM2B1,COM2A0,COM2A1" />
+               
+    <register  name="TCCR2B"  addr="0x00B1"  reset=""  mask="11001111"
+               bits="CS20,CS21,CS22,WGM22,0,0,FOC2B,FOC2A" />
+               
+    <register  name="TCNT2"   addr="0x00B2" />
+    <register  name="OCR2A"   addr="0x00B3" />
+    <register  name="OCR2B"   addr="0x00B4" />
+    <register  name="ASSR"    addr="0x00B6" 
+               bits="TCR2BUB,TCR2AUB,OCR2BUB,OCR2AUB,TCN2UB,AS2,EXCLK,0" />
+               
+    <register  name="TWBR"    addr="0x00B8" />
+    <register  name="TWSR"    addr="0x00B9" reset="11111000"  mask="00000011" 
+               bits="TWPS0,TWPS1,0,TWS3,TWS4,TWS5,TWS6,TWS7" />
+               
+    <register  name="TWAR"    addr="0x00BA"  reset="11111110"  mask=""
+               bits="TWGCE,TWA0,TWA1,TWA2,TWA3,TWA4,TWA5,TWA6" />
+               
+    <register  name="TWDR"    addr="0x00BB"  reset="11111111"  mask="" />
+               
+    <register  name="TWCR"    addr="0x00BC"  reset=""  mask="11110101"
+               bits="TWIE,0,TWEN,TWWC,TWSTO,TWSTA,TWEA,TWINT" />
+               
+    <register  name="TWAMR"   addr="0x00BD"  reset=""  mask="11111110"
+               bits="0,TWAMR0,TWAMR1,TWAMR2,TWAMR3,TWAMR4,TWAMR5,TWAMR6" />
+               
+    <register  name="UCSR0A"  addr="0x00C0"  reset="00100000"  mask="01000011" 
+               bits="MPCM0,U2X0,UPE0,DOR0,FE0,UDRE0,TXC0,RXC0" />
+               
+    <register  name="UCSR0B"  addr="0x00C1"  reset=""  mask="11111101"
+               bits="TXB80,RXB80,UCSZ02,TXEN0,RXEN0,UDRIE0,TXCIE0,RXCIE0" />
+               
+    <register  name="UCSR0C"  addr="0x00C2"  reset="00000110"  mask="" 
+               bits="UCPOL0,UCSZ00,UCSZ01,USBS0,UPM00,UPM01,UMSEL00,UMSEL01" />
+               
+    <register  name="UBRR0L"  addr="0x00C4"  />
+    <register  name="UBRR0H"  addr="0x00C5" reset=""  mask="00001111"  />
+               
+    <register  name="UDR0"    addr="0x00C6" mask="00000000" />
+    <register  name="UCSR1A"  addr="0x00C8"  reset="00100000"  mask="01000011" 
+               bits="MPCM1,U2X1,UPE1,DOR1,FE1,UDRE1,TXC1,RXC1" />
+    
+    <register  name="UCSR1B"  addr="0x00C9"  reset=""  mask="11111101"
+               bits="TXB81,RXB81,UCSZ12,TXEN1,RXEN1,UDRIE1,TXCIE1,RXCIE1" />
+    
+    <register  name="UCSR1C"  addr="0x00CA"  reset="00000110"  mask="" 
+               bits="UCPOL1,UCSZ10,UCSZ11,USBS1,UPM10,UPM11,UMSEL10,UMSEL11" />
+    
+    <register  name="UBRR1L"  addr="0x00CC"  />
+    <register  name="UBRR1H"  addr="0x00CD"  reset=""  mask="00001111"  />
+               
+    <register  name="UDR1"    addr="0x00CE" mask="00000000"/>
+    <register  name="UCSR2A"  addr="0x00D0" reset="00100000"  mask="01000011" 
+               bits="MPCM2,U2X2,UPE2,DOR2,FE2,UDRE2,TXC2,RXC2" />
+    
+    <register  name="UCSR2B"  addr="0x00D1"  reset=""  mask="11111101"
+               bits="TXB82,RXB82,UCSZ22,TXEN2,RXEN2,UDRIE2,TXCIE2,RXCIE2" />
+    
+    <register  name="UCSR2C"  addr="0x00D2"  reset="00000110"  mask="" 
+               bits="UCPOL2,UCSZ20,UCSZ21,USBS2,UPM20,UPM21,UMSEL20,UMSEL21" />
+               
+    <register  name="UBRR2L"  addr="0x00D4" bits=" " />
+    <register  name="UBRR2H"  addr="0x00D5"  reset=""  mask="00001111"  />
+    
+    <register  name="UDR2"    addr="0x00D6" mask="00000000"/>
+    
+    <register  name="PINH"    addr="0x0100" />
+    <register  name="DDRH"    addr="0x0101" />
+    <register  name="PORTH"   addr="0x0102" />
+    
+    <register  name="PINJ"    addr="0x0103" />
+    <register  name="DDRJ"    addr="0x0104" />
+    <register  name="PORTJ"   addr="0x0105" />
+    
+    <register  name="PINK"    addr="0x0106" />
+    <register  name="DDRK"    addr="0x0107" />
+    <register  name="PORTK"   addr="0x0108" />
+    
+    <register  name="PINL"    addr="0x0109" />
+    <register  name="DDRL"    addr="0x010A" />
+    <register  name="PORTL"   addr="0x010B" />
+    
+    <register  name="TCCR5A"  addr="0x0120" 
+               bits="WGM50,WGM51,COM5C0,COM5C1,COM5B0,COM5B1,COM5A0,COM5A1" />
+               
+    <register  name="TCCR5B"  addr="0x0121"  reset=""  mask="11011111"
+               bits="CS50,CS51,CS52,WGM52,WGM53,0,ICES5,ICNC5" />
+               
+    <register  name="TCCR5C"  addr="0x0122"  reset=""  mask="11100000"
+               bits="0,0,0,0,0,FOC5C,FOC5B,FOC5A" />
+               
+    <register  name="TCNT5L"  addr="0x0124"  />
+    <register  name="TCNT5H"  addr="0x0125"  />
+    <register  name="ICR5L"   addr="0x0126"  />
+    <register  name="ICR5H"   addr="0x0127"  />
+    <register  name="OCR5AL"  addr="0x0128"  />
+    <register  name="OCR5AH"  addr="0x0129"  />
+    <register  name="OCR5BL"  addr="0x012A"  />
+    <register  name="OCR5BH"  addr="0x012B"  />
+    <register  name="OCR5CL"  addr="0x012C"  />
+    <register  name="OCR5CH"  addr="0x012D"  />
+    <register  name="UCSR3A"  addr="0x0130"  reset="00100000"  mask="01000011" 
+               bits="MPCM3,U2X3,UPE3,DOR3,FE3,UDRE3,TXC3,RXC3" />
+               
+    <register  name="UCSR3B"  addr="0x0131"  reset=""  mask="11111101"
+               bits="TXB83,RXB83,UCSZ32,TXEN3,RXEN3,UDRIE3,TXCIE3,RXCIE3" />
+               
+    <register  name="UCSR3C"  addr="0x0132"  reset="00000110"  mask="" 
+               bits="UCPOL3,UCSZ30,UCSZ31,USBS3,UPM30,UPM31,UMSEL30,UMSEL31" />
+               
+    <register  name="UBRR3L"  addr="0x0134"  />
+    <register  name="UBRR3H"  addr="0x0135"  reset=""  mask="00001111"  />
+    <register  name="UDR3"    addr="0x0136"  />
+  </regblock>
+  <stack  spreg="SPL,SPH" increment="postdec" />
+
+
+    <datablock name="RAM" start="0x0200" end="0x21FF"/>
+
+    <interrupts enable="I">
+        <interrupt name="RESET"                                 priority="57" vector="0x0000"/>
+        <interrupt name="INT0"     enable="INT0"   flag="INTF0" priority="56" vector="0x0002" clear="1"/>
+        <interrupt name="INT1"     enable="INT1"   flag="INTF1" priority="55" vector="0x0004" clear="1"/>
+        <interrupt name="INT2"     enable="INT2"   flag="INTF2" priority="54" vector="0x0006" clear="1"/>
+        <interrupt name="INT3"     enable="INT3"   flag="INTF3" priority="53" vector="0x0008" clear="1"/>
+        <interrupt name="INT4"     enable="INT4"   flag="INTF4" priority="52" vector="0x000A" clear="1"/>
+        <interrupt name="INT5"     enable="INT5"   flag="INTF5" priority="51" vector="0x000C" clear="1"/>
+        <interrupt name="INT6"     enable="INT6"   flag="INTF6" priority="50" vector="0x000E" clear="1"/>
+        <interrupt name="INT7"     enable="INT7"   flag="INTF7" priority="49" vector="0x0010" clear="1"/>
+        
+        <interrupt name="PCINT0"   enable="PCIE0"  flag="PCIF0" priority="48" vector="0x0012" clear="1"/>
+        <interrupt name="PCINT1"   enable="PCIE1"  flag="PCIF1" priority="47" vector="0x0014" clear="1"/>
+        <interrupt name="PCINT2"   enable="PCIE2"  flag="PCIF2" priority="46" vector="0x0016" clear="1"/>
+        <interrupt name="WDT"      enable="WDIE"   flag="WDIF"  priority="45" vector="0x0018"/>
+        <interrupt name="T2COA"    enable="OCIE2A" flag="OCF2A" priority="44" vector="0x001A" clear="1"/>
+        <interrupt name="T2COB"    enable="OCIE2B" flag="OCF2B" priority="43" vector="0x001C" clear="1"/>
+        <interrupt name="T2_OVF"   enable="TOIE2"  flag="TOV2"  priority="42" vector="0x001E" clear="1"/>
+        <interrupt name="T1CAP"    enable="ICIE1"  flag="ICF1"  priority="41" vector="0x0020" clear="1"/>
+        <interrupt name="T1COA"    enable="OCIE1A" flag="OCF1A" priority="40" vector="0x0022" clear="1"/>
+        <interrupt name="T1COB"    enable="OCIE1B" flag="OCF1B" priority="39" vector="0x0024" clear="1"/>
+        <interrupt name="T1COC"    enable="OCIE1C" flag="OCF1C" priority="38" vector="0x0026" clear="1"/>
+        <interrupt name="T1_OVF"   enable="TOIE1"  flag="TOV1"  priority="37" vector="0x0028" clear="1"/>
+        <interrupt name="T0COA"    enable="OCIE0A" flag="OCF0A" priority="36" vector="0x002A" clear="1"/>
+        <interrupt name="T0COB"    enable="OCIE0B" flag="OCF0B" priority="35" vector="0x002C" clear="1"/>
+        <interrupt name="T0_OVF"   enable="TOIE0"  flag="TOV0"  priority="34" vector="0x002E" clear="1"/>
+        <interrupt name="SPI"      enable="SPIE"   flag="SPIF"  priority="33" vector="0x0030" />
+        <interrupt name="USART0_R" enable="RXCIE0" flag="RXC0"  priority="32" vector="0x0032" autoclear="0"/>
+        <interrupt name="USART0_U" enable="UDRIE0" flag="UDRE0" priority="31" vector="0x0034" autoclear="0"/>
+        <interrupt name="USART0_T" enable="TXCIE0" flag="TXC0"  priority="30" vector="0x0036" clear="1"/>
+        <interrupt name="ACOMP"    enable="ACIE"   flag="ACI"   priority="29" vector="0x0038" clear="1"/>
+        <interrupt name="ADC"      enable="ADIE"   flag="ADIF"  priority="28" vector="0x003A" clear="1"/>
+        <interrupt name="EEPR"     enable="EERIE"  flag=""      priority="27" vector="0x003C"/>
+        
+        <interrupt name="T3CAP"    enable="ICIE3"  flag="ICF3"  priority="26" vector="0x003E" clear="1"/>
+        <interrupt name="T3COA"    enable="OCIE3A" flag="OCF3A" priority="25" vector="0x0040" clear="1"/>
+        <interrupt name="T3COB"    enable="OCIE3B" flag="OCF3B" priority="24" vector="0x0042" clear="1"/>
+        <interrupt name="T3COC"    enable="OCIE3C" flag="OCF3C" priority="23" vector="0x0044"/>
+        <interrupt name="T3_OVF"   enable="TOIE3"  flag="TOV3"  priority="22" vector="0x0046" clear="1"/>
+        
+        <interrupt name="USART1_R" enable="RXCIE1" flag="RXC1"  priority="21" vector="0x0048" autoclear="0"/>
+        <interrupt name="USART1_U" enable="UDRIE1" flag="UDRE1" priority="20" vector="0x004A" autoclear="0"/>
+        <interrupt name="USART1_T" enable="TXCIE1" flag="TXC1"  priority="19" vector="0x004C" clear="1"/>
+        
+        <interrupt name="TWI"      enable="TWIE"   flag="TWINT" priority="18"  vector="0x004E" clear="1" autoclear="0"/>
+        
+        <interrupt name="SPM"      enable=""  flag="" priority="17" vector="0x0050"/>
+        
+        <interrupt name="T4CAP"    enable="ICIE4"  flag="ICF4"  priority="16" vector="0x0052" clear="1"/>
+        <interrupt name="T4COA"    enable="OCIE4A" flag="OCF4A" priority="15" vector="0x0054" clear="1"/>
+        <interrupt name="T4COB"    enable="OCIE4B" flag="OCF4B" priority="14" vector="0x0056" clear="1"/>
+        <interrupt name="T4COC"    enable="OCIE4C" flag="OCF4C" priority="13" vector="0x0058"/>
+        <interrupt name="T4_OVF"   enable="TOIE4"  flag="TOV4"  priority="12" vector="0x005A" clear="1"/>
+        
+        <interrupt name="T5CAP"    enable="ICIE5"  flag="ICF5"  priority="11" vector="0x005C" clear="1"/>
+        <interrupt name="T5COA"    enable="OCIE5A" flag="OCF5A" priority="10" vector="0x005E" clear="1"/>
+        <interrupt name="T5COB"    enable="OCIE5B" flag="OCF5B" priority="9"  vector="0x0060" clear="1"/>
+        <interrupt name="T5COC"    enable="OCIE5C" flag="OCF5C" priority="8"  vector="0x0062"/>
+        <interrupt name="T5_OVF"   enable="TOIE5"  flag="TOV5"  priority="7"  vector="0x0064" clear="1"/>
+        
+        <interrupt name="USART2_R" enable="RXCIE2" flag="RXC2"  priority="6"  vector="0x0066" autoclear="0"/>
+        <interrupt name="USART2_U" enable="UDRIE2" flag="UDRE2" priority="5"  vector="0x0068" autoclear="0"/>
+        <interrupt name="USART2_T" enable="TXCIE2" flag="TXC2"  priority="4"  vector="0x006A" clear="1"/>
+        
+        <interrupt name="USART3_R" enable="RXCIE3" flag="RXC3"  priority="3"  vector="0x006C" autoclear="0"/>
+        <interrupt name="USART3_U" enable="UDRIE3" flag="UDRE3" priority="2"  vector="0x006E" autoclear="0"/>
+        <interrupt name="USART3_T" enable="TXCIE3" flag="TXC3"  priority="1"  vector="0x0070" clear="1"/>
+    </interrupts>
+
+
+
+  <port name="PORTA" pins="8" outreg="PORTA" inreg="PINA" dirreg="DDRA"/>
+  <port name="PORTB" pins="8" outreg="PORTB" inreg="PINB" dirreg="DDRB">
+    <interrupt name="PCINT0" mask="PCMSK0"/>
+  </port>
+  <port name="PORTC" pins="8" outreg="PORTC" inreg="PINC" dirreg="DDRC"/>
+  <port name="PORTD" pins="8" outreg="PORTD" inreg="PIND" dirreg="DDRD">
+    <extint name="INT0" pin="PORTD0" configbits="ISC00,ISC01"/>
+    <extint name="INT1" pin="PORTD1" configbits="ISC10,ISC11"/>
+    <extint name="INT2" pin="PORTD2" configbits="ISC20,ISC21"/>
+    <extint name="INT3" pin="PORTD3" configbits="ISC30,ISC31"/>
+  </port>
+  <port name="PORTE" pins="8" outreg="PORTE" inreg="PINE" dirreg="DDRE">
+    <extint name="INT4" pin="PORTE4" configbits="ISC40,ISC41"/>
+    <extint name="INT5" pin="PORTE5" configbits="ISC50,ISC51"/>
+    <extint name="INT6" pin="PORTE6" configbits="ISC60,ISC61"/>
+    <extint name="INT7" pin="PORTE7" configbits="ISC70,ISC71"/>
+  </port>
+  <port name="PORTF" pins="8" outreg="PORTF" inreg="PINF" dirreg="DDRF"/>
+  <port name="PORTG" pins="6" outreg="PORTG" inreg="PING" dirreg="DDRG"/>
+  <port name="PORTH" pins="8" outreg="PORTH" inreg="PINH" dirreg="DDRH"/>
+  <port name="PORTJ" pins="8" outreg="PORTJ" inreg="PINJ" dirreg="DDRJ">
+    <interrupt name="PCINT1" mask="PCMSK1"/>
+  </port>
+  <port name="PORTK" pins="8" outreg="PORTK" inreg="PINK" dirreg="DDRK">
+    <interrupt name="PCINT2" mask="PCMSK2"/>
+  </port>
+  
+  <port name="PORTL" pins="8" outreg="PORTL" inreg="PINL" dirreg="DDRL"/>
+  
+  <intosc name="intosc" clockoutpin="PORTE7" />
+
+  <timer name="TIMER0" type="800" counter="TCNT0" configregsA="TCCR0A" configregsB="TCCR0B"
+                       clockpin="PORTD7"
+                       interrupt="T0_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS00,CS01,CS02" >
+    
+    <ocunit name="OC0A" pin="PORTB7" ocreg="OCR0A" bits="COM0A0,COM0A1" interrupt="T0COA" />
+    <ocunit name="OC0B" pin="PORTG5" ocreg="OCR0B" bits="COM0B0,COM0B1" interrupt="T0COB" />
+  </timer>
+
+  <timer name="TIMER1" type="160" counter="TCNT1L,TCNT1H" configregsA="TCCR1A" configregsB="TCCR1B"
+                       clockpin="PORTD6"
+                       interrupt="T1_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS10,CS11,CS12" >
+    
+    <ocunit name="OC1A" pin="PORTB5" ocreg="OCR1AL,OCR1AH" bits="COM1A0,COM1A1" interrupt="T1COA" />
+    <ocunit name="OC1B" pin="PORTB6" ocreg="OCR1BL,OCR1BH" bits="COM1B0,COM1B1" interrupt="T1COB" />
+    <ocunit name="OC1C" pin="PORTB7" ocreg="OCR1CL,OCR1CH" bits="COM1C0,COM1C1" interrupt="T1COC" />
+    <icunit name="IC1"  pin="PORTD4" icreg="ICR1L,ICR1H"   bits="ICES1,ICNC1"   interrupt="T1CAP" />
+  </timer>
+
+  <timer name="TIMER2" type="820" counter="TCNT2" configregsA="TCCR2A" configregsB="TCCR2B"
+                       interrupt="T2_OVF"
+                       prescalers="0,1,8,32,64,128,256,1024" prselect="CS20,CS21,CS22" >
+    
+    <ocunit name="OC2A" pin="PORTB4" ocreg="OCR2A" bits="COM2A0,COM2A1" interrupt="T2COA" />
+    <ocunit name="OC2B" pin="PORTH6" ocreg="OCR2B" bits="COM2B0,COM2B1" interrupt="T2COB" />
+  </timer>
+
+  <timer name="TIMER3" type="160" counter="TCNT3L,TCNT3H" configregsA="TCCR3A" configregsB="TCCR3B"
+                       clockpin="PORTE6" 
+                       interrupt="T3_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS30,CS31,CS32" >
+    
+    <ocunit name="OC3A" pin="PORTE3" ocreg="OCR3AL,OCR3AH" bits="COM3A0,COM3A1" interrupt="T3COA" />
+    <ocunit name="OC3B" pin="PORTE4" ocreg="OCR3BL,OCR3BH" bits="COM3B0,COM3B1" interrupt="T3COB" />
+    <ocunit name="OC3C" pin="PORTE5" ocreg="OCR3CL,OCR3CH" bits="COM3C0,COM3C1" interrupt="T3COC" />
+    <icunit name="IC3"  pin="PORTE7" icreg="ICR3L,ICR3H"   bits="ICES3,ICNC3"   interrupt="T3CAP" />
+  </timer>
+
+  <timer name="TIMER4" type="160" counter="TCNT4L,TCNT4H" configregsA="TCCR4A" configregsB="TCCR4B"
+                       clockpin="PORTH7"
+                       interrupt="T4_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS40,CS41,CS42" >
+    
+    <ocunit name="OC4A" pin="PORTH3" ocreg="OCR4AL,OCR4AH" bits="COM4A0,COM4A1" interrupt="T4COA" />
+    <ocunit name="OC4B" pin="PORTH4" ocreg="OCR4BL,OCR4BH" bits="COM4B0,COM4B1" interrupt="T4COB" />
+    <ocunit name="OC4C" pin="PORTH5" ocreg="OCR4CL,OCR4CH" bits="COM4C0,COM4C1" interrupt="T4COC" />
+    <icunit name="IC4"  pin="PORTL0" icreg="ICR4L,ICR4H"   bits="ICES4,ICNC4"   interrupt="T4CAP" />
+  </timer>
+
+  <timer name="TIMER5" type="160" counter="TCNT5L,TCNT5H" configregsA="TCCR5A" configregsB="TCCR5B"
+                       clockpin="PORTL2"
+                       interrupt="T5_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS50,CS51,CS52">
+    
+    <ocunit name="OC5A" pin="PORTL3" ocreg="OCR5AL,OCR5AH" bits="COM5A0,COM5A1" interrupt="T5COA" />
+    <ocunit name="OC5B" pin="PORTL4" ocreg="OCR5BL,OCR5BH" bits="COM5B0,COM5B1" interrupt="T5COB" />
+    <ocunit name="OC5C" pin="PORTL5" ocreg="OCR5CL,OCR5CH" bits="COM5C0,COM5C1" interrupt="T5COC" />
+    <icunit name="IC5"  pin="PORTL1" icreg="ICR5L,ICR5H"   bits="ICES5,ICNC5"   interrupt="T5CAP" />
+  </timer>
+
+  <usart name="USART0" number="1" configregsA="UCSR0A" configregsB="UCSR0B" configregsC="UCSR0C"
+                       interrupt="USART0_U">
+                     
+    <trunit type="tx" pin="PORTE1" register="UDR0" interrupt="USART0_T" />
+    <trunit type="rx" pin="PORTE0"                 interrupt="USART0_R" />
+  </usart>
+
+  <usart name="USART1" number="2" configregsA="UCSR1A" configregsB="UCSR1B" configregsC="UCSR1C"
+                       interrupt="USART1_U">
+                     
+    <trunit type="tx" pin="PORTD3" register="UDR1" interrupt="USART1_T" />
+    <trunit type="rx" pin="PORTD2"                 interrupt="USART1_R" />
+  </usart>
+
+  <usart name="USART2" number="3" configregsA="UCSR2A" configregsB="UCSR2B" configregsC="UCSR2C"
+                       interrupt="USART2_U">
+                     
+    <trunit type="tx" pin="PORTH1" register="UDR2" interrupt="USART2_T" />
+    <trunit type="rx" pin="PORTH0"                 interrupt="USART2_R" />
+  </usart>
+
+  <usart name="USART3" number="4" configregsA="UCSR3A" configregsB="UCSR3B" configregsC="UCSR3C"
+                       interrupt ="USART3_U">
+                      
+    <trunit type="tx" pin="PORTJ1" register="UDR3" interrupt="USART3_T" />
+    <trunit type="rx" pin="PORTJ0"                 interrupt="USART3_R" />
+  </usart>
+
+  <port name="PORTV" pins="2"/> <!-- Fake Port for aVcc and aRef -->
+  <adc name="ADC" type="04" bits="10" configregsA="ADCSRA" configregsB="ADCSRB"
+                  dataregs="ADCL,ADCH" 
+                  multiplex="ADMUX"
+                  interrupt="ADC"
+                  prescalers="2,2,4,8,16,32,64,128"
+                  adcpins="PORTF0,PORTF1,PORTF2,PORTF3,PORTF4,PORTF5,PORTF6,PORTF7,PORTK0,PORTK1,PORTK2,PORTK3,PORTK4,PORTK5,PORTK6,PORTK7"/>
+
+  <twi name="TWI" dataregs="TWDR" addressreg="TWAR" statusreg="TWSR"
+                   configregsA="TWCR" configregsB="TWBR"
+                   interrupt="TWI"
+                   prescalers="1,4,16,64"
+                   pins="PORTD1,PORTD0" /><!-- "SDA,SCL" -->
+
+  <spi name="SPI" dataregs="SPDR" statusreg="SPSR" configregsA="SPCR"
+                   interrupt="SPI"
+                   prescalers="4,16,64,128,2,8,32,64"
+                   pins="PORTB2,PORTB3,PORTB1,PORTB0" /><!-- "MOSI,MISO,SCK,SS" -->
+    
+  <wdt name="WDT00" configregsA="WDTCSR" interrupt="WDT"
+                    prescalers="512,256,128,64,32,16,8,4,2,1,1,1,1,1,1,1"/>
+
+  <rom  name="ROM"  dataregs="EEDR" addressreg="EEARL,EEARH" configregsA="EECR"
+                    interrupt="EEPR" />
+
+  <comp name="COMP" configregsA="ACSR" configbitsB="AIN0D,AIN1D" 
+                    interrupt="ACOMP"
+                    pins="PORTE2,PORTE3"/>
+
+
+    
+</mcu>
+
+</libitem>

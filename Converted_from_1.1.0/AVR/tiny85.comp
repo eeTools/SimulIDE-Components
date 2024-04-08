@@ -1,0 +1,241 @@
+<libitem itemtype="MCU" category="AVR/attiny" compname="tiny85" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-180,104" rotation="0" hflip="1" vflip="1" label="2- Logic Symbol" idLabPos="-12.623,-25.3715" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="4" Height="7" Name="attiny85" Package_File="tinyx5/tinyx5_LS.package" Logic_Symbol="true" Pins="Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB0; label&#x3D;B0&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB1; label&#x3D;B1&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB2; label&#x3D;B2&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB3; label&#x3D;B3&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;40; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB4; label&#x3D;B4&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;48; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB5; label&#x3D;B5&#xa;" />
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-252,112" rotation="0" hflip="1" vflip="1" label="1- DIP" idLabPos="1.0743,-24.8343" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="4" Height="5" Name="attiny85" Package_File="tinyx5/tinyx5.package" Logic_Symbol="false" Pins="Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB5; label&#x3D;B5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB3; label&#x3D;B3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PB4; label&#x3D;B4&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;GND; label&#x3D;Gnd&#xa;Pin; type&#x3D;nc; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VCC; label&#x3D;Vcc&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB2; label&#x3D;B2&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB1; label&#x3D;B1&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB0; label&#x3D;B0&#xa;" />
+
+</circuit>
+<mcu name="tiny85" core="AVR" data="608" prog="4096" progword="2" eeprom="512"
+            inst_cycle="1" freq="16000000" >
+
+  <datablock  name="GPR" start="0x0000" end="0x001F">
+    <register name="R00"   addr="0"   bits=""/>
+    <register name="R01"   addr="1"   bits=""/>
+    <register name="R02"   addr="2"   bits=""/>
+    <register name="R03"   addr="3"   bits=""/>
+    <register name="R04"   addr="4"   bits=""/>
+    <register name="R05"   addr="5"   bits=""/>
+    <register name="R06"   addr="6"   bits=""/>
+    <register name="R07"   addr="7"   bits=""/>
+    <register name="R08"   addr="8"   bits=""/>
+    <register name="R09"   addr="9"   bits=""/>
+    <register name="R10"   addr="10"  bits=""/>
+    <register name="R11"   addr="11"  bits=""/>
+    <register name="R12"   addr="12"  bits=""/>
+    <register name="R13"   addr="13"  bits=""/>
+    <register name="R14"   addr="14"  bits=""/>
+    <register name="R15"   addr="15"  bits=""/>
+    <register name="R16"   addr="16"  bits=""/>
+    <register name="R17"   addr="17"  bits=""/>
+    <register name="R18"   addr="18"  bits=""/>
+    <register name="R19"   addr="19"  bits=""/>
+    <register name="R20"   addr="20"  bits=""/>
+    <register name="R21"   addr="21"  bits=""/>
+    <register name="R22"   addr="22"  bits=""/>
+    <register name="R23"   addr="23"  bits=""/>
+    <register name="R24"   addr="24"  bits=""/>
+    <register name="R25"   addr="25"  bits=""/>
+    <register name="R26"   addr="26"  bits=""/>
+    <register name="R27"   addr="27"  bits=""/>
+    <register name="R28"   addr="28"  bits=""/>
+    <register name="R29"   addr="29"  bits=""/>
+    <register name="R30"   addr="30"  bits=""/>
+    <register name="R31"   addr="31"  bits=""/>
+  </datablock>
+  <regblock  name="STATUS" start="0x003F" end="0x003F" offset="32" streg="SREG">
+    <register name="SREG"   addr="0x003F" bits="C,Z,N,V,S,H,T,I"/>
+  </regblock>
+
+
+  <regblock  name="I/O_REG" start="0x0020" end="0x005F" offset="32">
+    <register  name="ADCSRB"  addr="0x0003" mask="11100111" 
+               bits="ADTS0,ADTS1,ADTS2,0,0,IPR,ACME,BIN" />
+               
+    <register  name="ADCL"    addr="0x0004" />
+    <register  name="ADCH"    addr="0x0005" />
+    <register  name="ADCSRA"  addr="0x0006" 
+               bits="ADPS0,ADPS1,ADPS2,ADIE,ADIF,ADATE,ADSC,ADEN" />
+               
+    <register  name="ADMUX"   addr="0x0007" 
+               bits="MUX0,MUX1,MUX2,MUX3,REFS2,ADLAR,REFS0,REFS1" />
+               
+    <register  name="ACSR"    addr="0x0008" mask="11111011"
+               bits="ACIS0,ACIS1,0,ACIE,ACI,ACO,ACBG,ACD" />
+               
+    <register  name="USICR"   addr="0x000D" mask=""
+               bits="USITC,USICLK,USICS0,USICS1,USIWM0,USIWM1,USIOIE,USISIE" />
+               
+    <register  name="USISR"   addr="0x000E" 
+               bits="USICNT0,USICNT1,USICNT2,USICNT3,USIDC,USIPF,USIOIF,USISIF" />
+               
+    <register  name="USIDR"   addr="0x000F" />
+    <register  name="USIBR"   addr="0x0010" mask ="00000000"/>
+    <register  name="GPIOR0"  addr="0x0011" />
+    <register  name="GPIOR1"  addr="0x0012" />
+    <register  name="GPIOR2"  addr="0x0013" />
+    <register  name="DIDR0"   addr="0x0014" mask="00111111"
+               bits="AIN0D,AIN1D,ADC1D,ADC3D,ADC2D,ADC0D,0,0" />
+               
+    <register  name="PCMSK"   addr="0x0015" mask="00111111" />
+    
+    <register  name="PINB"    addr="0x0016" />
+    <register  name="DDRB"    addr="0x0017" />
+    <register  name="PORTB"   addr="0x0018" 
+               bits="PORTB0,PORTB1,PORTB2,PORTB3,PORTB4,PORTB5,PORTB6,PORTB7"/><!-- "Needed for USI" -->
+    
+    <register  name="EECR"    addr="0x001C" mask="00111111"
+               bits="EERE,EEPE,EEMPE,EERIE,EEPM0,EEPM1,0,0" />
+               
+    <register  name="EEDR"    addr="0x001D" />
+    <register  name="EEARL"   addr="0x001E" />
+    <register  name="EEARH"   addr="0x001F" mask="00000001"/>
+    <register  name="PRR"     addr="0x0020" mask="00001111"
+               bits="PRADC,PRUSI,PRTIM0,PRTIM1,0,0,0,0" />
+               
+    <register  name="WDTCR"   addr="0x0021" 
+               bits="WDP0,WDP1,WDP2,WDE,WDCE,WDP3,WDIE,WDIF" />
+               
+    <register  name="DWDR"    addr="0x0022" />
+    <register  name="DTPS1"   addr="0x0023" mask="00000011" />
+    <register  name="DT1B"    addr="0x0024" />
+    <register  name="DT1A"    addr="0x0025" />
+    <register  name="CLKPR"   addr="0x0026" mask="10001111" 
+               bits="CLKPS0,CLKPS1,CLKPS2,CLKPS3,0,0,0,CLKPCE" />
+               
+    <register  name="PLLCSR"  addr="0x0027" mask="10000111" 
+               bits="PLOCK,PLLE,PCKE,0,0,0,0,LSM" />
+               
+    <register  name="OCR0B"   addr="0x0028" />
+    <register  name="OCR0A"   addr="0x0029" />
+    <register  name="TCCR0A"  addr="0x002A" 
+               bits="WGM00,WGM01,0,0,COM0B0,COM0B1,COM0A0,COM0A1" />
+               
+    <register  name="OCR1B"   addr="0x002B" />
+    <register  name="GTCCR"   addr="0x002C" 
+               bits="PSR0,PSR1,FOC1A,FOC1B,COM1B0,COM1B1,PWM1B,TSM" />
+               
+    <register  name="OCR1C"   addr="0x002D" />
+    <register  name="OCR1A"   addr="0x002E" />
+    <register  name="TCNT1"   addr="0x002F" />
+    <register  name="TCCR1"   addr="0x0030" 
+               bits="CS10,CS11,CS12,CS13,COM1A0,COM1A1,PWM1A,CTC1" />
+               
+    <register  name="OSCCAL"  addr="0x0031" />
+    <register  name="TCNT0"   addr="0x0032" />
+    <register  name="TCCR0B"  addr="0x0033" mask="00001111" 
+               bits="CS00,CS01,CS02,WGM02,0,0,FOC0B,FOC0A" />
+               
+    <register  name="MCUSR"   addr="0x0034" mask="00001111" 
+               bits="PORF,EXTRF,BORF,WDRF,0,0,0,0" />
+               
+    <register  name="MCUCR"   addr="0x0035" 
+               bits="ISC00,ISC01,BODSE,SM0,SM1,SE,PUD,BODS" />
+               
+    <register  name="SPMCSR"  addr="0x0037" mask="00111111" 
+               bits="SPMEN,PGERS,PGWRT,RFLB,CTPB,RSIG,0,0" />
+               
+    <register  name="TIFR"    addr="0x0038" mask="01111110" 
+               bits="0,TOV0,TOV1,OCF0B,OCF0A,OCF1B,OCF1A,0" />
+               
+    <register  name="TIMSK"   addr="0x0039" mask="01111110"
+               bits="0,TOIE0,TOIE1,OCIE0B,OCIE0A,OCIE1B,OCIE1A,0" />
+               
+    <register  name="GIFR"    addr="0x003A" mask="01111110"
+               bits="0,0,0,0,0,PCIF,INTF0,0" />
+               
+    <register  name="GIMSK"   addr="0x003B" mask="01111110"
+               bits="0,0,0,0,0,PCIE,INT0,0" />
+               
+    <register  name="SPL"     addr="0x003D" />
+    <register  name="SPH"     addr="0x003E" />
+  </regblock>
+  <stack  spreg="SPL,SPH" increment="postdec" />
+
+
+    <datablock name="RAM" start="0x0060" end="0x25F"/>
+
+    <interrupts enable="I">
+        <interrupt name="RESET"                                  priority="15" vector="0x000" />
+        <interrupt name="INT0"    enable="INT0"    flag="INTF0"  priority="14" vector="0x001" clear="1"/>
+        <interrupt name="PCINT0"  enable="PCIE"    flag="PCIF"   priority="13" vector="0x002" clear="1"/>
+        <interrupt name="T1COA"   enable="OCIE1A"  flag="OCF1A"  priority="12" vector="0x003" clear="1"/>
+        <interrupt name="T1_OVF"  enable="TOIE1"   flag="TOV1"   priority="11" vector="0x004" clear="1"/>
+        <interrupt name="T0_OVF"  enable="TOIE0"   flag="TOV0"   priority="10" vector="0x005" clear="1"/>
+        <interrupt name="EEPR"    enable="EERIE"   flag=""       priority="9"  vector="0x006"/>
+        <interrupt name="ACOMP"   enable="ACIE"    flag="ACI"    priority="8"  vector="0x007" clear="1"/>
+        <interrupt name="ADC"     enable="ADIE"    flag="ADIF"   priority="7"  vector="0x008" clear="1"/>
+        <interrupt name="T1COB"   enable="OCIE1B"  flag="OCF1B"  priority="6"  vector="0x009" clear="1"/>
+        <interrupt name="T0COA"   enable="OCIE0A"  flag="OCF0A"  priority="5"  vector="0x00A" clear="1"/>
+        <interrupt name="T0COB"   enable="OCIE0B"  flag="OCF0B"  priority="4"  vector="0x00B" clear="1"/>
+        <interrupt name="WDT"     enable="WDIE"    flag="WDIF"   priority="3"  vector="0x00C"/>
+        <interrupt name="USISTA"  enable="USISIE"  flag="USISIF" priority="2"  vector="0x00D" clear="1" autoclear="0"/>
+        <interrupt name="USIOVF"  enable="USIOIE"  flag="USIOIF" priority="1"  vector="0x00E" clear="1" autoclear="0"/>
+
+    </interrupts>
+
+
+
+  <sleep name="SLEEP" configregsA="MCUCR"/>
+  
+  <port name="PORTB" pins="6" outreg="PORTB" inreg="PINB" dirreg="DDRB"
+                     resetpin="PORTB5">
+    <interrupt name="PCINT0" mask="PCMSK"/>
+    <extint    name="INT0" pin="PORTB2" configbits="ISC00,ISC01"/>
+  </port>
+  
+  <intosc name="intosc" clockpins="PORTB3" clockoutpin="PORTB4"/>
+
+  <timer name="TIMER0" type="800" configregsA="TCCR0A" configregsB="TCCR0B"
+                       counter="TCNT0"
+                       clockpin="PORTB2"
+                       interrupt="T0_OVF"
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" 
+                       prselect="CS00,CS01,CS02" >
+
+    <ocunit name="OC0A" pin="PORTB0" ocreg="OCR0A" bits="COM0A0,COM0A1" interrupt="T0COA" />
+    <ocunit name="OC0B" pin="PORTB1" ocreg="OCR0B" bits="COM0B0,COM0B1" interrupt="T0COB" />
+  </timer>
+
+  <timer name="TIMER1" type="810" configregsA="TCCR1" configregsB="GTCCR"
+                       counter="TCNT1"
+                       topreg0="OCR1C"
+                       interrupt="T1_OVF"
+                       prescalers="0,1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384"
+                       prselect="CS10,CS11,CS12,CS13" >
+
+    <ocunit name="OC1A" pin="PORTB1" ocreg="OCR1A" bits="COM1A0,COM1A1" interrupt="T1COA" />
+    <ocunit name="OC1B" pin="PORTB4" ocreg="OCR1B" bits="COM1B0,COM1B1" interrupt="T1COB" />
+  </timer>
+
+  <adc name="ADC" type="11" bits="10" configregsA="ADCSRA" configregsB="ADCSRB"
+                  dataregs="ADCL,ADCH"
+                  multiplex="ADMUX"
+                  interrupt="ADC"
+                  prescalers="2,2,4,8,16,32,64,128"
+                  adcpins="PORTB5,PORTB2,PORTB4,PORTB3"
+                  vrefpins="PORTB0"/>
+
+  <wdt name="WDT00" configregsA="WDTCR"
+                    interrupt="WDT"
+                    prescalers="512,256,128,64,32,16,8,4,2,1,1,1,1,1,1,1"/>
+
+  <rom name="ROM" configregsA="EECR"
+                  dataregs="EEDR"
+                  addressreg="EEARL"
+                  interrupt="EEPR" />
+
+  <comp name="COM" configregsA="ACSR" configbitsB="AIN0D,AIN1D"
+                   interrupt="ACOMP"
+                   pins="PORTB0,PORTB1"/>
+                   
+  <usi name="USI" configregsA="USICR" configregsB="USISR"
+                  interrupt="USIOVF"
+                  pins="PORTB1,PORTB0,PORTB2" /><!-- "DO,DI,USCK" -->
+
+
+    
+</mcu>
+
+</libitem>
