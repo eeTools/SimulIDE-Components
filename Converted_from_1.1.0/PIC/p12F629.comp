@@ -1,0 +1,152 @@
+<libitem itemtype="MCU" category="PIC/p12F" compname="p12F629" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-232,-44" rotation="0" hflip="1" vflip="1" label="1- DIP" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="4" Height="5" Name="p12F629" Package_File="p12F629/p12F629.package" Logic_Symbol="false" Pins="Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VDD; label&#x3D;Vdd&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PP5; label&#x3D;P5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PP4; label&#x3D;P4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PP3; label&#x3D;P3&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PP2; label&#x3D;P2&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PP1; label&#x3D;P1&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PP0; label&#x3D;P0&#xa;Pin; type&#x3D;nc; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VSS; label&#x3D;Vss&#xa;" />
+
+</circuit>
+<mcu name="p12F629" core="Pic14" data="256" prog="1024" progword="2" eeprom="128"
+            inst_cycle="4" freq="20000000">
+        
+    <!-- BANK 0 -->
+    <regblock name="SFRC" start="0x0000" end="0x0004" streg="STATUS">
+        <register name="INDF"    addr="0x00" bits=""/>
+        <register name="TMR0"    addr="0x01" bits=""/>
+        <register name="PCL"     addr="0x02" bits=""/>
+        <register name="STATUS"  addr="0x03" reset="00011000" mask="11100111"
+                  bits="C,DC,Z,PD,TO,R0,R1,IR"/>
+                  
+        <register name="FSR"     addr="0x04" bits=""/>
+    </regblock>
+    
+    <sleep name="SLEEP"/>
+    
+
+
+    <progblock>
+        <progval addr="0x03FF" value="0x3430"/> <!-- OSCCAL -->
+    </progblock>
+    <!-- BANK 0 -->
+    <regblock name="SFR0" start="0x0000" end="0x001F">
+        <register name="GPIO"    addr="0x05" mask="00111111"
+                  bits="GPIO0,GPIO1,GPIO2,GPI3,GPIO4,GPIO5"/>
+
+        <register name="PCLATH"  addr="0x0A" mask="00011111" bits=""/>
+        <register name="INTCON"  addr="0x0B" 
+                  bits="GPIF,INTF,T0IF,GPIE,INTE,T0IE,PEIE,GIE"/>
+                  
+        <register name="PIR1"    addr="0x0C" mask="11001001"
+                  bits="TMR1IF,0,0,CMIF,0,0,ADIF,EEIF"/>
+                  
+        <register name="TMR1L"   addr="0x0E" bits=""/>
+        <register name="TMR1H"   addr="0x0F" bits=""/>
+        <register name="T1CON"   addr="0x10" mask="01111111"
+                  bits="TMR1ON,TMR1CS,T1SYNC,T1OSCEN,T1CKPS0,T1CKPS1,TMR1GE"/>
+
+        <register name="CMCON"   addr="0x19" mask="01011111"
+                  bits="CM0,CM1,CM2,CIS,CINV,0,COUT,0" />
+    </regblock>
+    <datablock name="GPR0" start="0x0020" end="0x005F"/>
+    
+    <!-- BANK 1 -->
+    <regblock name="SFR1" start="0x0080" end="0x009F">
+        <mapped                  addr="0x80" mapto="0x00"/><!-- INDF -->
+        
+        <register name="OPTION" addr="0x81" reset="11111111"
+                  bits="PS0,PS1,PS2,PSA,T0SE,T0CS,INTEDG,GPPU" />
+        
+        <mapped                  addr="0x82" mapto="0x02"/><!-- PCL -->
+        <mapped                  addr="0x83" mapto="0x03"/><!-- STATUS -->
+        <mapped                  addr="0x84" mapto="0x04"/><!-- FSR -->
+        
+        <register name="TRISIO"  addr="0x85" bits="" reset="00111111" mask="00111111"/>
+
+        <mapped                  addr="0x8A" mapto="0x0A"/><!-- PCLATH -->
+        <mapped                  addr="0x8B" mapto="0x0B"/><!-- INTCON -->
+        <register name="PIE1"   addr="0x8C" mask="11001001"
+                  bits="TMR1IE,0,0,CMIE,0,0,ADIE,EEIE"/>
+                  
+        <register name="PCON"   addr="0x8E" mask="00000011"
+                  bits="BOR,POR" />
+                  
+        <register name="OSCCAL" addr="0x90" reset="10000000" mask="11111100"
+                  bits="0,0,CAL0,CAL1,CAL2,CAL3,CAL4,CAL5"/>
+                  
+        <register name="WPU"    addr="0x95" bits="" reset="00110111" mask="00110111"/>
+        <register name="IOC"    addr="0x96" bits="" mask="00111111"/>
+        
+        <register name="VRCON"  addr="0x99" mask="10101111"
+                  bits="VR0,VR1,VR2,VR3,0,VRR,0,VREN" />
+                  
+        <register name="EEDATA" addr="0x9A" bits=""/>
+        <register name="EEADR"  addr="0x9B" bits="" mask="01111111"/>
+        <register name="EECON1" addr="0x9C" mask="00001111"
+                  bits="RD,WR,WREN,WRERR"/>
+                  
+        <register name="EECON2" addr="0x9D" bits=""/>
+    </regblock>
+    <datablock name="GPR1" start="0x00A0" end="0x00DF" mapto="0x0020"/>
+
+
+
+    <interrupts enable="GIE">
+        <interrupt name="RESET"                                  priority="1" vector="0x0000"/>
+        <interrupt name="INT"      enable="INTE"   flag="INTF"   priority="1" vector="0x0004"/>
+        <interrupt name="IOC"      enable="GPIE"   flag="GPIF"   priority="1" vector="0x0004"/>
+        <interrupt name="T0_OVF"   enable="T0IE"   flag="T0IF"   priority="1" vector="0x0004"/>
+        <interrupt name="ACOMP"    enable="CMIE"   flag="CMIF"   priority="1" vector="0x0004"/>
+        <interrupt name="T1_OVF"   enable="TMR1IE" flag="TMR1IF" priority="1" vector="0x0004"/>
+        <interrupt name="EEPR"     enable="EEIE"   flag="EEIF"   priority="1" vector="0x0004"/>
+        <interrupt name="ADC"      enable="ADIE"   flag="ADIF"   priority="1" vector="0x0004"/>
+    </interrupts>
+
+
+  <port name="PORTP" pins="6" outreg="GPIO" dirreg="!TRISIO" 
+                     inpmask="00110111"
+                     pullups="WPU"
+                     resetpin="PORTP3">
+
+        <interrupt name="IOC" mask="IOC"/>
+        <extint    name="INT" pin="PORTP2" configbits="INTEDG"/>
+  </port>
+  
+  <intosc name="intosc" type="00" clockpins="PORTP4,PORTP5" />
+
+  <timer name="TIMER0" type="800" configregsA="OPTION"
+                       counter="TMR0"
+                       clockpin="PORTP2"
+                       interrupt="T0_OVF"
+                       prescalers="2,4,8,16,32,64,128,256">
+  </timer>
+
+  <timer name="TIMER1" type="160" configregsA="T1CON"
+                       counter="TMR1L,TMR1H"
+                       clockpin="PORTP5"
+                       interrupt="T1_OVF"
+                       prescalers="1,2,4,8">
+  </timer>
+
+  <vref name="Vref" configregsA="VRCON" />
+
+  <comp name="COMP" type="03" configregsA="CMCON"
+                    interrupt="ACOMP"
+                    pins="PORTP1,PORTP0,PORTP2" />
+
+  <wdt name="WDT" configregsA="OPTION"
+                  prescalers="1,2,4,8,16,32,64,128"/>
+                  
+  <rom name="ROM" configregsA="EECON1" configregsB="EECON2"
+                  dataregs="EEDATA" 
+                  addressreg="EEADR" 
+                  interrupt="EEPR" />
+
+  <configwords name="cfgWord" type="00">
+    <word name="COINFIG1" address="0x2007" value="0xFF" />
+    <word name="COINFIG2" address="0x2008" value="0xFF" />
+  </configwords>
+
+
+    
+</mcu>
+
+</libitem>

@@ -1,0 +1,69 @@
+<libitem itemtype="MCU" category="PIC/p10F" compname="p10F204" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-232,-44" rotation="0" hflip="1" vflip="1" label="1- DIP" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="4" Height="5" Name="p10F204" Package_File="../../../../../../../../../home/user/convert/PIC/p10F20x/p10F20x.package" Logic_Symbol="false" Pins="Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;NC1; label&#x3D;n/c&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VDD; label&#x3D;Vdd&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PP2; label&#x3D;GP2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PP1; label&#x3D;GP1&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PP0; label&#x3D;GP0&#xa;Pin; type&#x3D;nc; xpos&#x3D;40; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;NC2; label&#x3D;n/c&#xa;Pin; type&#x3D;nc; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VSS; label&#x3D;Vss&#xa;Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PP3; label&#x3D;GP3&#xa;" />
+
+</circuit>
+<mcu name="p10F204" core="Pic14" data="32" prog="256" progword="2"
+            inst_cycle="4" freq="20000000">
+            
+    <!-- BANK 0 -->
+    <regblock name="SFRC" start="0x0000" end="0x0004" streg="STATUS">
+        <register name="INDF"    addr="0x00" bits=""/>
+        <register name="TMR0"    addr="0x01" bits=""/>
+        <register name="PCL"     addr="0x02" bits=""/>
+        <register name="STATUS"  addr="0x03" reset="00011000" mask="11100111"
+                  bits="C,DC,Z,PD,TO,R0,R1,IR"/>
+                  
+        <register name="FSR"     addr="0x04" bits=""/>
+    </regblock>
+    
+    <sleep name="SLEEP"/>
+    
+
+
+    <!-- BANK 0 -->
+    <regblock name="SFR0" start="0x00" end="0x0B" >
+        <register name="OSCCAL"   addr="0x05" bits="FOSC4,CAL0,CAL1,CAL2,CAL3,CAL4,CAL5,CAL6" reset="11111110"/>
+        <register name="GPIO"     addr="0x06" bits="GP0,GP1,GP2,GP3"/>
+        <register name="TRISGPIO" addr="0x07" bits="0-7" reset="00001111"/>
+        <register name="OPTION"   addr="0x08" bits="PS0,PS1,PS2,PSA,T0SE,T0CS,GPPU,GPWU" reset="11111111"/>
+    </regblock>
+
+
+
+    
+    <regblock name="SFR0" start="0x00" end="0x0B" streg="STATUS">
+        <register name="CMCON0"  addr="0x07" bits="CWU,CPREF,CNREF,CMPON,CMPT0CS,POL,COUTEN,CMPOUT" reset="11111111" mask="01111111"/>
+    </regblock>
+    
+  <port name="PORTP" pins="4" outreg="GPIO" dirreg="!TRISGPIO" 
+                     inpmask="11110111" 
+                     pullups="!GPPU" 
+                     resetpin="PORTP3">
+  </port>
+
+  <intosc name="intosc" />
+
+  <timer name="TIMER0" type="800" configregsA="OPTION"
+                       counter="TMR0"
+                       clockpin="PORTP2"
+                       prescalers="2,4,8,16,32,64,128,256">
+  </timer>
+  
+  <wdt name="WDT" configregsA="OPTION"
+                  prescalers="1,2,4,8,16,32,64,128"/>
+  
+  <configwords name="cfgWord" type="03">
+    <word name="COINFIG1" address="0x2007" value="0xFF" />
+    <word name="COINFIG2" address="0x2008" value="0xFF" />
+  </configwords>
+
+
+    
+    <datablock name="GPR" start="0x10" end="0x01F"/>
+    
+</mcu>
+
+</libitem>

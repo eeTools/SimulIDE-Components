@@ -1,0 +1,261 @@
+<libitem itemtype="MCU" category="PIC/p16F" compname="p16F877" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-232,-40" rotation="0" hflip="1" vflip="1" label="1- DIP" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="6" Height="21" Name="p16F877" Package_File="p16F87x/p16F874.package" Logic_Symbol="false" Pins="Pin; type&#x3D;rst; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;MCLR; label&#x3D;Mclr&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA0; label&#x3D;A0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA1; label&#x3D;A1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA2; label&#x3D;A2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;40; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA3; label&#x3D;A3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;48; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA4; label&#x3D;A4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;56; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PA5; label&#x3D;A5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;64; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE0; label&#x3D;E0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;72; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE1; label&#x3D;E1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;80; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PE2; label&#x3D;E2&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;88; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VDD1; label&#x3D;Vdd&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;96; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VSS1; label&#x3D;Vss&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;104; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;OSC1; label&#x3D;Osc&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;112; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PX0; label&#x3D;Osc&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;120; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC0; label&#x3D;C0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;128; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC1; label&#x3D;C1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;136; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC2; label&#x3D;C2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;144; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PC3; label&#x3D;C3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;152; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD0; label&#x3D;D0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;160; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;PD1; label&#x3D;D1&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;160; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD2; label&#x3D;D2&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;152; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD3; label&#x3D;D3&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;144; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC4; label&#x3D;C4&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;136; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC5; label&#x3D;C5&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;128; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC6; label&#x3D;C6&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;120; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PC7; label&#x3D;C7&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;112; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD4; label&#x3D;D4&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;104; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD5; label&#x3D;D5&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;96; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD6; label&#x3D;D6&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;88; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PD7; label&#x3D;D7&#xa;Pin; type&#x3D;nc; xpos&#x3D;56; ypos&#x3D;80; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VSS2; label&#x3D;Vss&#xa;Pin; type&#x3D;nc; xpos&#x3D;56; ypos&#x3D;72; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VDD2; label&#x3D;Vdd&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;64; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB0; label&#x3D;B0&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;56; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB1; label&#x3D;B1&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;48; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB2; label&#x3D;B2&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;40; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB3; label&#x3D;B3&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB4; label&#x3D;B4&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB5; label&#x3D;B5&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB6; label&#x3D;B6&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PB7; label&#x3D;B7&#xa;" />
+
+</circuit>
+<mcu name="p16F876" core="Pic14" data="512" prog="8192" progword="2" eeprom="256"
+            inst_cycle="4" freq="20000000">
+            
+    <!-- BANK 0 -->
+    <regblock name="SFRC" start="0x0000" end="0x0004" streg="STATUS">
+        <register name="INDF"    addr="0x00" bits=""/>
+        <register name="TMR0"    addr="0x01" bits=""/>
+        <register name="PCL"     addr="0x02" bits=""/>
+        <register name="STATUS"  addr="0x03" reset="00011000" mask="11100111"
+                  bits="C,DC,Z,PD,TO,R0,R1,IR"/>
+                  
+        <register name="FSR"     addr="0x04" bits=""/>
+    </regblock>
+    
+    <sleep name="SLEEP"/>
+    
+
+
+    <!-- BANK 0 -->
+    <regblock name="SFR0" start="0x0000" end="0x001F">
+        <register name="PORTA"   addr="0x05" bits="RA0,RA1,RA2,RA3,RA4,RA5,RA6,RA7"/>
+        <register name="PORTB"   addr="0x06" bits="RB0,RB1,RB2,RB3,RB4,RB5,RB6,RB7"/>
+        <register name="PORTC"   addr="0x07" bits="RC0,RC1,RC2,RC3,RC4,RC5,RC6,RC7"/>
+
+        <register name="PCLATH"  addr="0x0A" bits=""/>
+        <register name="INTCON"  addr="0x0B" bits="RBIF,INTF,T0IF,RBIE,INTE,T0IE,PEIE,GIE"/>
+        <register name="PIR1"    addr="0x0C" bits="TMR1IF,TMR2IF,CCP1IF,SSPIF,TXIF,RCIF,ADIF,PSPIF"/>
+        <register name="PIR2"    addr="0x0D" bits=""/>
+        <register name="TMR1L"   addr="0x0E" bits=""/>
+        <register name="TMR1H"   addr="0x0F" bits=""/>
+        <register name="T1CON"   addr="0x10" bits="TMR1ON,TMR1CS,T1SYNC,T1OSCEN,T1CKPS0,T1CKPS1"/>
+        <register name="TMR2"    addr="0x11" bits=""/>
+        <register name="T2CON"   addr="0x12" bits="T2CKPS0,T2CKPS1,TMR2ON,TOUTPS0,TOUTPS1,TOUTPS2,TOUTPS3"/>
+        <register name="SSPBUF"  addr="0x13" />
+        <register name="SSPCON"  addr="0x14" bits="SSPM0,SSPM1,SSPM2,SSPM3,CKP,SSPEN,SSPOV,WCOL" />
+        <register name="CCPR1L"  addr="0x15" bits=""/>
+        <register name="CCPR1H"  addr="0x16" bits=""/>
+        <register name="CCP1CON" addr="0x17" 
+                  bits="CCP1M0,CCP1M1,CCP1M2,CCP1M3,CCP1Y,CCP1X,0,0"/>
+                  
+        <register name="RCSTA"   addr="0x18"  mask="11111000"
+                  bits="RX9D,OERR,FERR,ADEN,CREN,SREN,RX9,SPEN"/>
+                  
+        <register name="TXREG"   addr="0x19" bits=""/>
+        <register name="RCREG"   addr="0x1A" mask="00000000" bits=""/>
+        
+        <register name="CCPR2L"  addr="0x1B" bits=""/>
+        <register name="CCPR2H"  addr="0x1C" bits=""/>
+        <register name="CCP2CON" addr="0x1D" 
+                  bits="CCP2M0,CCP2M1,CCP2M2,CCP2M3,CCP2Y,CCP2X,0,0"/>
+        <register name="ADRESH"  addr="0x1E" bits=""/>
+        <register name="ADCON0"  addr="0x1F" 
+                  bits="ADON,0,GO/DONE,CHS0,CHS1,CHS2,ADCS0,ADCS1"/>
+    </regblock>
+    <datablock name="GPR0" start="0x0020" end="0x007F"/>
+    <!-- BANK 1 -->
+    <regblock name="SFR1" start="0x0080" end="0x009F">
+        <mapped                  addr="0x80" mapto="0x00"/><!-- INDF -->
+        <register name="OPTION" addr="0x81" reset="11111111"
+                  bits="PS0,PS1,PS2,PSA,T0SE,T0CS,INTEDG,RBPU"/>
+                  
+        <mapped                  addr="0x82" mapto="0x02"/><!-- PCL -->
+        <mapped                  addr="0x83" mapto="0x03"/><!-- STATUS -->
+        <mapped                  addr="0x84" mapto="0x04"/><!-- FSR -->
+        <register name="TRISA"   addr="0x85" bits="0-7" reset="00111111" mask="00111111"/>
+        <register name="TRISB"   addr="0x86" bits="0-7" reset="11111111"/>
+        <register name="TRISC"   addr="0x87" bits="0-7" reset="11111111"/>
+        <mapped                  addr="0x8A" mapto="0x0A"/><!-- PCLATH -->
+        <mapped                  addr="0x8B" mapto="0x0B"/><!-- INTCON -->
+        <register name="PIE1"    addr="0x8C" 
+                  bits="TMR1IE,TMR2IE,CCP1IE,SSPIE,TXIE,RCIE,ADIE,PSPIE"/>
+                  
+        <register name="PIE2"    addr="0x8D" 
+                  bits="CCP2IE,0,0,BCLIE,EEIE,0,0,0"/>
+                  
+        <register name="PCON"    addr="0x8E" reset="00001000"
+                  bits="BOR,POR,0,OSCF" />
+                  
+        <register name="SSPCON2" addr="0x91" mask="10111111"
+                  bits="SEN,RSEN,PEN,RCEN,ACKEN,ACKDT,ACKSTAT,GCEN" />
+                  
+        <register name="PR2"     addr="0x92" bits="" reset="11111111"/>
+        <register name="SSPADD"  addr="0x93" />
+        <register name="SSPSTAT" addr="0x94" mask="11000000"
+                  bits="BF,UA,RW,S,P,DA,CKE,SMP" />
+                  
+        <register name="TXSTA"   addr="0x98" reset="00000010" mask="11110101"
+                  bits="TX9D,TRMT,BRGH,0,SYNC,TXEN,TX9,CSRC"/>
+                  
+        <register name="SPBRG"  addr="0x99" bits=""/>
+        
+        <register name="ADRESL" addr="0x9E" bits=""/>
+        <register name="ADCON1" addr="0x9F" 
+                  bits="PCFG0,PCFG1,PCFG2,PCFG3,0,0,0,ADFM"/>
+    </regblock>
+    <!-- BANK 2 -->
+    <regblock name="SFR2" start="0x0100" end="0x010F">
+        <mapped                  addr="0x100" mapto="0x00"/><!-- INDF -->
+        <mapped                  addr="0x101" mapto="0x01"/><!-- TMR0 -->
+        <mapped                  addr="0x102" mapto="0x02"/><!-- PCL -->
+        <mapped                  addr="0x103" mapto="0x03"/><!-- STATUS -->
+        <mapped                  addr="0x104" mapto="0x04"/><!-- FSR -->
+        <mapped                  addr="0x106" mapto="0x04"/><!-- PORTB -->
+        <mapped                  addr="0x10A" mapto="0x0A"/><!-- PCLATH -->
+        <mapped                  addr="0x10B" mapto="0x0B"/><!-- INTCON -->
+        
+        <register name="EEDATA" addr="0x10C" bits=""/>
+        <register name="EEADR"  addr="0x10D" bits=""/>
+        <register name="EEDATH" addr="0x10E" bits=""/>
+        <register name="EEADRH" addr="0x10F" bits=""/>
+    </regblock>
+    <!-- BANK 3 -->
+    <regblock name="SFR3" start="0x0180" end="0x018F">
+        <mapped                  addr="0x180" mapto="0x00"/><!-- INDF -->
+        <mapped                  addr="0x181" mapto="0x81"/><!-- OPTION -->
+        <mapped                  addr="0x182" mapto="0x02"/><!-- PCL -->
+        <mapped                  addr="0x183" mapto="0x03"/><!-- STATUS -->
+        <mapped                  addr="0x184" mapto="0x04"/><!-- FSR -->
+        <mapped                  addr="0x186" mapto="0x86"/><!-- TRISB -->
+        <mapped                  addr="0x18A" mapto="0x0A"/><!-- PCLATH -->
+        <mapped                  addr="0x18B" mapto="0x0B"/><!-- INTCON -->
+        
+        <register name="EECON1" addr="0x18C" bits="RD,WR,WREN,WRERR,0,0,0,EEPGD"/>
+        <register name="EECON2" addr="0x18D" bits=""/>
+    </regblock>
+
+
+
+        <!-- BANK 0 -->
+        <regblock name="SFR0" start="0x0008" end="0x0009" >
+            <register name="PORTD"   addr="0x08" />
+            <register name="PORTE"   addr="0x09" mask="00000111"/>
+        </regblock>
+        <!-- BANK 1 -->
+        <regblock name="SFR0" start="0x0088" end="0x0089" >
+            <register name="TRISD"   addr="0x88" reset="11111111"/>
+            <register name="TRISE"   addr="0x89" reset="00000111" mask="00000111"/>
+        </regblock>
+        <datablock name="GPR1" start="0x00A0" end="0x00EF"/>
+        <datablock name="RAM1" start="0x00F0" end="0x00FF" mapto="0x0070"/>
+        <!-- BANK 2 -->
+        <datablock name="GPR2" start="0x0110" end="0x016F"/>
+        <datablock name="RAM2" start="0x0170" end="0x017F" mapto="0x0070"/>
+        <!-- BANK 3 -->
+        <datablock name="GPR3" start="0x0190" end="0x01EF"/>
+        <datablock name="RAM3" start="0x01F0" end="0x01FF" mapto="0x0070"/>
+
+    <interrupts enable="GIE">
+        <interrupt name="RESET"                                  priority="1" vector="0x0000"/>
+        <interrupt name="INT"      enable="INTE"   flag="INTF"   priority="1" vector="0x0004"/>
+        <interrupt name="T0_OVF"   enable="T0IE"   flag="T0IF"   priority="1" vector="0x0004"/>
+        <interrupt name="PB_INT"   enable="RBIE"   flag="RBIF"   priority="1" vector="0x0004"/>
+        <interrupt name="USART_R"  enable="RCIE"   flag="RCIF"   priority="1" vector="0x0004"/>
+        <interrupt name="USART_T"  enable="TXIE"   flag="TXIF"   priority="1" vector="0x0004"/>
+        <interrupt name="SSP"      enable="SSPIE"  flag="SSPIF"  priority="1" vector="0x0004"/>
+        <interrupt name="CCP1"     enable="CCP1IE" flag="CCP1IF" priority="1" vector="0x0004"/>
+        <interrupt name="CCP2"     enable="CCP2IE" flag="CCP2IF" priority="1" vector="0x0004"/>
+        <interrupt name="T1_OVF"   enable="TMR1IE" flag="TMR1IF" priority="1" vector="0x0004"/>
+        <interrupt name="T2_MATCH" enable="TMR2IE" flag="TMR2IF" priority="1" vector="0x0004"/>
+        <interrupt name="EEPR"     enable="EEIE"   flag="EEIF"   priority="1" vector="0x0004"/>
+        <interrupt name="ADC"      enable="ADIE"   flag="ADIF"   priority="1" vector="0x0004"/>
+    </interrupts>
+
+
+  <port name="PORTA" pins="6" outreg="PORTA" dirreg="!TRISA"
+                     opencol="00010000">
+  </port>
+
+  <port name="PORTB" pins="8" outreg="PORTB" dirreg="!TRISB"
+                     pullups="!RBPU" >
+                     
+    <interrupt name="PB_INT" mask="11110000"/>
+    <extint    name="INT" pin="PORTB0" configbits="INTEDG"/>
+  </port>
+
+  <port name="PORTC" pins="8" outreg="PORTC" dirreg="!TRISC" />
+  
+  <port name="PORTX" pins="1" />
+  
+  <intosc name="intosc" type="" clockoutpin="PORTX0" />
+
+  <timer name="TIMER0" type="800" configregsA="OPTION"
+                       counter="TMR0"
+                       clockpin="PORTA4"
+                       interrupt="T0_OVF"
+                       prescalers="2,4,8,16,32,64,128,256"/>
+
+  <timer name="TIMER1" type="160" configregsA="T1CON"
+                       counter="TMR1L,TMR1H"
+                       clockpin="PORTC0"
+                       interrupt="T1_OVF"
+                       prescalers="1,2,4,8"/>
+
+  <timer name="TIMER2" type="820" configregsA="T2CON" configregsB="PR2"
+                       counter="TMR2"
+                       interrupt="T2_MATCH"
+                       prescalers="1,4,16,16"/>
+
+  <ccpunit name="CCP1" type="01" configregsA="CCP1CON"
+                       ccpreg="CCPR1L,CCPR1H"
+                       pin="PORTC2"
+                       interrupt="CCP1" />
+
+  <ccpunit name="CCP2" type="01" configregsA="CCP2CON"
+                       ccpreg="CCPR2L,CCPR2H"
+                       pin="PORTC1"
+                       interrupt="CCP2" />
+
+  <usart name="USART0" number="1" configregsA="TXSTA" configregsB="RCSTA"
+                       interrupt="USART_T">
+
+    <trunit type="tx" pin="PORTC6" register="TXREG"/>
+    <trunit type="rx" pin="PORTC7" register="RCREG" interrupt="USART_R" />
+  </usart>
+  
+  <msspunit name="MSSP" type="00" configregsA="SSPCON" >
+                        
+    <twi name="TWI"  configregsA="SSPCON" configregsB="SSPCON2" 
+                     dataregs="SSPBUF" 
+                     addressreg="SSPADD"
+                     statusreg="SSPSTAT" 
+                     interrupt="SSP"
+                     prescalers=""
+                     pins="PORTC4,PORTC3" /><!-- "SDA,SCL" -->
+
+    <spi name="SPI"  configregsA="SSPCON" 
+                     dataregs="SSPBUF" 
+                     statusreg="SSPSTAT"
+                     interrupt="SSP" 
+                     prescalers="4,16,64,0"
+                     pins="PORTC5,PORTC4,PORTC3,PORTA5"/><!-- "SD0,SDI,SCK,SS" -->
+  </msspunit>
+  
+  <configwords name="cfgWord" type="02">
+    <word name="COINFIG1" address="0x2007" value="0xFF" />
+    <word name="COINFIG2" address="0x2008" value="0xFF" />
+  </configwords>
+  
+
+
+
+        <port name="PORTD" pins="8" outreg="PORTD" dirreg="!TRISD">
+        </port>
+        <port name="PORTE" pins="3" outreg="PORTE" dirreg="!TRISE">
+        </port>
+        <adc name="ADC" type="00" bits="10" configregsA="ADCON0" configregsB="ADCON1"
+                        dataregs="ADRESL,ADRESH"
+                        interrupt="ADC"
+                        prescalers="2,8,32"
+                        adcpins="PORTA0,PORTA1,PORTA2,PORTA3,PORTA5,PORTE0,PORTE1,PORTE2"
+                        vrefpins="PORTA3,PORTA2"/>
+</mcu>
+
+</libitem>
