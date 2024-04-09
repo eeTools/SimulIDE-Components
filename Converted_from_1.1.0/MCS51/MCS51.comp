@@ -1,0 +1,96 @@
+<libitem itemtype="MCU" category="Micro/I51" compname="8051" compinfo="" icondata="">
+
+<circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-100,48" rotation="0" hflip="1" vflip="1" label="1- DIP" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" SubcType="None" Width="6" Height="21" Name="8051" Logic_Symbol="false" Pins="Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;8; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P10; label&#x3D;P1.0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;16; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P11; label&#x3D;P1.1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;24; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P12; label&#x3D;P1.2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;32; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P13; label&#x3D;P1.3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;40; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P14; label&#x3D;P1.4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;48; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P15; label&#x3D;P1.5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;56; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P16; label&#x3D;P1.6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;64; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P17; label&#x3D;P1.7&#xa;Pin; type&#x3D;rst; xpos&#x3D;-8; ypos&#x3D;72; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;RST; label&#x3D;RST&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;80; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P30; label&#x3D;P3.0&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;88; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P31; label&#x3D;P3.1&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;96; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P32; label&#x3D;P3.2&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;104; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P33; label&#x3D;P3.3&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;112; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P34; label&#x3D;P3.4&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;120; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P35; label&#x3D;P3.5&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;128; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P36; label&#x3D;P3.6&#xa;Pin; type&#x3D;; xpos&#x3D;-8; ypos&#x3D;136; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;P37; label&#x3D;P3.7&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;144; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;XTAL2; label&#x3D;XTAL2&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;152; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;XTAL1; label&#x3D;XTAL1&#xa;Pin; type&#x3D;nc; xpos&#x3D;-8; ypos&#x3D;160; angle&#x3D;180; length&#x3D;8; space&#x3D;0; id&#x3D;VSS; label&#x3D;Vss&#xa;Pin; type&#x3D;nc; xpos&#x3D;56; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;VCC; label&#x3D;Vcc&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P00; label&#x3D;P0.0&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;24; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P01; label&#x3D;P0.1&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;32; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P02; label&#x3D;P0.2&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;40; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P03; label&#x3D;P0.3&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;48; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P04; label&#x3D;P0.4&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;56; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P05; label&#x3D;P0.5&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;64; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P06; label&#x3D;P0.6&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;72; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P07; label&#x3D;P0.7&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;80; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;EA; label&#x3D;!EA&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;88; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;ALE; label&#x3D;ALE&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;96; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;PSEN; label&#x3D;!PSEN&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;104; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P27; label&#x3D;P2.7&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;112; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P26; label&#x3D;P2.6&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;120; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P25; label&#x3D;P2.5&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;128; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P24; label&#x3D;P2.4&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;136; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P23; label&#x3D;P2.3&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;144; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P22; label&#x3D;P2.2&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;152; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P21; label&#x3D;P2.1&#xa;Pin; type&#x3D;; xpos&#x3D;56; ypos&#x3D;160; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;P20; label&#x3D;P2.0&#xa;" />
+
+</circuit>
+<mcu name="MCS51" core="8051" data="256" prog="4096" progword="1" eeprom="0" 
+                  cpu_cycle="6" inst_cycle="12" freq="12000000">
+
+    <datablock name="GPR" start="0x0000" end="0x007F"/>
+    <regblock  name="SFR" start="0x0080" end="0x00FF" offset="0x0080" streg="PSW">
+        <register name="P0"     addr="0"   bits="0-7" reset="11111111"/>
+        <register name="SP"     addr="1"   bits=""    reset="00000111"/>
+        <register name="DPL"    addr="2"   bits=""/>
+        <register name="DPH"    addr="3"   bits=""/>
+        <register name="PCON"   addr="7"   bits="IDL,PD,GF0,GF1,0,0,0,SMOD"/>
+        <register name="TCON"   addr="8"   bits="IT0,IE0,IT1,IE1,TR0,TF0,TR1,TF1"/>
+        <register name="TMOD"   addr="9"   bits="T0M0,T0M1,C/T0,GATE0,T1M0,T1M1,C/T1,GATE1"/>
+        <register name="TL0"    addr="10"  bits=""/>
+        <register name="TL1"    addr="11"  bits=""/>
+        <register name="TH0"    addr="12"  bits=""/>
+        <register name="TH1"    addr="13"  bits=""/>
+        <register name="P1"     addr="16"  bits="0-7" reset="11111111"/>
+        
+        <register name="SCON"   addr="24"  bits="RI,TI,RB8,TB8,REN,SM2,SM1,SM0"/>
+        <register name="SBUF"   addr="25"  mask="00000000"/>
+        
+        <register name="P2"     addr="32"  bits="0-7" reset="11111111"/>
+        <register name="IE"     addr="40"  bits="EX0,ET0,EX1,ET1,ES,ET2,0,EA"/>
+        <register name="P3"     addr="48"  bits="0-7" reset="11111111"/>
+        <register name="IP"     addr="56"  bits="PX0,PT0,PX1,PT1,PS"/>
+        <register name="T2CON"  addr="72"  bits=""/>
+        <register name="RCAP2L" addr="74"  bits=""/>
+        <register name="RCAP2H" addr="75"  bits=""/>
+        <register name="TL2"    addr="76"  bits=""/>
+        <register name="TH2"    addr="77"  bits=""/>
+        <register name="PSW"    addr="80"  bits="P,0,OV,R0,R1,F0,AC,CY"/>
+        <register name="ACC"    addr="96"  bits=""/>
+        <register name="B"      addr="112" bits=""/>
+    </regblock>
+    <stack  spreg="SP" increment="preinc" />
+    
+    <interrupts enable="EA">
+        <interrupt name="RESET"                                          vector="0x0000" />
+        <interrupt name="EXT_0"   enable="EX0" flag="IE0" priority="PX0" vector="0x0003" />
+        <interrupt name="T0_OVF"  enable="ET0" flag="TF0" priority="PT0" vector="0x000B" />
+        <interrupt name="EXT_1"   enable="EX1" flag="IE1" priority="PX1" vector="0x0013" />
+        <interrupt name="T1_OVF"  enable="ET1" flag="TF1" priority="PT1" vector="0x001B" />
+        <interrupt name="USART_R" enable="ES"  flag="RI"  priority="PS"  vector="0x0023" />
+        <interrupt name="USART_T" enable="ES"  flag="TI"  priority="PS"  vector="0x0023" />
+    </interrupts>
+
+    <intosc name="intosc" />
+    
+    <port name="PORT0" pins="8" outreg="P0" outmask="11111111" 
+                                opencol="11111111">
+    </port>
+    
+    <port name="PORT1" pins="8" outreg="P1" outmask="11111111" 
+                                pullups="11111111" opencol="11111111">
+    </port>
+    
+    <port name="PORT2" pins="8" outreg="P2" outmask="11111111" 
+                                pullups="11111111" opencol="11111111">
+    </port>
+    
+    <port name="PORT3" pins="8" outreg="P3" outmask="11111111" 
+                                pullups="11111111" opencol="11111111">
+        <extint name="EXT_0" pin="PORT32" configbits="IT0"/>
+        <extint name="EXT_1" pin="PORT33" configbits="IT1"/>
+    </port>
+    
+    <ioport name="PORTE" pins="ALE,PSEN,EA" />
+    
+    <timer name="TIMER0" enable="TR0" configregsA="TMOD"
+                         counter="TL0,TH0" 
+                         clockpin="PORT34"
+                         interrupt="T0_OVF" >
+    </timer>
+    
+    <timer name="TIMER1" enable="TR1" configregsA="TMOD"
+                         counter="TL1,TH1"
+                         clockpin="PORT35"
+                         interrupt="T1_OVF" >
+    </timer>
+    
+    <usart name="USART0" number="1" configregsA="SCON" configregsB="PCON" >
+        <trunit type="tx" pin="PORT31" register="SBUF" interrupt="USART_T" />
+        <trunit type="rx" pin="PORT30" enable="REN"    interrupt="USART_R" />
+    </usart>
+
+
+</mcu>
+
+</libitem>
