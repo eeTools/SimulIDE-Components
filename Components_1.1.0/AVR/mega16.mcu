@@ -7,7 +7,7 @@
     <include file="mega32/mega32_regs.xml" />
     <datablock name="RAM" start="0x0060" end="0x045F"/>
 
-    <include file="mega32/mega32_int.xml" />
+    <include file="mega32/mega16_int.xml" />
     <include file="mega32/mega32_perif.xml" />
     
 </mcu>
