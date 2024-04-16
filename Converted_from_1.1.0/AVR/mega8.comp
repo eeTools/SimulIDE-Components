@@ -1,4 +1,4 @@
-<libitem itemtype="MCU" category="Micro/AVR/atmega" compname="mega8" compinfo="" icondata="">
+<libitem itemtype="MCU" category="AVR/atmega" compname="mega8" compinfo="" icondata="">
 
 <circuit version="" rev="d44049ee" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
@@ -298,8 +298,6 @@
                     interrupt="ACOMP"
                     pins="PORTD6,PORTD7"/>
 
-
-    
 </mcu>
 
 </libitem>

@@ -1,5 +1,5 @@
 <libitem itemtype="Subcircuit" category="Logic/IC CD" compname="CD4521" compinfo="   24-stage frequency divider and oscillator" icondata="">
 
-<circuit version="" rev="89947707" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
 </circuit></libitem>

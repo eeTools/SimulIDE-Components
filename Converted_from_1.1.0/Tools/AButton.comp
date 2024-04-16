@@ -1,8 +1,8 @@
 <libitem itemtype="Subcircuit" category="Logic/Tools" compname="AButton" compinfo="   Active clock button" icondata="">
 
-<circuit version="" rev="e6539ad9" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="Package" CircId="Package-26" mainComp="false" Show_id="true" Show_Val="false" Pos="-208,24" rotation="0" hflip="1" vflip="1" label="1- Logic Symbol" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="4 Cells" Height="3 Cells" Package_File="AButton_LS.package" Logic_Symbol="true" Pins="Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;Q; label&#x3D;&#xa;Pin; type&#x3D;inv; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;!Q; label&#x3D;&#xa;" />
+<item itemtype="Package" CircId="Package-26" mainComp="false" Show_id="true" Show_Val="false" Pos="-208,24" rotation="0" hflip="1" vflip="1" label="1- Logic Symbol" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="4" Height="3" Package_File="AButton_LS.package" Logic_Symbol="true" Pins="Pin; type&#x3D;; xpos&#x3D;40; ypos&#x3D;8; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;Q; label&#x3D;&#xa;Pin; type&#x3D;inv; xpos&#x3D;40; ypos&#x3D;16; angle&#x3D;0; length&#x3D;8; space&#x3D;0; id&#x3D;!Q; label&#x3D;&#xa;" />
 
 <item itemtype="Push" CircId="Push-1" mainComp="true" Show_id="false" Show_Val="false" Pos="-76,-48" rotation="0" hflip="1" vflip="1" label="Push-1" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="12,0" circPos="-76,-48" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Norm_Close="false" Poles="1" />
 

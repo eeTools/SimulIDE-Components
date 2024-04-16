@@ -1,0 +1,6 @@
+
+<iou name="Down counter" core="scripted" script="downcount.as" clkpin="Clk" >
+    
+    <ioport name="PORTI" pins="I0,I1,I2,I3,I4,I5,I6,I7" />
+    <ioport name="PORTC" pins="Rst,Load,Clk,Out" />
+</iou>

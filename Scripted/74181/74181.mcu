@@ -1,0 +1,11 @@
+<!DOCTYPE SimulIDE>
+
+<iou name="74181" core="scripted" script="74181_core.as" >
+    
+    <ioport name="PORTA" pins="4" />
+    <ioport name="PORTB" pins="4" />
+    <ioport name="PORTF" pins="4" />
+    <ioport name="PORTS" pins="4" />
+    
+    <ioport name="PORTC" pins="Cn,M,Cn4,AB,G,P" />
+</iou>

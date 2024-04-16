@@ -1,0 +1,165 @@
+<circuit version="" rev="2178" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="MCU" CircId="74181-2" mainComp="false" Show_id="true" Show_Val="true" Pos="-412,60" rotation="0" hflip="1" vflip="1" label="74181" idLabPos="2,-13" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_16-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-564,68" rotation="0" hflip="1" vflip="1" label="ENCODER_16-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_16-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-564,108" rotation="0" hflip="1" vflip="1" label="ENCODER_16-8" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="ENCODER_16-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-564,156" rotation="0" hflip="1" vflip="1" label="ENCODER_16-13" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-336,36" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-18" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="LedBar" CircId="LedBar-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,172" rotation="0" hflip="1" vflip="1" label="LedBar-24" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="5 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,28" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-29" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Buffer" CircId="Buffer-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-452,28" rotation="0" hflip="1" vflip="1" label="Buffer-31" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,236" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-34" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Subcircuit" CircId="74HC181-36" mainComp="false" Show_id="true" Show_Val="false" Pos="-412,260" rotation="0" hflip="1" vflip="1" label="74HC181" idLabPos="-7,-14" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
+
+<item itemtype="LedBar" CircId="LedBar-83" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,372" rotation="0" hflip="1" vflip="1" label="LedBar-83" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="5 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="100 Ω" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-91" mainComp="false" Show_id="false" Show_Val="false" Pos="-336,236" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-91" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Node" CircId="Node-37" mainComp="false" Pos="-428,68" />
+
+<item itemtype="Node" CircId="Node-40" mainComp="false" Pos="-440,76" />
+
+<item itemtype="Node" CircId="Node-43" mainComp="false" Pos="-444,84" />
+
+<item itemtype="Node" CircId="Node-46" mainComp="false" Pos="-448,92" />
+
+<item itemtype="Node" CircId="Node-49" mainComp="false" Pos="-452,100" />
+
+<item itemtype="Node" CircId="Node-52" mainComp="false" Pos="-460,116" />
+
+<item itemtype="Node" CircId="Node-59" mainComp="false" Pos="-464,124" />
+
+<item itemtype="Node" CircId="Node-62" mainComp="false" Pos="-468,132" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-472,140" />
+
+<item itemtype="Node" CircId="Node-68" mainComp="false" Pos="-480,188" />
+
+<item itemtype="Node" CircId="Node-71" mainComp="false" Pos="-484,180" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="-488,172" />
+
+<item itemtype="Node" CircId="Node-77" mainComp="false" Pos="-492,164" />
+
+<item itemtype="Node" CircId="Node-88" mainComp="false" Pos="-436,236" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="ENCODER_16-3-1" endpinid="Node-40-0" pointList="-508,76,-440,76" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="ENCODER_16-3-2" endpinid="Node-43-0" pointList="-508,84,-444,84" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="ENCODER_16-3-4" endpinid="Node-46-0" pointList="-508,92,-448,92" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="ENCODER_16-3-8" endpinid="Node-49-0" pointList="-508,100,-452,100" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="ENCODER_16-8-2" endpinid="Node-59-0" pointList="-508,124,-464,124" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="ENCODER_16-8-4" endpinid="Node-62-0" pointList="-508,132,-468,132" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="ENCODER_16-8-8" endpinid="Node-65-0" pointList="-508,140,-472,140" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="ENCODER_16-13-1" endpinid="Node-77-0" pointList="-508,164,-492,164" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="ENCODER_16-13-2" endpinid="Node-74-0" pointList="-508,172,-488,172" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="ENCODER_16-13-4" endpinid="Node-71-0" pointList="-508,180,-484,180" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="ENCODER_16-13-8" endpinid="Node-68-0" pointList="-508,188,-480,188" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="74181-2-PORTF0" endpinid="7-Seg BCD-18-in0" pointList="-372,76,-324,76,-324,68" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="74181-2-PORTF1" endpinid="7-Seg BCD-18-in1" pointList="-372,84,-332,84,-332,68" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="74181-2-PORTF2" endpinid="7-Seg BCD-18-in2" pointList="-372,92,-340,92,-340,68" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="74181-2-PORTF3" endpinid="7-Seg BCD-18-in3" pointList="-372,100,-348,100,-348,68" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="LedBar-24-led0-pinP" endpinid="74181-2-PORTCCn4" pointList="-348,148,-372,148" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Node-37-1" endpinid="74HC181-36-Cn" pointList="-428,68,-428,268,-420,268" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Node-37-2" endpinid="74181-2-PORTCCn" pointList="-428,68,-420,68" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Node-40-1" endpinid="74HC181-36-!A0" pointList="-440,76,-440,276,-420,276" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Node-40-2" endpinid="74181-2-PORTA0" pointList="-440,76,-420,76" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Node-43-1" endpinid="74HC181-36-!A1" pointList="-444,84,-444,284,-420,284" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="Node-43-2" endpinid="74181-2-PORTA1" pointList="-444,84,-420,84" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-46-1" endpinid="74HC181-36-!A2" pointList="-448,92,-448,292,-420,292" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="Node-46-2" endpinid="74181-2-PORTA2" pointList="-448,92,-420,92" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Node-49-1" endpinid="74HC181-36-!A3" pointList="-452,100,-452,300,-420,300" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Node-49-2" endpinid="74181-2-PORTA3" pointList="-452,100,-420,100" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Node-52-1" endpinid="74HC181-36-!B0" pointList="-460,116,-460,316,-420,316" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Node-52-2" endpinid="74181-2-PORTB0" pointList="-460,116,-420,116" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="ENCODER_16-8-1" endpinid="Node-52-0" pointList="-508,116,-460,116" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Node-59-1" endpinid="74HC181-36-!B1" pointList="-464,124,-464,324,-420,324" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-59-2" endpinid="74181-2-PORTB1" pointList="-464,124,-420,124" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Node-62-1" endpinid="74HC181-36-!B2" pointList="-468,132,-468,332,-420,332" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Node-62-2" endpinid="74181-2-PORTB2" pointList="-468,132,-420,132" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Node-65-1" endpinid="74HC181-36-!B3" pointList="-472,140,-472,340,-420,340" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Node-65-2" endpinid="74181-2-PORTB3" pointList="-472,140,-420,140" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Node-68-1" endpinid="74HC181-36-S3" pointList="-480,188,-480,388,-420,388" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Node-68-2" endpinid="74181-2-PORTS3" pointList="-480,188,-420,188" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Node-71-1" endpinid="74HC181-36-S2" pointList="-484,180,-484,380,-420,380" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Node-71-2" endpinid="74181-2-PORTS2" pointList="-484,180,-420,180" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="Node-74-1" endpinid="74HC181-36-S1" pointList="-488,172,-488,372,-420,372" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Node-74-2" endpinid="74181-2-PORTS1" pointList="-488,172,-420,172" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="Node-77-1" endpinid="74HC181-36-S0" pointList="-492,164,-492,364,-420,364" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Node-77-2" endpinid="74181-2-PORTS0" pointList="-492,164,-420,164" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Fixed Voltage-34-outnod" endpinid="Node-88-0" pointList="-500,236,-436,236" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="LedBar-83-led0-pinP" endpinid="74HC181-36-Cn+4" pointList="-348,348,-372,348" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Node-88-1" endpinid="74HC181-36-M" pointList="-436,236,-436,356,-420,356" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Node-88-2" endpinid="74181-2-PORTCM" pointList="-436,236,-436,156,-420,156" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="74HC181-36-!F0" endpinid="7-Seg BCD-91-in0" pointList="-372,276,-324,276,-324,268" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="7-Seg BCD-91-in1" endpinid="74HC181-36-!F1" pointList="-332,268,-332,284,-372,284" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="74HC181-36-!F2" endpinid="7-Seg BCD-91-in2" pointList="-372,292,-340,292,-340,268" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="7-Seg BCD-91-in3" endpinid="74HC181-36-!F3" pointList="-348,268,-348,300,-372,300" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Buffer-31-in0" endpinid="Fixed Voltage-29-outnod" pointList="-468,28,-500,28" />
+
+<item itemtype="Connector" uid="Connector-106" startpinid="Buffer-31-out" endpinid="Node-37-0" pointList="-436,28,-428,28,-428,68" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="74181-2-PORTCAB" endpinid="LedBar-24-led1-pinP" pointList="-372,156,-348,156" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="74HC181-36-A&#x3DB" endpinid="LedBar-83-led1-pinP" pointList="-372,356,-348,356" />
+
+</circuit>
