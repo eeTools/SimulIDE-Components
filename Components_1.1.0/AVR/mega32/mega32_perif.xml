@@ -24,7 +24,7 @@
                        counter="TCNT0" 
                        clockpin="PORTB0" 
                        interrupt="T0_OVF"
-                       prescalers="0,1,8,32,64,128,256,1024" prselect="CS00,CS01,CS02" >
+                       prescalers="0,1,8,64,256,1024,EXT_F,EXT_R" prselect="CS00,CS01,CS02" >
     
     <ocunit name="OC0A" pin="PORTB3" ocreg="OCR0" bits="COM00,COM01" interrupt="T0CO" />
   </timer>
