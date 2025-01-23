@@ -1,0 +1,59 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74141-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-308,-268" rotation="0" hflip="1" vflip="1" label="74141" idLabPos="2.93499,-14.13" labelrot="0" valLabPos="13,56" valLabRot="-90" Package="Package-67" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-22" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-196,-284" rotation="-90" hflip="1" vflip="1" label="ResistorDip-22" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="10" PullUp="true" PuVolt="5 V" />
+
+<item itemtype="Subcircuit" CircId="Encoder-180" mainComp="false" Show_id="true" Show_Val="false" Pos="-388,-252" rotation="0" hflip="1" vflip="1" label="Encoder Dec" idLabPos="-1.761,-15.891" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="false" Value="0" />
+
+<item itemtype="LedBar" CircId="LedBar-181" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-212" rotation="-180" hflip="1" vflip="1" label="LedBar-181" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="10 _Leds" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="Encoder-180-1" endpinid="74141-1-A" pointList="-324,-244,-316,-244" />
+
+<item itemtype="Connector" uid="Connector-182" startpinid="Encoder-180-2" endpinid="74141-1-B" pointList="-324,-236,-316,-236" />
+
+<item itemtype="Connector" uid="Connector-183" startpinid="Encoder-180-4" endpinid="74141-1-C" pointList="-324,-228,-316,-228" />
+
+<item itemtype="Connector" uid="Connector-184" startpinid="Encoder-180-8" endpinid="74141-1-D" pointList="-324,-220,-316,-220" />
+
+<item itemtype="Connector" uid="Connector-344" startpinid="ResistorDip-22-resistor5-ePin10" endpinid="LedBar-181-led4-pinP" pointList="-180,-268,-180,-220,-228,-220" />
+
+<item itemtype="Connector" uid="Connector-345" startpinid="LedBar-181-led4-pinN" endpinid="74141-1-Q5" pointList="-260,-220,-268,-220" />
+
+<item itemtype="Connector" uid="Connector-346" startpinid="ResistorDip-22-resistor2-ePin4" endpinid="LedBar-181-led7-pinP" pointList="-204,-268,-204,-244,-228,-244" />
+
+<item itemtype="Connector" uid="Connector-347" startpinid="LedBar-181-led7-pinN" endpinid="74141-1-Q2" pointList="-260,-244,-268,-244" />
+
+<item itemtype="Connector" uid="Connector-348" startpinid="ResistorDip-22-resistor4-ePin8" endpinid="LedBar-181-led5-pinP" pointList="-188,-268,-188,-228,-228,-228" />
+
+<item itemtype="Connector" uid="Connector-349" startpinid="LedBar-181-led5-pinN" endpinid="74141-1-Q4" pointList="-260,-228,-268,-228" />
+
+<item itemtype="Connector" uid="Connector-350" startpinid="ResistorDip-22-resistor7-ePin14" endpinid="LedBar-181-led2-pinP" pointList="-164,-268,-164,-204,-228,-204" />
+
+<item itemtype="Connector" uid="Connector-351" startpinid="LedBar-181-led2-pinN" endpinid="74141-1-Q7" pointList="-260,-204,-268,-204" />
+
+<item itemtype="Connector" uid="Connector-352" startpinid="ResistorDip-22-resistor6-ePin12" endpinid="LedBar-181-led3-pinP" pointList="-172,-268,-172,-212,-228,-212" />
+
+<item itemtype="Connector" uid="Connector-353" startpinid="LedBar-181-led3-pinN" endpinid="74141-1-Q6" pointList="-260,-212,-268,-212" />
+
+<item itemtype="Connector" uid="Connector-354" startpinid="ResistorDip-22-resistor1-ePin2" endpinid="LedBar-181-led8-pinP" pointList="-212,-268,-212,-252,-228,-252" />
+
+<item itemtype="Connector" uid="Connector-355" startpinid="LedBar-181-led8-pinN" endpinid="74141-1-Q1" pointList="-260,-252,-268,-252" />
+
+<item itemtype="Connector" uid="Connector-356" startpinid="ResistorDip-22-resistor9-ePin18" endpinid="LedBar-181-led0-pinP" pointList="-148,-268,-148,-188,-228,-188" />
+
+<item itemtype="Connector" uid="Connector-357" startpinid="LedBar-181-led0-pinN" endpinid="74141-1-Q9" pointList="-260,-188,-268,-188" />
+
+<item itemtype="Connector" uid="Connector-358" startpinid="ResistorDip-22-resistor3-ePin6" endpinid="LedBar-181-led6-pinP" pointList="-196,-268,-196,-236,-228,-236" />
+
+<item itemtype="Connector" uid="Connector-359" startpinid="LedBar-181-led6-pinN" endpinid="74141-1-Q3" pointList="-260,-236,-268,-236" />
+
+<item itemtype="Connector" uid="Connector-360" startpinid="ResistorDip-22-resistor0-ePin0" endpinid="LedBar-181-led9-pinP" pointList="-220,-268,-220,-260,-228,-260" />
+
+<item itemtype="Connector" uid="Connector-361" startpinid="LedBar-181-led9-pinN" endpinid="74141-1-Q0" pointList="-260,-260,-268,-260" />
+
+<item itemtype="Connector" uid="Connector-362" startpinid="ResistorDip-22-resistor8-ePin16" endpinid="LedBar-181-led1-pinP" pointList="-156,-268,-156,-196,-228,-196" />
+
+<item itemtype="Connector" uid="Connector-363" startpinid="LedBar-181-led1-pinN" endpinid="74141-1-Q8" pointList="-260,-196,-268,-196" />
+
+</circuit>
