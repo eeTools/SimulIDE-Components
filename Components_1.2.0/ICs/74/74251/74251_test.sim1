@@ -6,15 +6,15 @@
 
 <item itemtype="Probe" CircId="Probe-4" mainComp="false" Show_id="false" Show_Val="true" Pos="-136,-316" rotation="-45" hflip="1" vflip="1" label="Probe-4" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-26" mainComp="false" Show_id="true" Show_Val="false" Pos="-268,-244" rotation="0" hflip="1" vflip="1" label="B" idLabPos="-14.3918,-6.4326" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-244" rotation="0" hflip="1" vflip="1" label="B" idLabPos="-14.3918,-6.4326" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" Show_id="true" Show_Val="false" Pos="-268,-236" rotation="0" hflip="1" vflip="1" label="C" idLabPos="-14.9375,-6.2163" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-236" rotation="0" hflip="1" vflip="1" label="C" idLabPos="-14.9375,-6.2163" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-28" mainComp="false" Show_id="true" Show_Val="false" Pos="-268,-228" rotation="0" hflip="1" vflip="1" label="!OE" idLabPos="-24.0357,-6.30982" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="true" Show_Val="false" Pos="-268,-252" rotation="0" hflip="1" vflip="1" label="A" idLabPos="-14.7602,-6.53587" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-252" rotation="0" hflip="1" vflip="1" label="A" idLabPos="-14.7602,-6.53587" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
-<item itemtype="SwitchDip" CircId="SwitchDip-175" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-300" rotation="0" hflip="1" vflip="1" label="SwitchDip-175" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="255" />
+<item itemtype="SwitchDip" CircId="SwitchDip-175" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-300" rotation="0" hflip="1" vflip="1" label="SwitchDip-175" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="0" />
 
 <item itemtype="Rail" CircId="Rail-176" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-284,-348" rotation="90" hflip="1" vflip="1" label="Rail-176" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
 
@@ -22,29 +22,29 @@
 
 <item itemtype="Connector" uid="Connector-3" startpinid="Probe-2-inpin" endpinid="74251-1-Y" pointList="-188,-316,-196,-316" />
 
-<item itemtype="Connector" uid="Connector-180" startpinid="Fixed Voltage-27-outnod" endpinid="74251-1-C" pointList="-252,-236,-244,-236" />
+<item itemtype="Connector" uid="Connector-180" startpinid="Fixed Voltage-27-outnod" endpinid="74251-1-S2" pointList="-252,-236,-244,-236" />
 
-<item itemtype="Connector" uid="Connector-181" startpinid="Fixed Voltage-26-outnod" endpinid="74251-1-B" pointList="-252,-244,-244,-244" />
+<item itemtype="Connector" uid="Connector-181" startpinid="Fixed Voltage-26-outnod" endpinid="74251-1-S1" pointList="-252,-244,-244,-244" />
 
-<item itemtype="Connector" uid="Connector-183" startpinid="Fixed Voltage-29-outnod" endpinid="74251-1-A" pointList="-252,-252,-244,-252" />
+<item itemtype="Connector" uid="Connector-183" startpinid="Fixed Voltage-29-outnod" endpinid="74251-1-S0" pointList="-252,-252,-244,-252" />
 
 <item itemtype="Connector" uid="Connector-187" startpinid="Fixed Voltage-28-outnod" endpinid="74251-1-!OE" pointList="-252,-228,-244,-228" />
 
-<item itemtype="Connector" uid="Connector-189" startpinid="SwitchDip-175-switch0-pinN" endpinid="74251-1-X0" pointList="-252,-324,-244,-324" />
+<item itemtype="Connector" uid="Connector-189" startpinid="SwitchDip-175-switch0-pinN" endpinid="74251-1-I0" pointList="-252,-324,-244,-324" />
 
-<item itemtype="Connector" uid="Connector-190" startpinid="SwitchDip-175-switch1-pinN" endpinid="74251-1-X1" pointList="-252,-316,-244,-316" />
+<item itemtype="Connector" uid="Connector-190" startpinid="SwitchDip-175-switch1-pinN" endpinid="74251-1-I1" pointList="-252,-316,-244,-316" />
 
-<item itemtype="Connector" uid="Connector-191" startpinid="SwitchDip-175-switch2-pinN" endpinid="74251-1-X2" pointList="-252,-308,-244,-308" />
+<item itemtype="Connector" uid="Connector-191" startpinid="SwitchDip-175-switch2-pinN" endpinid="74251-1-I2" pointList="-252,-308,-244,-308" />
 
-<item itemtype="Connector" uid="Connector-192" startpinid="SwitchDip-175-switch3-pinN" endpinid="74251-1-X3" pointList="-252,-300,-244,-300" />
+<item itemtype="Connector" uid="Connector-192" startpinid="SwitchDip-175-switch3-pinN" endpinid="74251-1-I3" pointList="-252,-300,-244,-300" />
 
-<item itemtype="Connector" uid="Connector-193" startpinid="SwitchDip-175-switch4-pinN" endpinid="74251-1-X4" pointList="-252,-292,-244,-292" />
+<item itemtype="Connector" uid="Connector-193" startpinid="SwitchDip-175-switch4-pinN" endpinid="74251-1-I4" pointList="-252,-292,-244,-292" />
 
-<item itemtype="Connector" uid="Connector-194" startpinid="SwitchDip-175-switch5-pinN" endpinid="74251-1-X5" pointList="-252,-284,-244,-284" />
+<item itemtype="Connector" uid="Connector-194" startpinid="SwitchDip-175-switch5-pinN" endpinid="74251-1-I5" pointList="-252,-284,-244,-284" />
 
-<item itemtype="Connector" uid="Connector-195" startpinid="SwitchDip-175-switch6-pinN" endpinid="74251-1-X6" pointList="-252,-276,-244,-276" />
+<item itemtype="Connector" uid="Connector-195" startpinid="SwitchDip-175-switch6-pinN" endpinid="74251-1-I6" pointList="-252,-276,-244,-276" />
 
-<item itemtype="Connector" uid="Connector-196" startpinid="SwitchDip-175-switch7-pinN" endpinid="74251-1-X7" pointList="-252,-268,-244,-268" />
+<item itemtype="Connector" uid="Connector-196" startpinid="SwitchDip-175-switch7-pinN" endpinid="74251-1-I7" pointList="-252,-268,-244,-268" />
 
 <item itemtype="Connector" uid="Connector-197" startpinid="Rail-176-outnod" endpinid="SwitchDip-175-switch0-pinP" pointList="-284,-332,-284,-324,-276,-324" />
 
