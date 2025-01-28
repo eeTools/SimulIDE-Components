@@ -1,0 +1,47 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74175-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-468,-220" rotation="0" hflip="1" vflip="1" label="74175-2" idLabPos="0,-20" labelrot="0" valLabPos="13,48" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="LedBar" CircId="LedBar-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-404,-188" rotation="0" hflip="1" vflip="1" label="LedBar-4" idLabPos="-16,-44" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-82" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-236" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-83" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-220" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-84" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-204" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-85" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-188" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-86" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-164" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-87" mainComp="false" Show_id="false" Show_Val="true" Pos="-556,-148" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-22" idLabPos="-64,-24" labelrot="0" valLabPos="-47,-7" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Connector" uid="Connector-315" startpinid="Fixed Voltage-84-outnod" endpinid="74175-1-D2" pointList="-540,-204,-540,-196,-476,-196" />
+
+<item itemtype="Connector" uid="Connector-316" startpinid="Fixed Voltage-86-outnod" endpinid="74175-1-Ck" pointList="-540,-164,-536,-164,-536,-172,-476,-172" />
+
+<item itemtype="Connector" uid="Connector-317" startpinid="Fixed Voltage-82-outnod" endpinid="74175-1-D0" pointList="-540,-236,-532,-236,-532,-212,-476,-212" />
+
+<item itemtype="Connector" uid="Connector-318" startpinid="Fixed Voltage-87-outnod" endpinid="74175-1-Rst" pointList="-540,-148,-532,-148,-532,-164,-476,-164" />
+
+<item itemtype="Connector" uid="Connector-319" startpinid="Fixed Voltage-85-outnod" endpinid="74175-1-D3" pointList="-540,-188,-476,-188" />
+
+<item itemtype="Connector" uid="Connector-320" startpinid="Fixed Voltage-83-outnod" endpinid="74175-1-D1" pointList="-540,-220,-536,-220,-536,-204,-476,-204" />
+
+<item itemtype="Connector" uid="Connector-321" startpinid="LedBar-80-led0-pinP" endpinid="74175-1-Q0" pointList="-420,-212,-428,-212" />
+
+<item itemtype="Connector" uid="Connector-322" startpinid="LedBar-80-led1-pinP" endpinid="74175-1-!Q0" pointList="-420,-204,-428,-204" />
+
+<item itemtype="Connector" uid="Connector-323" startpinid="LedBar-80-led2-pinP" endpinid="74175-1-Q1" pointList="-420,-196,-428,-196" />
+
+<item itemtype="Connector" uid="Connector-324" startpinid="LedBar-80-led3-pinP" endpinid="74175-1-!Q1" pointList="-420,-188,-428,-188" />
+
+<item itemtype="Connector" uid="Connector-325" startpinid="LedBar-80-led4-pinP" endpinid="74175-1-Q2" pointList="-420,-180,-428,-180" />
+
+<item itemtype="Connector" uid="Connector-326" startpinid="LedBar-80-led5-pinP" endpinid="74175-1-!Q2" pointList="-420,-172,-428,-172" />
+
+<item itemtype="Connector" uid="Connector-327" startpinid="LedBar-80-led6-pinP" endpinid="74175-1-Q3" pointList="-420,-164,-428,-164" />
+
+<item itemtype="Connector" uid="Connector-328" startpinid="LedBar-80-led7-pinP" endpinid="74175-1-!Q3" pointList="-420,-156,-428,-156" />
+
+</circuit>
