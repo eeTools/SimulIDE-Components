@@ -1,18 +1,18 @@
 <circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-196" rotation="0" hflip="1" vflip="1" label="Reset" idLabPos="-35.0926,-5.88728" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-196" rotation="0" hflip="1" vflip="1" label="Reset" idLabPos="-27.2122,-4.87109" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-228" rotation="0" hflip="1" vflip="1" label="Parallel load" idLabPos="-64.4265,-5.61748" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-228" rotation="0" hflip="1" vflip="1" label="Parallel load" idLabPos="-48.028,-4.48672" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-204" rotation="0" hflip="1" vflip="1" label="Clock Enable" idLabPos="-65.7047,-6.51746" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-204" rotation="0" hflip="1" vflip="1" label="Clock Enable" idLabPos="-49.1916,-4.99318" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-212" rotation="0" hflip="1" vflip="1" label="Clock" idLabPos="-33.2926,-7.64222" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-212" rotation="0" hflip="1" vflip="1" label="Clock" idLabPos="-25.6812,-5.3558" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
 <item itemtype="Subcircuit" CircId="74166-12" mainComp="false" Show_id="true" Show_Val="false" Pos="-500,-316" rotation="0" hflip="1" vflip="1" label="74166" idLabPos="1.89592,-14.3122" labelrot="0" valLabPos="13,72" valLabRot="-90" Package="1- Logic Symbol" />
 
 <item itemtype="Probe" CircId="Probe-13" mainComp="false" Show_id="false" Show_Val="true" Pos="-428,-324" rotation="-45" hflip="1" vflip="1" label="Probe-3" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-44" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-236" rotation="0" hflip="1" vflip="1" label="Serial in" idLabPos="-44.308,-7.78152" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-44" mainComp="false" Show_id="true" Show_Val="false" Pos="-532,-236" rotation="0" hflip="1" vflip="1" label="Serial in" idLabPos="-33.7526,-5.74416" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
 
 <item itemtype="SwitchDip" CircId="SwitchDip-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-532,-284" rotation="0" hflip="1" vflip="1" label="SwitchDip-45" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="85" />
 
