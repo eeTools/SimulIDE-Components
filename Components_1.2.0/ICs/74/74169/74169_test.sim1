@@ -1,0 +1,49 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74169-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-316,-324" rotation="0" hflip="1" vflip="1" label="74169" idLabPos="1.39831,-15.4555" labelrot="0" valLabPos="13,56" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="7-Seg BCD" CircId="7-Seg BCD-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,-356" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-2" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Probe" CircId="Probe-7" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,-292" rotation="-45" hflip="1" vflip="1" label="Probe-7" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-17" mainComp="false" Show_id="false" Show_Val="true" Pos="-372,-228" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-9" idLabPos="-64,-24" labelrot="0" valLabPos="-45,-5" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-18" mainComp="false" Show_id="false" Show_Val="true" Pos="-372,-236" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-9" idLabPos="-64,-24" labelrot="0" valLabPos="-45,-5" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-19" mainComp="false" Show_id="false" Show_Val="true" Pos="-372,-260" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-9" idLabPos="-64,-24" labelrot="0" valLabPos="-45,-5" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-20" mainComp="false" Show_id="false" Show_Val="true" Pos="-372,-252" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-9" idLabPos="-64,-24" labelrot="0" valLabPos="-45,-5" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-23" mainComp="false" Show_id="false" Show_Val="true" Pos="-372,-244" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-9" idLabPos="-64,-24" labelrot="0" valLabPos="-45,-5" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Subcircuit" CircId="Encoder-851" mainComp="false" Show_id="true" Show_Val="false" Pos="-412,-332" rotation="0" hflip="1" vflip="1" label="Encoder Dec" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="false" Value="6" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="7-Seg BCD-2-in0" endpinid="74169-1-QA" pointList="-236,-324,-236,-316,-276,-316" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="7-Seg BCD-2-in1" endpinid="74169-1-QB" pointList="-244,-324,-244,-308,-276,-308" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="7-Seg BCD-2-in2" endpinid="74169-1-QC" pointList="-252,-324,-252,-300,-276,-300" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="7-Seg BCD-2-in3" endpinid="74169-1-QD" pointList="-260,-324,-260,-292,-276,-292" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Probe-7-inpin" endpinid="74169-1-!RCO" pointList="-244,-276,-276,-276" />
+
+<item itemtype="Connector" uid="Connector-851" startpinid="Fixed Voltage-20-outnod" endpinid="74169-1-LD" pointList="-356,-252,-344,-252,-344,-268,-324,-268" />
+
+<item itemtype="Connector" uid="Connector-852" startpinid="Fixed Voltage-18-outnod" endpinid="74169-1-!ENT" pointList="-356,-236,-336,-236,-336,-252,-324,-252" />
+
+<item itemtype="Connector" uid="Connector-857" startpinid="Fixed Voltage-23-outnod" endpinid="74169-1-U/!D" pointList="-356,-244,-340,-244,-340,-260,-324,-260" />
+
+<item itemtype="Connector" uid="Connector-858" startpinid="Fixed Voltage-17-outnod" endpinid="74169-1-!ENP" pointList="-356,-228,-332,-228,-332,-244,-324,-244" />
+
+<item itemtype="Connector" uid="Connector-859" startpinid="Fixed Voltage-19-outnod" endpinid="74169-1-CK" pointList="-356,-260,-348,-260,-348,-276,-324,-276" />
+
+<item itemtype="Connector" uid="Connector-860" startpinid="Encoder-851-1" endpinid="74169-1-DA" pointList="-348,-324,-332,-324,-332,-316,-324,-316" />
+
+<item itemtype="Connector" uid="Connector-861" startpinid="Encoder-851-2" endpinid="74169-1-DB" pointList="-348,-316,-336,-316,-336,-308,-324,-308" />
+
+<item itemtype="Connector" uid="Connector-862" startpinid="Encoder-851-4" endpinid="74169-1-DC" pointList="-348,-308,-340,-308,-340,-300,-324,-300" />
+
+<item itemtype="Connector" uid="Connector-863" startpinid="Encoder-851-8" endpinid="74169-1-DD" pointList="-348,-300,-344,-300,-344,-292,-324,-292" />
+
+</circuit>
