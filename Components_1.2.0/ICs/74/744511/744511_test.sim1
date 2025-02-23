@@ -1,0 +1,47 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-354" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-12" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-344" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-353" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,4" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-344" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-352" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-4" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-344" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Seven Segment" CircId="7 Segment-334" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,-20" rotation="0" hflip="1" vflip="1" label="7 Segment-7" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="0" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground (0 V)-333" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,44" rotation="0" hflip="1" vflip="1" label="Ground (0 V)-9" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="744511-233" mainComp="false" Show_id="true" Show_Val="false" Pos="-204,-52" rotation="0" hflip="1" vflip="1" label="744511-4" idLabPos="-8,-15" labelrot="0" valLabPos="13,46" valLabRot="-90" Package="1- Logic Symbol" />
+
+<item itemtype="Subcircuit" CircId="Encoder-355" mainComp="false" Show_id="true" Show_Val="false" Pos="-308,-52" rotation="0" hflip="1" vflip="1" label="Encoder Hex" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="2" />
+
+<item itemtype="Connector" uid="Connector-335" startpinid="Ground (0 V)-333-Gnd" endpinid="7 Segment-334-pin_commona" pointList="-120,28,-120,12" />
+
+<item itemtype="Connector" uid="Connector-337" startpinid="7 Segment-334-pin_a" endpinid="744511-233-A" pointList="-152,-44,-164,-44" />
+
+<item itemtype="Connector" uid="Connector-338" startpinid="7 Segment-334-pin_b" endpinid="744511-233-B" pointList="-152,-36,-164,-36" />
+
+<item itemtype="Connector" uid="Connector-339" startpinid="7 Segment-334-pin_c" endpinid="744511-233-C" pointList="-152,-28,-164,-28" />
+
+<item itemtype="Connector" uid="Connector-340" startpinid="7 Segment-334-pin_d" endpinid="744511-233-D" pointList="-152,-20,-164,-20" />
+
+<item itemtype="Connector" uid="Connector-341" startpinid="7 Segment-334-pin_e" endpinid="744511-233-E" pointList="-152,-12,-164,-12" />
+
+<item itemtype="Connector" uid="Connector-342" startpinid="7 Segment-334-pin_f" endpinid="744511-233-F" pointList="-152,-4,-164,-4" />
+
+<item itemtype="Connector" uid="Connector-343" startpinid="7 Segment-334-pin_g" endpinid="744511-233-G" pointList="-152,4,-164,4" />
+
+<item itemtype="Connector" uid="Connector-355" startpinid="Fixed Voltage-354-outnod" endpinid="744511-233-!LT" pointList="-220,-12,-212,-12" />
+
+<item itemtype="Connector" uid="Connector-356" startpinid="Fixed Voltage-352-outnod" endpinid="744511-233-!BL" pointList="-220,-4,-212,-4" />
+
+<item itemtype="Connector" uid="Connector-357" startpinid="Fixed Voltage-353-outnod" endpinid="744511-233-!LE" pointList="-220,4,-212,4" />
+
+<item itemtype="Connector" uid="Connector-386" startpinid="Encoder-355-1" endpinid="744511-233-D0" pointList="-244,-44,-212,-44" />
+
+<item itemtype="Connector" uid="Connector-387" startpinid="Encoder-355-2" endpinid="744511-233-D1" pointList="-244,-36,-212,-36" />
+
+<item itemtype="Connector" uid="Connector-388" startpinid="Encoder-355-4" endpinid="744511-233-D2" pointList="-244,-28,-212,-28" />
+
+<item itemtype="Connector" uid="Connector-389" startpinid="Encoder-355-8" endpinid="744511-233-D3" pointList="-244,-20,-212,-20" />
+
+</circuit>
