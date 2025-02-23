@@ -1,0 +1,47 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Seven Segment" CircId="7 Segment-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,124" rotation="0" hflip="1" vflip="1" label="7 Segment-75" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="0" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="100 Ω" />
+
+<item itemtype="Subcircuit" CircId="744543-83" mainComp="false" Show_id="true" Show_Val="false" Pos="-316,92" rotation="0" hflip="1" vflip="1" label="744543" idLabPos="-1.01011,-15.9595" labelrot="0" valLabPos="0,0" valLabRot="0" Package="1- Logic Symbol" />
+
+<item itemtype="Ground" CircId="Ground (0 V)-85" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,188" rotation="0" hflip="1" vflip="1" label="Ground (0 V)-85" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-86" mainComp="false" Show_id="false" Show_Val="true" Pos="-348,132" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-86" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-87" mainComp="false" Show_id="false" Show_Val="true" Pos="-348,140" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-87" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-88" mainComp="false" Show_id="false" Show_Val="true" Pos="-348,148" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-88" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Subcircuit" CircId="Encoder-89" mainComp="false" Show_id="true" Show_Val="false" Pos="-420,92" rotation="0" hflip="1" vflip="1" label="Encoder-89" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="1" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="Fixed Volt.-86-outnod" endpinid="744543-83-LD" pointList="-332,132,-324,132" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Ground (0 V)-85-Gnd" endpinid="7 Segment-75-pin_commona" pointList="-220,172,-220,156" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="7 Segment-75-pin_a" endpinid="744543-83-A" pointList="-252,100,-276,100" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="7 Segment-75-pin_b" endpinid="744543-83-B" pointList="-252,108,-276,108" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="7 Segment-75-pin_c" endpinid="744543-83-C" pointList="-252,116,-276,116" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="7 Segment-75-pin_d" endpinid="744543-83-D" pointList="-252,124,-276,124" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="7 Segment-75-pin_e" endpinid="744543-83-E" pointList="-252,132,-276,132" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="7 Segment-75-pin_f" endpinid="744543-83-F" pointList="-252,140,-276,140" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="7 Segment-75-pin_g" endpinid="744543-83-G" pointList="-252,148,-276,148" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="Fixed Volt.-87-outnod" endpinid="744543-83-BI" pointList="-332,140,-324,140" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="744543-83-PH" endpinid="Fixed Volt.-88-outnod" pointList="-324,148,-332,148" />
+
+<item itemtype="Connector" uid="Connector-155" startpinid="Encoder-89-1" endpinid="744543-83-D0" pointList="-356,100,-324,100" />
+
+<item itemtype="Connector" uid="Connector-156" startpinid="Encoder-89-2" endpinid="744543-83-D1" pointList="-356,108,-324,108" />
+
+<item itemtype="Connector" uid="Connector-157" startpinid="Encoder-89-4" endpinid="744543-83-D2" pointList="-356,116,-324,116" />
+
+<item itemtype="Connector" uid="Connector-158" startpinid="Encoder-89-8" endpinid="744543-83-D3" pointList="-356,124,-324,124" />
+
+</circuit>
