@@ -1,0 +1,43 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-379" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,52" rotation="0" hflip="1" vflip="1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-375" mainComp="false" Show_id="false" Show_Val="false" Pos="-300,44" rotation="0" hflip="1" vflip="1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Subcircuit" CircId="74219-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-268,-36" rotation="0" hflip="1" vflip="1" label="74219" idLabPos="0.840705,-13.5546" labelrot="0" valLabPos="13,60" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Subcircuit" CircId="Encoder-399" mainComp="false" Show_id="true" Show_Val="false" Pos="-380,-60" rotation="0" hflip="1" vflip="1" label="Data" idLabPos="1.40118,-15.5162" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="3" />
+
+<item itemtype="LedBar" CircId="LedBar-400" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,-4" rotation="0" hflip="1" vflip="1" label="LedBar-400" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="4 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="Subcircuit" CircId="Encoder-401" mainComp="false" Show_id="true" Show_Val="false" Pos="-380,4" rotation="0" hflip="1" vflip="1" label="Address" idLabPos="8.12682,57.3449" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="0" />
+
+<item itemtype="Connector" uid="Connector-405" startpinid="74219-1-!WE" endpinid="Fixed Voltage-379-outnod" pointList="-276,52,-284,52" />
+
+<item itemtype="Connector" uid="Connector-408" startpinid="Fixed Voltage-375-outnod" endpinid="74219-1-!CS" pointList="-284,44,-276,44" />
+
+<item itemtype="Connector" uid="Connector-409" startpinid="Encoder-399-1" endpinid="74219-1-D0" pointList="-316,-52,-284,-52,-284,-28,-276,-28" />
+
+<item itemtype="Connector" uid="Connector-410" startpinid="Encoder-399-2" endpinid="74219-1-D1" pointList="-316,-44,-292,-44,-292,-20,-276,-20" />
+
+<item itemtype="Connector" uid="Connector-411" startpinid="Encoder-399-4" endpinid="74219-1-D2" pointList="-316,-36,-300,-36,-300,-12,-276,-12" />
+
+<item itemtype="Connector" uid="Connector-412" startpinid="Encoder-399-8" endpinid="74219-1-D3" pointList="-316,-28,-308,-28,-308,-4,-276,-4" />
+
+<item itemtype="Connector" uid="Connector-413" startpinid="LedBar-400-led0-pinP" endpinid="74219-1-Q0" pointList="-220,-28,-228,-28" />
+
+<item itemtype="Connector" uid="Connector-414" startpinid="LedBar-400-led1-pinP" endpinid="74219-1-Q1" pointList="-220,-20,-228,-20" />
+
+<item itemtype="Connector" uid="Connector-415" startpinid="LedBar-400-led2-pinP" endpinid="74219-1-Q2" pointList="-220,-12,-228,-12" />
+
+<item itemtype="Connector" uid="Connector-416" startpinid="LedBar-400-led3-pinP" endpinid="74219-1-Q3" pointList="-220,-4,-228,-4" />
+
+<item itemtype="Connector" uid="Connector-417" startpinid="Encoder-401-1" endpinid="74219-1-A0" pointList="-316,12,-276,12" />
+
+<item itemtype="Connector" uid="Connector-418" startpinid="Encoder-401-2" endpinid="74219-1-A1" pointList="-316,20,-276,20" />
+
+<item itemtype="Connector" uid="Connector-419" startpinid="Encoder-401-4" endpinid="74219-1-A2" pointList="-316,28,-276,28" />
+
+<item itemtype="Connector" uid="Connector-420" startpinid="Encoder-401-8" endpinid="74219-1-A3" pointList="-316,36,-276,36" />
+
+</circuit>
