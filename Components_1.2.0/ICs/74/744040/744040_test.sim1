@@ -1,0 +1,43 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="744040-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-436,-140" rotation="0" hflip="1" vflip="1" label="744040" idLabPos="-0.607645,-13.6197" labelrot="0" valLabPos="0,0" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Clock" CircId="Clock-2" mainComp="false" Show_id="false" Show_Val="true" Pos="-468,-124" rotation="0" hflip="1" vflip="1" label="Clock-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="5 Hz" Always_On="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-4" mainComp="false" Show_id="false" Show_Val="true" Pos="-468,-92" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-296,-172" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-13" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-172" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-14" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-172" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-15" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Clock-2-outnod" endpinid="744040-1-!CK" pointList="-452,-124,-444,-124" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Fixed Volt.-4-outnod" endpinid="744040-1-RST" pointList="-452,-92,-444,-92" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="744040-1-Q0" endpinid="7 Seg BCD-13-in0" pointList="-396,-132,-284,-132,-284,-140" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="744040-1-Q1" endpinid="7 Seg BCD-13-in1" pointList="-396,-124,-292,-124,-292,-140" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="744040-1-Q2" endpinid="7 Seg BCD-13-in2" pointList="-396,-116,-300,-116,-300,-140" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="744040-1-Q3" endpinid="7 Seg BCD-13-in3" pointList="-396,-108,-308,-108,-308,-140" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="744040-1-Q4" endpinid="7 Seg BCD-14-in0" pointList="-396,-100,-316,-100,-316,-140" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="744040-1-Q5" endpinid="7 Seg BCD-14-in1" pointList="-396,-92,-324,-92,-324,-140" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="744040-1-Q6" endpinid="7 Seg BCD-14-in2" pointList="-396,-84,-332,-84,-332,-140" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="744040-1-Q7" endpinid="7 Seg BCD-14-in3" pointList="-396,-76,-340,-76,-340,-140" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="744040-1-Q8" endpinid="7 Seg BCD-15-in0" pointList="-396,-68,-348,-68,-348,-140" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="744040-1-Q9" endpinid="7 Seg BCD-15-in1" pointList="-396,-60,-356,-60,-356,-140" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="744040-1-Q10" endpinid="7 Seg BCD-15-in2" pointList="-396,-52,-364,-52,-364,-140" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="744040-1-Q11" endpinid="7 Seg BCD-15-in3" pointList="-396,-44,-372,-44,-372,-140" />
+
+</circuit>
