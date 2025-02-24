@@ -1,0 +1,39 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Probe" CircId="Probe-334" mainComp="false" Show_id="false" Show_Val="true" Pos="-356,-36" rotation="-45" hflip="1" vflip="1" label="Probe-1" idLabPos="16,-16" labelrot="45" valLabPos="-3.18159,2.00405" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="true" Pause="false" />
+
+<item itemtype="LedBar" CircId="LedBar-325" mainComp="false" Show_id="false" Show_Val="false" Pos="-344,-76" rotation="0" hflip="1" vflip="1" label="LedBar-6" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="40 Ω" />
+
+<item itemtype="Subcircuit" CircId="744022-170" mainComp="false" Show_id="true" Show_Val="false" Pos="-428,-108" rotation="0" hflip="1" vflip="1" label="744022-5" idLabPos="0,-20" labelrot="0" valLabPos="17,58" valLabRot="-90" Package="1- Logic Symbol" />
+
+<item itemtype="Clock" CircId="Clock-2" mainComp="false" Show_id="false" Show_Val="true" Pos="-484,-92" rotation="0" hflip="1" vflip="1" label="Clock-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="2 Hz" Always_On="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-671" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-60" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-671" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-672" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-84" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-672" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Connector" uid="Connector-326" startpinid="744022-170-Q0" endpinid="LedBar-325-led0-pinP" pointList="-388,-100,-360,-100" />
+
+<item itemtype="Connector" uid="Connector-327" startpinid="744022-170-Q1" endpinid="LedBar-325-led1-pinP" pointList="-388,-92,-360,-92" />
+
+<item itemtype="Connector" uid="Connector-328" startpinid="744022-170-Q2" endpinid="LedBar-325-led2-pinP" pointList="-388,-84,-360,-84" />
+
+<item itemtype="Connector" uid="Connector-329" startpinid="744022-170-Q3" endpinid="LedBar-325-led3-pinP" pointList="-388,-76,-360,-76" />
+
+<item itemtype="Connector" uid="Connector-330" startpinid="744022-170-Q4" endpinid="LedBar-325-led4-pinP" pointList="-388,-68,-360,-68" />
+
+<item itemtype="Connector" uid="Connector-331" startpinid="744022-170-Q5" endpinid="LedBar-325-led5-pinP" pointList="-388,-60,-360,-60" />
+
+<item itemtype="Connector" uid="Connector-332" startpinid="744022-170-Q6" endpinid="LedBar-325-led6-pinP" pointList="-388,-52,-360,-52" />
+
+<item itemtype="Connector" uid="Connector-333" startpinid="744022-170-Q7" endpinid="LedBar-325-led7-pinP" pointList="-388,-44,-360,-44" />
+
+<item itemtype="Connector" uid="Connector-335" startpinid="Probe-334-inpin" endpinid="744022-170-Cout" pointList="-372,-20,-388,-20,-388,-36" />
+
+<item itemtype="Connector" uid="Connector-674" startpinid="Clock-2-outnod" endpinid="744022-170-CK" pointList="-468,-92,-436,-92" />
+
+<item itemtype="Connector" uid="Connector-675" startpinid="Fixed Voltage-671-outnod" endpinid="744022-170-RST" pointList="-444,-60,-436,-60" />
+
+<item itemtype="Connector" uid="Connector-676" startpinid="Fixed Voltage-672-outnod" endpinid="744022-170-!CE" pointList="-444,-84,-436,-84" />
+
+</circuit>
