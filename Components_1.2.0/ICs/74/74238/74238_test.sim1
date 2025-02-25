@@ -1,0 +1,43 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-60" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-7" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-52" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-6" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-468,-68" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Subcircuit" CircId="74238-231" mainComp="false" Show_id="true" Show_Val="false" Pos="-436,-116" rotation="0" hflip="1" vflip="1" label="74238-1" idLabPos="0,-20" labelrot="0" valLabPos="13,48" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="LedBar" CircId="LedBar-401" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-84" rotation="0" hflip="1" vflip="1" label="LedBar-14" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="100 Ω" />
+
+<item itemtype="Subcircuit" CircId="Encoder-451" mainComp="false" Show_id="true" Show_Val="false" Pos="-540,-116" rotation="0" hflip="1" vflip="1" label="Encoder" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="0" />
+
+<item itemtype="Connector" uid="Connector-427" startpinid="74238-231-Y0" endpinid="LedBar-401-led0-pinP" pointList="-396,-108,-380,-108" />
+
+<item itemtype="Connector" uid="Connector-428" startpinid="74238-231-Y1" endpinid="LedBar-401-led1-pinP" pointList="-396,-100,-380,-100" />
+
+<item itemtype="Connector" uid="Connector-429" startpinid="74238-231-Y2" endpinid="LedBar-401-led2-pinP" pointList="-396,-92,-380,-92" />
+
+<item itemtype="Connector" uid="Connector-430" startpinid="74238-231-Y3" endpinid="LedBar-401-led3-pinP" pointList="-396,-84,-380,-84" />
+
+<item itemtype="Connector" uid="Connector-431" startpinid="74238-231-Y4" endpinid="LedBar-401-led4-pinP" pointList="-396,-76,-380,-76" />
+
+<item itemtype="Connector" uid="Connector-432" startpinid="74238-231-Y5" endpinid="LedBar-401-led5-pinP" pointList="-396,-68,-380,-68" />
+
+<item itemtype="Connector" uid="Connector-433" startpinid="74238-231-Y6" endpinid="LedBar-401-led6-pinP" pointList="-396,-60,-380,-60" />
+
+<item itemtype="Connector" uid="Connector-434" startpinid="74238-231-Y7" endpinid="LedBar-401-led7-pinP" pointList="-396,-52,-380,-52" />
+
+<item itemtype="Connector" uid="Connector-457" startpinid="Fixed Volt.-6-outnod" endpinid="74238-231-E3" pointList="-452,-52,-444,-52" />
+
+<item itemtype="Connector" uid="Connector-464" startpinid="Fixed Volt.-7-outnod" endpinid="74238-231-!E2" pointList="-452,-60,-444,-60" />
+
+<item itemtype="Connector" uid="Connector-465" startpinid="Fixed Volt.-5-outnod" endpinid="74238-231-!E1" pointList="-452,-68,-444,-68" />
+
+<item itemtype="Connector" uid="Connector-466" startpinid="Encoder-451-1" endpinid="74238-231-A0" pointList="-476,-108,-444,-108" />
+
+<item itemtype="Connector" uid="Connector-467" startpinid="Encoder-451-2" endpinid="74238-231-A1" pointList="-476,-100,-444,-100" />
+
+<item itemtype="Connector" uid="Connector-468" startpinid="Encoder-451-4" endpinid="74238-231-A2" pointList="-476,-92,-444,-92" />
+
+</circuit>
