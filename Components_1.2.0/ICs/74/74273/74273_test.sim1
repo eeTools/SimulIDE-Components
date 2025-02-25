@@ -1,0 +1,53 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74273-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-156,-84" rotation="0" hflip="1" vflip="1" label="74273" idLabPos="0,-15.0057" labelrot="0" valLabPos="13,56" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-43" mainComp="false" Show_id="false" Show_Val="true" Pos="-188,-4" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-45" mainComp="false" Show_id="false" Show_Val="true" Pos="-188,4" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="LedBar" CircId="LedBar-360" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-52" rotation="0" hflip="1" vflip="1" label="LedBar-360" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-361" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,-52" rotation="0" hflip="1" vflip="1" label="SwitchDip-361" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="85" />
+
+<item itemtype="Rail" CircId="Rail-362" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-204,-100" rotation="90" hflip="1" vflip="1" label="Rail-362" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Connector" uid="Connector-390" startpinid="Fixed Voltage-43-outnod" endpinid="74273-1-CK" pointList="-172,-4,-164,-4" />
+
+<item itemtype="Connector" uid="Connector-391" startpinid="Fixed Voltage-45-outnod" endpinid="74273-1-!RST" pointList="-172,4,-164,4" />
+
+<item itemtype="Connector" uid="Connector-392" startpinid="LedBar-360-led0-pinP" endpinid="74273-1-Q0" pointList="-108,-76,-116,-76" />
+
+<item itemtype="Connector" uid="Connector-393" startpinid="LedBar-360-led1-pinP" endpinid="74273-1-Q1" pointList="-108,-68,-116,-68" />
+
+<item itemtype="Connector" uid="Connector-394" startpinid="LedBar-360-led2-pinP" endpinid="74273-1-Q2" pointList="-108,-60,-116,-60" />
+
+<item itemtype="Connector" uid="Connector-395" startpinid="LedBar-360-led3-pinP" endpinid="74273-1-Q3" pointList="-108,-52,-116,-52" />
+
+<item itemtype="Connector" uid="Connector-396" startpinid="LedBar-360-led4-pinP" endpinid="74273-1-Q4" pointList="-108,-44,-116,-44" />
+
+<item itemtype="Connector" uid="Connector-397" startpinid="LedBar-360-led5-pinP" endpinid="74273-1-Q5" pointList="-108,-36,-116,-36" />
+
+<item itemtype="Connector" uid="Connector-398" startpinid="LedBar-360-led6-pinP" endpinid="74273-1-Q6" pointList="-108,-28,-116,-28" />
+
+<item itemtype="Connector" uid="Connector-399" startpinid="LedBar-360-led7-pinP" endpinid="74273-1-Q7" pointList="-108,-20,-116,-20" />
+
+<item itemtype="Connector" uid="Connector-400" startpinid="SwitchDip-361-switch0-pinN" endpinid="74273-1-D0" pointList="-172,-76,-164,-76" />
+
+<item itemtype="Connector" uid="Connector-401" startpinid="SwitchDip-361-switch1-pinN" endpinid="74273-1-D1" pointList="-172,-68,-164,-68" />
+
+<item itemtype="Connector" uid="Connector-402" startpinid="SwitchDip-361-switch2-pinN" endpinid="74273-1-D2" pointList="-172,-60,-164,-60" />
+
+<item itemtype="Connector" uid="Connector-403" startpinid="SwitchDip-361-switch3-pinN" endpinid="74273-1-D3" pointList="-172,-52,-164,-52" />
+
+<item itemtype="Connector" uid="Connector-404" startpinid="SwitchDip-361-switch4-pinN" endpinid="74273-1-D4" pointList="-172,-44,-164,-44" />
+
+<item itemtype="Connector" uid="Connector-405" startpinid="SwitchDip-361-switch5-pinN" endpinid="74273-1-D5" pointList="-172,-36,-164,-36" />
+
+<item itemtype="Connector" uid="Connector-406" startpinid="SwitchDip-361-switch6-pinN" endpinid="74273-1-D6" pointList="-172,-28,-164,-28" />
+
+<item itemtype="Connector" uid="Connector-407" startpinid="SwitchDip-361-switch7-pinN" endpinid="74273-1-D7" pointList="-172,-20,-164,-20" />
+
+<item itemtype="Connector" uid="Connector-408" startpinid="Rail-362-outnod" endpinid="SwitchDip-361-switch0-pinP" pointList="-204,-84,-204,-76,-196,-76" />
+
+</circuit>
