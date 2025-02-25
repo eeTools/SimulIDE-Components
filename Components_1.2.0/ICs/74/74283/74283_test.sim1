@@ -1,0 +1,43 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Probe" CircId="Probe-62" mainComp="false" Show_id="false" Show_Val="true" Pos="-220,-116" rotation="-45" hflip="1" vflip="1" label="Probe-62" idLabPos="16,-16" labelrot="45" valLabPos="-0.928197,0.806105" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="true" Pause="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Volt.-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-100" rotation="0" hflip="1" vflip="1" label="Fixed Volt.-59" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-196" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-24" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Subcircuit" CircId="74283-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-284,-188" rotation="0" hflip="1" vflip="1" label="74283" idLabPos="3.80001,-12.02" labelrot="0" valLabPos="0,0" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Subcircuit" CircId="Encoder-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-212" rotation="0" hflip="1" vflip="1" label="Encoder-66" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="6" />
+
+<item itemtype="Subcircuit" CircId="Encoder-67" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-148" rotation="0" hflip="1" vflip="1" label="Encoder-67" idLabPos="5.32002,59.0403" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="3" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="74283-1-S0" endpinid="7 Seg BCD-24-in0" pointList="-244,-156,-204,-156,-204,-164" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="74283-1-S1" endpinid="7 Seg BCD-24-in1" pointList="-244,-148,-212,-148,-212,-164" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="74283-1-S2" endpinid="7 Seg BCD-24-in2" pointList="-244,-140,-220,-140,-220,-164" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="74283-1-S3" endpinid="7 Seg BCD-24-in3" pointList="-244,-132,-228,-132,-228,-164" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Fixed Volt.-59-outnod" endpinid="74283-1-Ci" pointList="-300,-100,-292,-100" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Probe-62-inpin" endpinid="74283-1-Co" pointList="-236,-100,-244,-100" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Encoder-66-1" endpinid="74283-1-A0" pointList="-332,-204,-300,-204,-300,-180,-292,-180" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Encoder-66-2" endpinid="74283-1-A1" pointList="-332,-196,-308,-196,-308,-172,-292,-172" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="Encoder-66-4" endpinid="74283-1-A2" pointList="-332,-188,-316,-188,-316,-164,-292,-164" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="Encoder-66-8" endpinid="74283-1-A3" pointList="-332,-180,-324,-180,-324,-156,-292,-156" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Encoder-67-1" endpinid="74283-1-B0" pointList="-332,-140,-292,-140" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Encoder-67-2" endpinid="74283-1-B1" pointList="-332,-132,-292,-132" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="Encoder-67-4" endpinid="74283-1-B2" pointList="-332,-124,-292,-124" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Encoder-67-8" endpinid="74283-1-B3" pointList="-332,-116,-292,-116" />
+
+</circuit>
