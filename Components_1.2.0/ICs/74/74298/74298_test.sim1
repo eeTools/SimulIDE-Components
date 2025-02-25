@@ -1,0 +1,43 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-196" rotation="0" hflip="1" vflip="1" idLabPos="-57,-5" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-204" rotation="0" hflip="1" vflip="1" idLabPos="-106,-6" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Subcircuit" CircId="74298-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-388,-284" rotation="0" hflip="1" vflip="1" label="74298" idLabPos="-0.834907,-12.7641" labelrot="0" valLabPos="0,0" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,-316" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-29" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Subcircuit" CircId="Encoder-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-524,-316" rotation="0" hflip="1" vflip="1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="4" />
+
+<item itemtype="Subcircuit" CircId="Encoder-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-524,-252" rotation="0" hflip="1" vflip="1" idLabPos="0,-16.6604" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="8" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Fixed Voltage-18-outnod" endpinid="74298-1-WS" pointList="-404,-204,-396,-204" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="74298-1-QA" endpinid="7 Seg BCD-29-in0" pointList="-348,-276,-308,-276,-308,-284" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="74298-1-QB" endpinid="7 Seg BCD-29-in1" pointList="-348,-260,-316,-260,-316,-284" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="74298-1-QC" endpinid="7 Seg BCD-29-in2" pointList="-348,-244,-324,-244,-324,-284" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="74298-1-QD" endpinid="7 Seg BCD-29-in3" pointList="-348,-228,-332,-228,-332,-284" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Fixed Voltage-20-outnod" endpinid="74298-1-!CK" pointList="-404,-196,-396,-196" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Encoder-30-1" endpinid="74298-1-A1" pointList="-460,-308,-404,-308,-404,-276,-396,-276" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Encoder-30-2" endpinid="74298-1-B1" pointList="-460,-300,-412,-300,-412,-260,-396,-260" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Encoder-30-4" endpinid="74298-1-C1" pointList="-460,-292,-420,-292,-420,-244,-396,-244" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Encoder-30-8" endpinid="74298-1-D1" pointList="-460,-284,-428,-284,-428,-228,-396,-228" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Encoder-31-8" endpinid="74298-1-D2" pointList="-460,-220,-396,-220" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="74298-1-C2" endpinid="Encoder-31-4" pointList="-396,-236,-436,-236,-436,-228,-460,-228" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Encoder-31-2" endpinid="74298-1-B2" pointList="-460,-236,-444,-236,-444,-252,-396,-252" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Encoder-31-1" endpinid="74298-1-A2" pointList="-460,-244,-452,-244,-452,-268,-396,-268" />
+
+</circuit>
