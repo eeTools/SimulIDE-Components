@@ -1,0 +1,37 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="7404-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-396,-356" rotation="0" hflip="1" vflip="1" label="7404" idLabPos="2.62114,-13.2888" labelrot="0" valLabPos="13,38" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="LedBar" CircId="LedBar-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,-324" rotation="0" hflip="1" vflip="1" label="LedBar-46" idLabPos="-16,-44" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Size="6 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="100 Ω" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-428,-324" rotation="0" hflip="1" vflip="1" label="SwitchDip-53" idLabPos="-16,-44" labelrot="0" valLabPos="0,0" valLabRot="0" Size="6" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="Rail" CircId="Rail-136" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-444,-372" rotation="90" hflip="1" vflip="1" label="Rail-136" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="LedBar-46-led0-pinP" endpinid="7404-1-1Y" pointList="-348,-348,-356,-348" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="LedBar-46-led1-pinP" endpinid="7404-1-2Y" pointList="-348,-340,-356,-340" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="LedBar-46-led2-pinP" endpinid="7404-1-3Y" pointList="-348,-332,-356,-332" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="LedBar-46-led3-pinP" endpinid="7404-1-4Y" pointList="-348,-324,-356,-324" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="LedBar-46-led4-pinP" endpinid="7404-1-5Y" pointList="-348,-316,-356,-316" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="LedBar-46-led5-pinP" endpinid="7404-1-6Y" pointList="-348,-308,-356,-308" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="SwitchDip-53-switch0-pinN" endpinid="7404-1-1A" pointList="-412,-348,-404,-348" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="SwitchDip-53-switch1-pinN" endpinid="7404-1-2A" pointList="-412,-340,-404,-340" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="SwitchDip-53-switch2-pinN" endpinid="7404-1-3A" pointList="-412,-332,-404,-332" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="SwitchDip-53-switch3-pinN" endpinid="7404-1-4A" pointList="-412,-324,-404,-324" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="SwitchDip-53-switch4-pinN" endpinid="7404-1-5A" pointList="-412,-316,-404,-316" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="SwitchDip-53-switch5-pinN" endpinid="7404-1-6A" pointList="-412,-308,-404,-308" />
+
+<item itemtype="Connector" uid="Connector-142" startpinid="Rail-136-outnod" endpinid="SwitchDip-53-switch0-pinP" pointList="-444,-356,-444,-348,-436,-348" />
+
+</circuit>

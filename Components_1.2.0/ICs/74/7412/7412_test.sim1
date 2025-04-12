@@ -1,0 +1,61 @@
+<circuit version="1.2.0-RC1" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="7412-1" mainComp="false" Show_id="true" Show_Val="false" Pos="716,556" rotation="0" hflip="1" vflip="1" label="7412" idLabPos="3.92029,-14.8735" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-4" mainComp="false" Show_id="false" Show_Val="false" Pos="684,588" rotation="0" hflip="1" vflip="1" label="SwitchDip-4" idLabPos="-16,-44" labelrot="0" valLabPos="16,-37" valLabRot="0" Size="9 Switches" Exclusive="false" CommonPin="true" State="511" />
+
+<item itemtype="Probe" CircId="Probe-68" mainComp="false" Show_id="false" Show_Val="true" Pos="820,556" rotation="-45" hflip="1" vflip="1" label="Probe-68" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Probe" CircId="Probe-69" mainComp="false" Show_id="false" Show_Val="true" Pos="820,580" rotation="-45" hflip="1" vflip="1" label="Probe-69" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Probe" CircId="Probe-70" mainComp="false" Show_id="false" Show_Val="true" Pos="820,604" rotation="-45" hflip="1" vflip="1" label="Probe-70" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Rail" CircId="Rail-71" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="668,540" rotation="90" hflip="1" vflip="1" label="Rail-71" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-72" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="788,540" rotation="-90" hflip="1" vflip="1" label="ResistorDip-72" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="5 kΩ" Size="3" PullUp="true" PuVolt="5 V" />
+
+<item itemtype="Node" CircId="Node-73" mainComp="false" Pos="764,572" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="772,596" />
+
+<item itemtype="Node" CircId="Node-75" mainComp="false" Pos="780,620" />
+
+<item itemtype="Connector" uid="connector-32" startpinid="SwitchDip-4-switch0-pinN" endpinid="7412-1-1A" pointList="700,564,708,564" />
+
+<item itemtype="Connector" uid="connector-33" startpinid="SwitchDip-4-switch1-pinN" endpinid="7412-1-1B" pointList="700,572,708,572" />
+
+<item itemtype="Connector" uid="connector-34" startpinid="SwitchDip-4-switch2-pinN" endpinid="7412-1-1C" pointList="700,580,708,580" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="7412-1-2A" endpinid="SwitchDip-4-switch3-pinN" pointList="708,588,700,588" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="SwitchDip-4-switch4-pinN" endpinid="7412-1-2B" pointList="700,596,708,596" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="7412-1-2C" endpinid="SwitchDip-4-switch5-pinN" pointList="708,604,700,604" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="SwitchDip-4-switch6-pinN" endpinid="7412-1-3A" pointList="700,612,708,612" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="7412-1-3B" endpinid="SwitchDip-4-switch7-pinN" pointList="708,620,700,620" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="SwitchDip-4-switch8-pinN" endpinid="7412-1-3C" pointList="700,628,708,628" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="Rail-71-outnod" endpinid="SwitchDip-4-switch0-pinP" pointList="668,556,668,564,676,564" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="ResistorDip-72-resistor0-ePin0" endpinid="Node-73-1" pointList="764,556,764,572" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="Probe-68-inpin" endpinid="Node-73-0" pointList="804,572,764,572" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Node-73-2" endpinid="7412-1-1Y" pointList="764,572,756,572" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="ResistorDip-72-resistor1-ePin2" endpinid="Node-74-1" pointList="772,556,772,596" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="Probe-69-inpin" endpinid="Node-74-0" pointList="804,596,772,596" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-74-2" endpinid="7412-1-2Y" pointList="772,596,756,596" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="ResistorDip-72-resistor2-ePin4" endpinid="Node-75-1" pointList="780,556,780,620" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="Probe-70-inpin" endpinid="Node-75-0" pointList="804,620,780,620" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="Node-75-2" endpinid="7412-1-3Y" pointList="780,620,756,620" />
+
+</circuit>
