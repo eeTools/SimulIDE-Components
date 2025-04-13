@@ -19,7 +19,7 @@
     <register  name="UBRRL"   addr="0x0009"  reset=""  mask="" />
     
     <register  name="UCSRB"   addr="0x000A"  reset=""  mask="11111101" 
-               bits="TXB8,RXB8,UCSZ2,TXEN,RXEN0,UDRIE,TXCIE,RXCIE" />
+               bits="TXB8,RXB8,UCSZ2,TXEN,RXEN,UDRIE,TXCIE,RXCIE" />
                
     <register  name="UCSRA"   addr="0x000B"  reset="00100000"  mask="01000011" 
                bits="MPCM,U2X,UPE,DOR,FE,UDRE,TXC,RXC" />
