@@ -1,0 +1,31 @@
+<circuit version="1.2.0-RC1" rev="250504" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Probe" CircId="Probe-47" mainComp="false" Show_id="false" Show_Val="true" Pos="-260,-388" rotation="-45" hflip="1" vflip="1" label="Probe-60" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Subcircuit" CircId="7430-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-324,-380" rotation="0" hflip="1" vflip="1" label="7430" idLabPos="5.76898,-13.7057" labelrot="0" valLabPos="0,0" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-348" rotation="0" hflip="1" vflip="1" label="SwitchDip-56" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="Rail" CircId="Rail-57" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-372,-396" rotation="90" hflip="1" vflip="1" label="Rail-57" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="7430-1-Y" endpinid="Probe-47-inpin" pointList="-284,-372,-276,-372" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="SwitchDip-56-switch0-pinN" endpinid="7430-1-A" pointList="-344,-372,-332,-372" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="SwitchDip-56-switch1-pinN" endpinid="7430-1-B" pointList="-344,-364,-332,-364" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="SwitchDip-56-switch2-pinN" endpinid="7430-1-C" pointList="-344,-356,-332,-356" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="SwitchDip-56-switch3-pinN" endpinid="7430-1-D" pointList="-344,-348,-332,-348" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="SwitchDip-56-switch4-pinN" endpinid="7430-1-E" pointList="-344,-340,-332,-340" />
+
+<item itemtype="Connector" uid="Connector-106" startpinid="Rail-57-outnod" endpinid="SwitchDip-56-switch0-pinP" pointList="-372,-380,-372,-372,-368,-372" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="7430-1-F" endpinid="SwitchDip-56-switch5-pinN" pointList="-332,-332,-344,-332" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="7430-1-G" endpinid="SwitchDip-56-switch6-pinN" pointList="-332,-324,-344,-324" />
+
+<item itemtype="Connector" uid="Connector-109" startpinid="7430-1-H" endpinid="SwitchDip-56-switch7-pinN" pointList="-332,-316,-344,-316" />
+
+</circuit>
