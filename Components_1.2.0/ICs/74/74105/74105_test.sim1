@@ -1,0 +1,55 @@
+<circuit version="1.2.0-RC1" rev="250504" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74105-213" mainComp="false" Show_id="true" Show_Val="false" Pos="-292,-300" rotation="0" hflip="1" vflip="1" label="74105" idLabPos="2.39807,-12.23" labelrot="0" valLabPos="13,32" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Probe" CircId="Probe-286" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,-308" rotation="-45" hflip="1" vflip="1" label="Probe-286" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Probe" CircId="Probe-287" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,-292" rotation="-45" hflip="1" vflip="1" label="Probe-287" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-288" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-268" rotation="0" hflip="1" vflip="1" label="SwitchDip-288" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="3" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-289" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-244" rotation="0" hflip="1" vflip="1" label="SwitchDip-289" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="3" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-290" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-220" rotation="0" hflip="1" vflip="1" label="SwitchDip-290" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="4" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="Rail" CircId="Rail-291" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-340,-316" rotation="90" hflip="1" vflip="1" label="Rail-291" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-292" mainComp="false" Pos="-340,-268" />
+
+<item itemtype="Node" CircId="Node-293" mainComp="false" Pos="-340,-292" />
+
+<item itemtype="Connector" uid="Connector-292" startpinid="Probe-286-inpin" endpinid="74105-213-Q" pointList="-244,-292,-252,-292" />
+
+<item itemtype="Connector" uid="Connector-293" startpinid="Probe-287-inpin" endpinid="74105-213-!Q" pointList="-244,-276,-252,-276" />
+
+<item itemtype="Connector" uid="Connector-294" startpinid="SwitchDip-288-switch0-pinN" endpinid="74105-213-J1" pointList="-308,-292,-300,-292" />
+
+<item itemtype="Connector" uid="Connector-295" startpinid="SwitchDip-288-switch1-pinN" endpinid="74105-213-!J2" pointList="-308,-284,-300,-284" />
+
+<item itemtype="Connector" uid="Connector-296" startpinid="SwitchDip-288-switch2-pinN" endpinid="74105-213-J3" pointList="-308,-276,-300,-276" />
+
+<item itemtype="Connector" uid="Connector-297" startpinid="SwitchDip-289-switch0-pinN" endpinid="74105-213-K1" pointList="-308,-268,-300,-268" />
+
+<item itemtype="Connector" uid="Connector-298" startpinid="SwitchDip-289-switch1-pinN" endpinid="74105-213-!K2" pointList="-308,-260,-300,-260" />
+
+<item itemtype="Connector" uid="Connector-299" startpinid="SwitchDip-289-switch2-pinN" endpinid="74105-213-K3" pointList="-308,-252,-300,-252" />
+
+<item itemtype="Connector" uid="Connector-300" startpinid="SwitchDip-290-switch0-pinN" endpinid="74105-213-JK" pointList="-308,-244,-300,-244" />
+
+<item itemtype="Connector" uid="Connector-301" startpinid="SwitchDip-290-switch1-pinN" endpinid="74105-213-!S" pointList="-308,-236,-300,-236" />
+
+<item itemtype="Connector" uid="Connector-302" startpinid="SwitchDip-290-switch2-pinN" endpinid="74105-213-!R" pointList="-308,-228,-300,-228" />
+
+<item itemtype="Connector" uid="Connector-303" startpinid="SwitchDip-290-switch3-pinN" endpinid="74105-213-C" pointList="-308,-220,-300,-220" />
+
+<item itemtype="Connector" uid="Connector-305" startpinid="SwitchDip-289-switch0-pinP" endpinid="Node-292-1" pointList="-332,-268,-340,-268" />
+
+<item itemtype="Connector" uid="Connector-307" startpinid="Node-292-2" endpinid="SwitchDip-290-switch0-pinP" pointList="-340,-268,-340,-244,-332,-244" />
+
+<item itemtype="Connector" uid="Connector-308" startpinid="SwitchDip-288-switch0-pinP" endpinid="Node-293-1" pointList="-332,-292,-340,-292" />
+
+<item itemtype="Connector" uid="Connector-309" startpinid="Rail-291-outnod" endpinid="Node-293-0" pointList="-340,-300,-340,-292" />
+
+<item itemtype="Connector" uid="Connector-310" startpinid="Node-293-2" endpinid="Node-292-0" pointList="-340,-292,-340,-268" />
+
+</circuit>
