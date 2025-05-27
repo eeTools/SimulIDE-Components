@@ -1,0 +1,59 @@
+<circuit version="1.2.0-RC1" rev="250504" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Rail" CircId="Rail-102" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-380,-380" rotation="90" hflip="1" vflip="1" label="Rail-102" idLabPos="-16,-24" labelrot="0" valLabPos="-13.0026,5.33765" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-93" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-332" rotation="0" hflip="1" vflip="1" label="SwitchDip-93" idLabPos="-16,-44" labelrot="0" valLabPos="0,0" valLabRot="0" Size="5" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="Subcircuit" CircId="74100-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-332,-364" rotation="0" hflip="1" vflip="1" label="74100" idLabPos="2.70302,-14.2561" labelrot="0" valLabPos="13,52" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-128" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-284" rotation="0" hflip="1" vflip="1" label="SwitchDip-128" idLabPos="-16,-44" labelrot="0" valLabPos="0,0" valLabRot="0" Size="5" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="LedBar" CircId="LedBar-130" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-332" rotation="0" hflip="1" vflip="1" label="LedBar-130" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="4 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="LedBar" CircId="LedBar-131" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,-284" rotation="0" hflip="1" vflip="1" label="LedBar-131" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="4 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="Node" CircId="Node-129" mainComp="false" Pos="-380,-356" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="SwitchDip-93-switch0-pinN" endpinid="74100-1-1D0" pointList="-348,-356,-340,-356" />
+
+<item itemtype="Connector" uid="Connector-95" startpinid="SwitchDip-93-switch1-pinN" endpinid="74100-1-1D1" pointList="-348,-348,-340,-348" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="SwitchDip-93-switch2-pinN" endpinid="74100-1-1D2" pointList="-348,-340,-340,-340" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="SwitchDip-93-switch3-pinN" endpinid="74100-1-1D3" pointList="-348,-332,-340,-332" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="SwitchDip-93-switch4-pinN" endpinid="74100-1-E1" pointList="-348,-324,-340,-324" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="SwitchDip-128-switch0-pinN" endpinid="74100-1-2D0" pointList="-348,-308,-340,-308" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="SwitchDip-128-switch1-pinN" endpinid="74100-1-2D1" pointList="-348,-300,-340,-300" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="SwitchDip-128-switch2-pinN" endpinid="74100-1-2D2" pointList="-348,-292,-340,-292" />
+
+<item itemtype="Connector" uid="Connector-140" startpinid="SwitchDip-128-switch3-pinN" endpinid="74100-1-2D3" pointList="-348,-284,-340,-284" />
+
+<item itemtype="Connector" uid="Connector-141" startpinid="SwitchDip-128-switch4-pinN" endpinid="74100-1-E2" pointList="-348,-276,-340,-276" />
+
+<item itemtype="Connector" uid="Connector-142" startpinid="Node-129-1" endpinid="SwitchDip-128-switch0-pinP" pointList="-380,-356,-380,-308,-372,-308" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="Rail-102-outnod" endpinid="Node-129-0" pointList="-380,-364,-380,-356" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="Node-129-2" endpinid="SwitchDip-93-switch0-pinP" pointList="-380,-356,-372,-356" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="LedBar-130-led0-pinP" endpinid="74100-1-1Q0" pointList="-284,-356,-292,-356" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="LedBar-130-led1-pinP" endpinid="74100-1-1Q1" pointList="-284,-348,-292,-348" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="LedBar-130-led2-pinP" endpinid="74100-1-1Q2" pointList="-284,-340,-292,-340" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="LedBar-130-led3-pinP" endpinid="74100-1-1Q3" pointList="-284,-332,-292,-332" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="LedBar-131-led0-pinP" endpinid="74100-1-2Q0" pointList="-284,-308,-292,-308" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="LedBar-131-led1-pinP" endpinid="74100-1-2Q1" pointList="-284,-300,-292,-300" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="LedBar-131-led2-pinP" endpinid="74100-1-2Q2" pointList="-284,-292,-292,-292" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="LedBar-131-led3-pinP" endpinid="74100-1-2Q3" pointList="-284,-284,-292,-284" />
+
+</circuit>
