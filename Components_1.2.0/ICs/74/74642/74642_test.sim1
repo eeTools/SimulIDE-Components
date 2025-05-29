@@ -1,0 +1,277 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-32" mainComp="false" Show_id="false" Show_Val="true" Pos="-396,-236" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Subcircuit" CircId="74642-23" mainComp="false" Show_id="true" Show_Val="false" Pos="-356,-340" rotation="0" hflip="1" vflip="1" label="74642" idLabPos="0,-13.4026" labelrot="0" valLabPos="13,60" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1256" mainComp="false" Show_id="false" Show_Val="true" Pos="-396,-260" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1256" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="LedBar" CircId="LedBar-1257" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-300" rotation="-180" hflip="1" vflip="1" label="LedBar-1257" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="White" Size="8 _Leds" Grounded="false" Threshold="4 V" MaxCurrent="30 mA" Resistance="10 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-1258" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-284,-388" rotation="-90" hflip="1" vflip="1" label="ResistorDip-1258" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="5 kΩ" Size="8" PullUp="true" PuVolt="5 V" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-1259" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-404,-388" rotation="-90" hflip="1" vflip="1" label="ResistorDip-1259" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="5 kΩ" Size="8" PullUp="true" PuVolt="5 V" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-1260" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-356" rotation="90" hflip="1" vflip="1" label="SwitchDip-1260" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="false" State="170" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-1261" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,-356" rotation="90" hflip="1" vflip="1" label="SwitchDip-1261" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="false" State="85" />
+
+<item itemtype="LedBar" CircId="LedBar-1270" mainComp="false" Show_id="false" Show_Val="false" Pos="-452,-308" rotation="-360" hflip="1" vflip="1" label="LedBar-1270" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="White" Size="8 _Leds" Grounded="false" Threshold="4 V" MaxCurrent="30 mA" Resistance="10 Ω" />
+
+<item itemtype="Rail" CircId="Rail-1295" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-476,-364" rotation="90" hflip="1" vflip="1" label="Rail-1295" idLabPos="-5,-10" labelrot="-90" valLabPos="-15.7614,4.11931" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Rail" CircId="Rail-1311" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-204,-356" rotation="90" hflip="1" vflip="1" label="Rail-1311" idLabPos="-5,-10" labelrot="-90" valLabPos="-15.7614,4.11931" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-1287" mainComp="false" Pos="-428,-332" />
+
+<item itemtype="Node" CircId="Node-1288" mainComp="false" Pos="-420,-324" />
+
+<item itemtype="Node" CircId="Node-1289" mainComp="false" Pos="-412,-316" />
+
+<item itemtype="Node" CircId="Node-1290" mainComp="false" Pos="-404,-308" />
+
+<item itemtype="Node" CircId="Node-1291" mainComp="false" Pos="-396,-300" />
+
+<item itemtype="Node" CircId="Node-1292" mainComp="false" Pos="-388,-292" />
+
+<item itemtype="Node" CircId="Node-1293" mainComp="false" Pos="-380,-284" />
+
+<item itemtype="Node" CircId="Node-1294" mainComp="false" Pos="-372,-276" />
+
+<item itemtype="Node" CircId="Node-1296" mainComp="false" Pos="-476,-332" />
+
+<item itemtype="Node" CircId="Node-1297" mainComp="false" Pos="-476,-324" />
+
+<item itemtype="Node" CircId="Node-1298" mainComp="false" Pos="-476,-316" />
+
+<item itemtype="Node" CircId="Node-1299" mainComp="false" Pos="-476,-308" />
+
+<item itemtype="Node" CircId="Node-1300" mainComp="false" Pos="-476,-300" />
+
+<item itemtype="Node" CircId="Node-1301" mainComp="false" Pos="-476,-292" />
+
+<item itemtype="Node" CircId="Node-1302" mainComp="false" Pos="-476,-284" />
+
+<item itemtype="Node" CircId="Node-1303" mainComp="false" Pos="-308,-332" />
+
+<item itemtype="Node" CircId="Node-1304" mainComp="false" Pos="-300,-324" />
+
+<item itemtype="Node" CircId="Node-1305" mainComp="false" Pos="-292,-316" />
+
+<item itemtype="Node" CircId="Node-1306" mainComp="false" Pos="-284,-308" />
+
+<item itemtype="Node" CircId="Node-1307" mainComp="false" Pos="-276,-300" />
+
+<item itemtype="Node" CircId="Node-1308" mainComp="false" Pos="-268,-292" />
+
+<item itemtype="Node" CircId="Node-1309" mainComp="false" Pos="-260,-284" />
+
+<item itemtype="Node" CircId="Node-1310" mainComp="false" Pos="-252,-276" />
+
+<item itemtype="Node" CircId="Node-1312" mainComp="false" Pos="-204,-284" />
+
+<item itemtype="Node" CircId="Node-1313" mainComp="false" Pos="-204,-292" />
+
+<item itemtype="Node" CircId="Node-1314" mainComp="false" Pos="-204,-300" />
+
+<item itemtype="Node" CircId="Node-1315" mainComp="false" Pos="-204,-308" />
+
+<item itemtype="Node" CircId="Node-1316" mainComp="false" Pos="-204,-316" />
+
+<item itemtype="Node" CircId="Node-1317" mainComp="false" Pos="-204,-324" />
+
+<item itemtype="Node" CircId="Node-1318" mainComp="false" Pos="-204,-332" />
+
+<item itemtype="Connector" uid="Connector-1259" startpinid="Fixed Voltage-32-outnod" endpinid="74642-23-!OE" pointList="-380,-236,-304,-236,-304,-260,-316,-260" />
+
+<item itemtype="Connector" uid="Connector-1292" startpinid="Fixed Voltage-1256-outnod" endpinid="74642-23-AB/!BA" pointList="-380,-260,-364,-260" />
+
+<item itemtype="Connector" uid="Connector-1301" startpinid="SwitchDip-1260-switch0-pinP" endpinid="ResistorDip-1259-resistor7-ePin14" pointList="-372,-364,-372,-372" />
+
+<item itemtype="Connector" uid="Connector-1302" startpinid="SwitchDip-1260-switch1-pinP" endpinid="ResistorDip-1259-resistor6-ePin12" pointList="-380,-364,-380,-372" />
+
+<item itemtype="Connector" uid="Connector-1303" startpinid="SwitchDip-1260-switch2-pinP" endpinid="ResistorDip-1259-resistor5-ePin10" pointList="-388,-364,-388,-372" />
+
+<item itemtype="Connector" uid="Connector-1304" startpinid="SwitchDip-1260-switch3-pinP" endpinid="ResistorDip-1259-resistor4-ePin8" pointList="-396,-364,-396,-372" />
+
+<item itemtype="Connector" uid="Connector-1305" startpinid="SwitchDip-1260-switch4-pinP" endpinid="ResistorDip-1259-resistor3-ePin6" pointList="-404,-364,-404,-372" />
+
+<item itemtype="Connector" uid="Connector-1306" startpinid="SwitchDip-1260-switch5-pinP" endpinid="ResistorDip-1259-resistor2-ePin4" pointList="-412,-364,-412,-372" />
+
+<item itemtype="Connector" uid="Connector-1307" startpinid="SwitchDip-1260-switch6-pinP" endpinid="ResistorDip-1259-resistor1-ePin2" pointList="-420,-364,-420,-372" />
+
+<item itemtype="Connector" uid="Connector-1308" startpinid="SwitchDip-1260-switch7-pinP" endpinid="ResistorDip-1259-resistor0-ePin0" pointList="-428,-364,-428,-372" />
+
+<item itemtype="Connector" uid="Connector-1309" startpinid="SwitchDip-1261-switch0-pinP" endpinid="ResistorDip-1258-resistor7-ePin14" pointList="-252,-364,-252,-372" />
+
+<item itemtype="Connector" uid="Connector-1310" startpinid="SwitchDip-1261-switch1-pinP" endpinid="ResistorDip-1258-resistor6-ePin12" pointList="-260,-364,-260,-372" />
+
+<item itemtype="Connector" uid="Connector-1311" startpinid="SwitchDip-1261-switch2-pinP" endpinid="ResistorDip-1258-resistor5-ePin10" pointList="-268,-364,-268,-372" />
+
+<item itemtype="Connector" uid="Connector-1312" startpinid="SwitchDip-1261-switch3-pinP" endpinid="ResistorDip-1258-resistor4-ePin8" pointList="-276,-364,-276,-372" />
+
+<item itemtype="Connector" uid="Connector-1313" startpinid="SwitchDip-1261-switch4-pinP" endpinid="ResistorDip-1258-resistor3-ePin6" pointList="-284,-364,-284,-372" />
+
+<item itemtype="Connector" uid="Connector-1314" startpinid="SwitchDip-1261-switch5-pinP" endpinid="ResistorDip-1258-resistor2-ePin4" pointList="-292,-364,-292,-372" />
+
+<item itemtype="Connector" uid="Connector-1315" startpinid="SwitchDip-1261-switch6-pinP" endpinid="ResistorDip-1258-resistor1-ePin2" pointList="-300,-364,-300,-372" />
+
+<item itemtype="Connector" uid="Connector-1316" startpinid="SwitchDip-1261-switch7-pinP" endpinid="ResistorDip-1258-resistor0-ePin0" pointList="-308,-364,-308,-372" />
+
+<item itemtype="Connector" uid="Connector-1414" startpinid="LedBar-1270-led0-pinN" endpinid="Node-1287-1" pointList="-436,-332,-428,-332" />
+
+<item itemtype="Connector" uid="Connector-1415" startpinid="SwitchDip-1260-switch7-pinN" endpinid="Node-1287-0" pointList="-428,-340,-428,-332" />
+
+<item itemtype="Connector" uid="Connector-1416" startpinid="Node-1287-2" endpinid="74642-23-A0" pointList="-428,-332,-364,-332" />
+
+<item itemtype="Connector" uid="Connector-1417" startpinid="LedBar-1270-led1-pinN" endpinid="Node-1288-1" pointList="-436,-324,-420,-324" />
+
+<item itemtype="Connector" uid="Connector-1418" startpinid="SwitchDip-1260-switch6-pinN" endpinid="Node-1288-0" pointList="-420,-340,-420,-324" />
+
+<item itemtype="Connector" uid="Connector-1419" startpinid="Node-1288-2" endpinid="74642-23-A1" pointList="-420,-324,-364,-324" />
+
+<item itemtype="Connector" uid="Connector-1420" startpinid="LedBar-1270-led2-pinN" endpinid="Node-1289-1" pointList="-436,-316,-412,-316" />
+
+<item itemtype="Connector" uid="Connector-1421" startpinid="SwitchDip-1260-switch5-pinN" endpinid="Node-1289-0" pointList="-412,-340,-412,-316" />
+
+<item itemtype="Connector" uid="Connector-1422" startpinid="Node-1289-2" endpinid="74642-23-A2" pointList="-412,-316,-364,-316" />
+
+<item itemtype="Connector" uid="Connector-1423" startpinid="LedBar-1270-led3-pinN" endpinid="Node-1290-1" pointList="-436,-308,-404,-308" />
+
+<item itemtype="Connector" uid="Connector-1424" startpinid="SwitchDip-1260-switch4-pinN" endpinid="Node-1290-0" pointList="-404,-340,-404,-308" />
+
+<item itemtype="Connector" uid="Connector-1425" startpinid="Node-1290-2" endpinid="74642-23-A3" pointList="-404,-308,-364,-308" />
+
+<item itemtype="Connector" uid="Connector-1426" startpinid="LedBar-1270-led4-pinN" endpinid="Node-1291-1" pointList="-436,-300,-396,-300" />
+
+<item itemtype="Connector" uid="Connector-1427" startpinid="SwitchDip-1260-switch3-pinN" endpinid="Node-1291-0" pointList="-396,-340,-396,-300" />
+
+<item itemtype="Connector" uid="Connector-1428" startpinid="Node-1291-2" endpinid="74642-23-A4" pointList="-396,-300,-364,-300" />
+
+<item itemtype="Connector" uid="Connector-1429" startpinid="LedBar-1270-led5-pinN" endpinid="Node-1292-1" pointList="-436,-292,-388,-292" />
+
+<item itemtype="Connector" uid="Connector-1430" startpinid="SwitchDip-1260-switch2-pinN" endpinid="Node-1292-0" pointList="-388,-340,-388,-292" />
+
+<item itemtype="Connector" uid="Connector-1431" startpinid="Node-1292-2" endpinid="74642-23-A5" pointList="-388,-292,-364,-292" />
+
+<item itemtype="Connector" uid="Connector-1432" startpinid="LedBar-1270-led6-pinN" endpinid="Node-1293-1" pointList="-436,-284,-380,-284" />
+
+<item itemtype="Connector" uid="Connector-1433" startpinid="SwitchDip-1260-switch1-pinN" endpinid="Node-1293-0" pointList="-380,-340,-380,-284" />
+
+<item itemtype="Connector" uid="Connector-1434" startpinid="Node-1293-2" endpinid="74642-23-A6" pointList="-380,-284,-364,-284" />
+
+<item itemtype="Connector" uid="Connector-1435" startpinid="LedBar-1270-led7-pinN" endpinid="Node-1294-1" pointList="-436,-276,-372,-276" />
+
+<item itemtype="Connector" uid="Connector-1436" startpinid="SwitchDip-1260-switch0-pinN" endpinid="Node-1294-0" pointList="-372,-340,-372,-276" />
+
+<item itemtype="Connector" uid="Connector-1437" startpinid="Node-1294-2" endpinid="74642-23-A7" pointList="-372,-276,-364,-276" />
+
+<item itemtype="Connector" uid="Connector-1439" startpinid="LedBar-1270-led0-pinP" endpinid="Node-1296-1" pointList="-468,-332,-476,-332" />
+
+<item itemtype="Connector" uid="Connector-1440" startpinid="Rail-1295-outnod" endpinid="Node-1296-0" pointList="-476,-348,-476,-332" />
+
+<item itemtype="Connector" uid="Connector-1442" startpinid="LedBar-1270-led1-pinP" endpinid="Node-1297-1" pointList="-468,-324,-476,-324" />
+
+<item itemtype="Connector" uid="Connector-1443" startpinid="Node-1296-2" endpinid="Node-1297-0" pointList="-476,-332,-476,-324" />
+
+<item itemtype="Connector" uid="Connector-1445" startpinid="LedBar-1270-led2-pinP" endpinid="Node-1298-1" pointList="-468,-316,-476,-316" />
+
+<item itemtype="Connector" uid="Connector-1446" startpinid="Node-1297-2" endpinid="Node-1298-0" pointList="-476,-324,-476,-316" />
+
+<item itemtype="Connector" uid="Connector-1448" startpinid="LedBar-1270-led3-pinP" endpinid="Node-1299-1" pointList="-468,-308,-476,-308" />
+
+<item itemtype="Connector" uid="Connector-1449" startpinid="Node-1298-2" endpinid="Node-1299-0" pointList="-476,-316,-476,-308" />
+
+<item itemtype="Connector" uid="Connector-1451" startpinid="LedBar-1270-led4-pinP" endpinid="Node-1300-1" pointList="-468,-300,-476,-300" />
+
+<item itemtype="Connector" uid="Connector-1452" startpinid="Node-1299-2" endpinid="Node-1300-0" pointList="-476,-308,-476,-300" />
+
+<item itemtype="Connector" uid="Connector-1454" startpinid="LedBar-1270-led5-pinP" endpinid="Node-1301-1" pointList="-468,-292,-476,-292" />
+
+<item itemtype="Connector" uid="Connector-1455" startpinid="Node-1300-2" endpinid="Node-1301-0" pointList="-476,-300,-476,-292" />
+
+<item itemtype="Connector" uid="Connector-1457" startpinid="LedBar-1270-led6-pinP" endpinid="Node-1302-1" pointList="-468,-284,-476,-284" />
+
+<item itemtype="Connector" uid="Connector-1458" startpinid="Node-1301-2" endpinid="Node-1302-0" pointList="-476,-292,-476,-284" />
+
+<item itemtype="Connector" uid="Connector-1459" startpinid="Node-1302-2" endpinid="LedBar-1270-led7-pinP" pointList="-476,-284,-476,-276,-468,-276" />
+
+<item itemtype="Connector" uid="Connector-1468" startpinid="Node-1303-1" endpinid="LedBar-1257-led7-pinN" pointList="-308,-332,-244,-332" />
+
+<item itemtype="Connector" uid="Connector-1469" startpinid="74642-23-B0" endpinid="Node-1303-0" pointList="-316,-332,-308,-332" />
+
+<item itemtype="Connector" uid="Connector-1470" startpinid="Node-1303-2" endpinid="SwitchDip-1261-switch7-pinN" pointList="-308,-332,-308,-340" />
+
+<item itemtype="Connector" uid="Connector-1471" startpinid="Node-1304-1" endpinid="LedBar-1257-led6-pinN" pointList="-300,-324,-244,-324" />
+
+<item itemtype="Connector" uid="Connector-1472" startpinid="SwitchDip-1261-switch6-pinN" endpinid="Node-1304-0" pointList="-300,-340,-300,-324" />
+
+<item itemtype="Connector" uid="Connector-1473" startpinid="Node-1304-2" endpinid="74642-23-B1" pointList="-300,-324,-316,-324" />
+
+<item itemtype="Connector" uid="Connector-1474" startpinid="Node-1305-1" endpinid="LedBar-1257-led5-pinN" pointList="-292,-316,-244,-316" />
+
+<item itemtype="Connector" uid="Connector-1475" startpinid="SwitchDip-1261-switch5-pinN" endpinid="Node-1305-0" pointList="-292,-340,-292,-316" />
+
+<item itemtype="Connector" uid="Connector-1476" startpinid="Node-1305-2" endpinid="74642-23-B2" pointList="-292,-316,-316,-316" />
+
+<item itemtype="Connector" uid="Connector-1477" startpinid="Node-1306-1" endpinid="LedBar-1257-led4-pinN" pointList="-284,-308,-244,-308" />
+
+<item itemtype="Connector" uid="Connector-1478" startpinid="SwitchDip-1261-switch4-pinN" endpinid="Node-1306-0" pointList="-284,-340,-284,-308" />
+
+<item itemtype="Connector" uid="Connector-1479" startpinid="Node-1306-2" endpinid="74642-23-B3" pointList="-284,-308,-316,-308" />
+
+<item itemtype="Connector" uid="Connector-1480" startpinid="Node-1307-1" endpinid="LedBar-1257-led3-pinN" pointList="-276,-300,-244,-300" />
+
+<item itemtype="Connector" uid="Connector-1481" startpinid="SwitchDip-1261-switch3-pinN" endpinid="Node-1307-0" pointList="-276,-340,-276,-300" />
+
+<item itemtype="Connector" uid="Connector-1482" startpinid="Node-1307-2" endpinid="74642-23-B4" pointList="-276,-300,-316,-300" />
+
+<item itemtype="Connector" uid="Connector-1483" startpinid="Node-1308-1" endpinid="LedBar-1257-led2-pinN" pointList="-268,-292,-244,-292" />
+
+<item itemtype="Connector" uid="Connector-1484" startpinid="SwitchDip-1261-switch2-pinN" endpinid="Node-1308-0" pointList="-268,-340,-268,-292" />
+
+<item itemtype="Connector" uid="Connector-1485" startpinid="Node-1308-2" endpinid="74642-23-B5" pointList="-268,-292,-316,-292" />
+
+<item itemtype="Connector" uid="Connector-1486" startpinid="Node-1309-1" endpinid="LedBar-1257-led1-pinN" pointList="-260,-284,-244,-284" />
+
+<item itemtype="Connector" uid="Connector-1487" startpinid="SwitchDip-1261-switch1-pinN" endpinid="Node-1309-0" pointList="-260,-340,-260,-284" />
+
+<item itemtype="Connector" uid="Connector-1488" startpinid="Node-1309-2" endpinid="74642-23-B6" pointList="-260,-284,-316,-284" />
+
+<item itemtype="Connector" uid="Connector-1489" startpinid="Node-1310-1" endpinid="LedBar-1257-led0-pinN" pointList="-252,-276,-244,-276" />
+
+<item itemtype="Connector" uid="Connector-1490" startpinid="SwitchDip-1261-switch0-pinN" endpinid="Node-1310-0" pointList="-252,-340,-252,-276" />
+
+<item itemtype="Connector" uid="Connector-1491" startpinid="Node-1310-2" endpinid="74642-23-B7" pointList="-252,-276,-316,-276" />
+
+<item itemtype="Connector" uid="Connector-1493" startpinid="LedBar-1257-led1-pinP" endpinid="Node-1312-1" pointList="-212,-284,-204,-284" />
+
+<item itemtype="Connector" uid="Connector-1495" startpinid="Node-1312-2" endpinid="LedBar-1257-led0-pinP" pointList="-204,-284,-204,-276,-212,-276" />
+
+<item itemtype="Connector" uid="Connector-1496" startpinid="LedBar-1257-led2-pinP" endpinid="Node-1313-1" pointList="-212,-292,-204,-292" />
+
+<item itemtype="Connector" uid="Connector-1498" startpinid="Node-1313-2" endpinid="Node-1312-0" pointList="-204,-292,-204,-284" />
+
+<item itemtype="Connector" uid="Connector-1499" startpinid="LedBar-1257-led3-pinP" endpinid="Node-1314-1" pointList="-212,-300,-204,-300" />
+
+<item itemtype="Connector" uid="Connector-1501" startpinid="Node-1314-2" endpinid="Node-1313-0" pointList="-204,-300,-204,-292" />
+
+<item itemtype="Connector" uid="Connector-1502" startpinid="LedBar-1257-led4-pinP" endpinid="Node-1315-1" pointList="-212,-308,-204,-308" />
+
+<item itemtype="Connector" uid="Connector-1504" startpinid="Node-1315-2" endpinid="Node-1314-0" pointList="-204,-308,-204,-300" />
+
+<item itemtype="Connector" uid="Connector-1505" startpinid="LedBar-1257-led5-pinP" endpinid="Node-1316-1" pointList="-212,-316,-204,-316" />
+
+<item itemtype="Connector" uid="Connector-1507" startpinid="Node-1316-2" endpinid="Node-1315-0" pointList="-204,-316,-204,-308" />
+
+<item itemtype="Connector" uid="Connector-1508" startpinid="LedBar-1257-led6-pinP" endpinid="Node-1317-1" pointList="-212,-324,-204,-324" />
+
+<item itemtype="Connector" uid="Connector-1510" startpinid="Node-1317-2" endpinid="Node-1316-0" pointList="-204,-324,-204,-316" />
+
+<item itemtype="Connector" uid="Connector-1511" startpinid="LedBar-1257-led7-pinP" endpinid="Node-1318-1" pointList="-212,-332,-204,-332" />
+
+<item itemtype="Connector" uid="Connector-1512" startpinid="Rail-1311-outnod" endpinid="Node-1318-0" pointList="-204,-340,-204,-332" />
+
+<item itemtype="Connector" uid="Connector-1513" startpinid="Node-1318-2" endpinid="Node-1317-0" pointList="-204,-332,-204,-324" />
+
+</circuit>

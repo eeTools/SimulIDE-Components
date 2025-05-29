@@ -1,0 +1,59 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Probe" CircId="Probe-221" mainComp="false" Show_id="false" Show_Val="true" Pos="60,-92" rotation="-45" hflip="1" vflip="1" label="Probe-221" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Subcircuit" CircId="74688-242" mainComp="false" Show_id="true" Show_Val="false" Pos="-20,-148" rotation="0" hflip="1" vflip="1" label="74688" idLabPos="-1.71429,-14.8571" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-315" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-116" rotation="0" hflip="1" vflip="1" label="SwitchDip-315" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="127" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-316" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-44" rotation="0" hflip="1" vflip="1" label="SwitchDip-316" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="255" />
+
+<item itemtype="Rail" CircId="Rail-317" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-68,-164" rotation="90" hflip="1" vflip="1" label="Rail-317" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-319" mainComp="false" Show_id="false" Show_Val="false" Pos="52,-12" rotation="-180" hflip="1" vflip="1" label="Fixed Voltage-319" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Node" CircId="Node-318" mainComp="false" Pos="-68,-140" />
+
+<item itemtype="Connector" uid="Connector-316" startpinid="74688-242-!P=Q" endpinid="Probe-221-inpin" pointList="20,-76,44,-76" />
+
+<item itemtype="Connector" uid="Connector-324" startpinid="SwitchDip-315-switch0-pinN" endpinid="74688-242-P0" pointList="-36,-140,-28,-140" />
+
+<item itemtype="Connector" uid="Connector-325" startpinid="SwitchDip-315-switch1-pinN" endpinid="74688-242-P1" pointList="-36,-132,-28,-132" />
+
+<item itemtype="Connector" uid="Connector-326" startpinid="SwitchDip-315-switch2-pinN" endpinid="74688-242-P2" pointList="-36,-124,-28,-124" />
+
+<item itemtype="Connector" uid="Connector-327" startpinid="SwitchDip-315-switch3-pinN" endpinid="74688-242-P3" pointList="-36,-116,-28,-116" />
+
+<item itemtype="Connector" uid="Connector-328" startpinid="SwitchDip-315-switch4-pinN" endpinid="74688-242-P4" pointList="-36,-108,-28,-108" />
+
+<item itemtype="Connector" uid="Connector-329" startpinid="SwitchDip-315-switch5-pinN" endpinid="74688-242-P5" pointList="-36,-100,-28,-100" />
+
+<item itemtype="Connector" uid="Connector-330" startpinid="SwitchDip-315-switch6-pinN" endpinid="74688-242-P6" pointList="-36,-92,-28,-92" />
+
+<item itemtype="Connector" uid="Connector-331" startpinid="SwitchDip-315-switch7-pinN" endpinid="74688-242-P7" pointList="-36,-84,-28,-84" />
+
+<item itemtype="Connector" uid="Connector-332" startpinid="SwitchDip-316-switch0-pinN" endpinid="74688-242-Q0" pointList="-36,-68,-28,-68" />
+
+<item itemtype="Connector" uid="Connector-333" startpinid="SwitchDip-316-switch1-pinN" endpinid="74688-242-Q1" pointList="-36,-60,-28,-60" />
+
+<item itemtype="Connector" uid="Connector-334" startpinid="SwitchDip-316-switch2-pinN" endpinid="74688-242-Q2" pointList="-36,-52,-28,-52" />
+
+<item itemtype="Connector" uid="Connector-335" startpinid="SwitchDip-316-switch3-pinN" endpinid="74688-242-Q3" pointList="-36,-44,-28,-44" />
+
+<item itemtype="Connector" uid="Connector-336" startpinid="SwitchDip-316-switch4-pinN" endpinid="74688-242-Q4" pointList="-36,-36,-28,-36" />
+
+<item itemtype="Connector" uid="Connector-337" startpinid="SwitchDip-316-switch5-pinN" endpinid="74688-242-Q5" pointList="-36,-28,-28,-28" />
+
+<item itemtype="Connector" uid="Connector-338" startpinid="SwitchDip-316-switch6-pinN" endpinid="74688-242-Q6" pointList="-36,-20,-28,-20" />
+
+<item itemtype="Connector" uid="Connector-339" startpinid="SwitchDip-316-switch7-pinN" endpinid="74688-242-Q7" pointList="-36,-12,-28,-12" />
+
+<item itemtype="Connector" uid="Connector-341" startpinid="SwitchDip-315-switch0-pinP" endpinid="Node-318-1" pointList="-60,-140,-68,-140" />
+
+<item itemtype="Connector" uid="Connector-342" startpinid="Rail-317-outnod" endpinid="Node-318-0" pointList="-68,-148,-68,-140" />
+
+<item itemtype="Connector" uid="Connector-343" startpinid="Node-318-2" endpinid="SwitchDip-316-switch0-pinP" pointList="-68,-140,-68,-68,-60,-68" />
+
+<item itemtype="Connector" uid="Connector-344" startpinid="Fixed Voltage-319-outnod" endpinid="74688-242-!E" pointList="36,-12,20,-12" />
+
+</circuit>
