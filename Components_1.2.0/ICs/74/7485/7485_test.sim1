@@ -1,0 +1,45 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="7485-30" mainComp="false" Show_id="true" Show_Val="false" Pos="-244,100" rotation="0" hflip="1" vflip="1" label="7485-30" idLabPos="-3.6749,-14.2835" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" />
+
+<item itemtype="Subcircuit" CircId="Encoder-31" mainComp="false" Show_id="true" Show_Val="false" Pos="-356,124" rotation="0" hflip="1" vflip="1" label="A" idLabPos="23.6076,-13.5195" labelrot="0" valLabPos="-16,20" valLabRot="0" Code="HEX" Value="0" />
+
+<item itemtype="Subcircuit" CircId="Encoder-32" mainComp="false" Show_id="true" Show_Val="false" Pos="-356,196" rotation="0" hflip="1" vflip="1" label="B" idLabPos="22.2189,-13.5195" labelrot="0" valLabPos="-16,20" valLabRot="0" Code="HEX" Value="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,108" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-36" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,116" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-37" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,124" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-38" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="LedBar" CircId="LedBar-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,132" rotation="0" hflip="1" vflip="1" label="LedBar-39" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="3 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Encoder-31-1" endpinid="7485-30-A0" pointList="-292,132,-252,132" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Encoder-31-2" endpinid="7485-30-A1" pointList="-292,140,-252,140" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Encoder-31-4" endpinid="7485-30-A2" pointList="-292,148,-252,148" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="Encoder-31-8" endpinid="7485-30-A3" pointList="-292,156,-252,156" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="Encoder-32-1" endpinid="7485-30-B0" pointList="-292,204,-284,204,-284,164,-252,164" />
+
+<item itemtype="Connector" uid="Connector-135" startpinid="Encoder-32-2" endpinid="7485-30-B1" pointList="-292,212,-276,212,-276,172,-252,172" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="Encoder-32-4" endpinid="7485-30-B2" pointList="-292,220,-268,220,-268,180,-252,180" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="Encoder-32-8" endpinid="7485-30-B3" pointList="-292,228,-260,228,-260,188,-252,188" />
+
+<item itemtype="Connector" uid="Connector-141" startpinid="Fixed Voltage-36-outnod" endpinid="7485-30-iA<B" pointList="-260,108,-252,108" />
+
+<item itemtype="Connector" uid="Connector-142" startpinid="Fixed Voltage-37-outnod" endpinid="7485-30-iA=B" pointList="-260,116,-252,116" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="Fixed Voltage-38-outnod" endpinid="7485-30-iA>B" pointList="-260,124,-252,124" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="LedBar-39-led0-pinP" endpinid="7485-30-A<B" pointList="-196,108,-204,108" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="LedBar-39-led1-pinP" endpinid="7485-30-A=B" pointList="-196,116,-204,116" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="LedBar-39-led2-pinP" endpinid="7485-30-A>B" pointList="-196,124,-204,124" />
+
+</circuit>

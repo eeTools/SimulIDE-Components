@@ -1,0 +1,33 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="7493-130" mainComp="false" Show_id="true" Show_Val="false" Pos="-444,-164" rotation="0" hflip="1" vflip="1" label="7493" idLabPos="3.06,-14.3171" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="LedBar" CircId="LedBar-131" mainComp="false" Show_id="false" Show_Val="false" Pos="-380,-132" rotation="0" hflip="1" vflip="1" label="LedBar-131" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="4 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-132" mainComp="false" Show_id="false" Show_Val="false" Pos="-484,-156" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-132" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-136" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-132" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-136" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-137" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,-124" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-137" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Node" CircId="Node-133" mainComp="false" Pos="-460,-156" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="LedBar-131-led0-pinP" endpinid="7493-130-Q0" pointList="-396,-156,-404,-156" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="LedBar-131-led1-pinP" endpinid="7493-130-Q1" pointList="-396,-148,-404,-148" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="LedBar-131-led2-pinP" endpinid="7493-130-Q2" pointList="-396,-140,-404,-140" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="LedBar-131-led3-pinP" endpinid="7493-130-Q3" pointList="-396,-132,-404,-132" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Node-133-1" endpinid="7493-130-MR2" pointList="-460,-156,-460,-148,-452,-148" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Fixed Voltage-132-outnod" endpinid="Node-133-0" pointList="-468,-156,-460,-156" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Node-133-2" endpinid="7493-130-MR1" pointList="-460,-156,-452,-156" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Fixed Voltage-136-outnod" endpinid="7493-130-CK0" pointList="-460,-132,-452,-132" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Fixed Voltage-137-outnod" endpinid="7493-130-CK1" pointList="-460,-124,-452,-124" />
+
+</circuit>

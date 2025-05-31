@@ -1,0 +1,63 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" width="3200" height="2400" >
+
+<item itemtype="TestUnit" CircId="TestUnit-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-220,44" rotation="0" hflip="-1" vflip="1" label="TestUnit" idLabPos="-18.8454,-40.7265" labelrot="0" valLabPos="-16,20" valLabRot="0" Inputs="A3,B3,iA<B,iA=B,iA>B" Outputs="A<B,A=B,A>B" Truth="5,4,1,5,1,4,1,1,2,4,1,2,2,4,1,2,4,4,1,4,0,4,1,0,2,4,1,2,2,4,1,2," Period="100 ns" />
+
+<item itemtype="Buffer" CircId="Buffer-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,164" rotation="0" hflip="1" vflip="1" label="Buffer-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Small="false" Family="Custom" SupplyV="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" InPullups="0 Ω" Invert_Inputs="false" initHigh="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Oen_Imped="1e+16 Ω" Pullups="0 Ω" Inverted="false" Open_Collector="true" Tristate="false" pd_n="1" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-116,80" rotation="-90" hflip="1" vflip="1" label="Resistor-10" idLabPos="-16,-24" labelrot="0" valLabPos="-7.29703,6.36262" valLabRot="0" Resistance="5 kΩ" />
+
+<item itemtype="Rail" CircId="Rail-12" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-116,36" rotation="90" hflip="1" vflip="1" label="Rail-12" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Switch" CircId="Switch-13" mainComp="false" Show_id="true" Show_Val="false" Pos="-116,140" rotation="-90" hflip="1" vflip="1" label="Open: Error" idLabPos="-9.99225,7.41373" labelrot="90" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" Checked="true" />
+
+<item itemtype="LAnalizer" CircId="LAnalizer-14" mainComp="false" Show_id="false" Show_Val="false" Pos="4,4" rotation="0" hflip="1" vflip="1" label="LAnalizer-14" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="100000" connectGnd="true" InputImped="10 MΩ" TestTime="7000 ns" DoTest="false" TimDiv="1534690" TimPos="-399992344669" VolDiv="0.15" Tunnels=",,,,,,,," Trigger="9" TestData="0 0|1 0|1 1|27101 0|3f7a1 1|88b81 0|a1221 1|d1f61 0|102ca1 1|11b341 0|164721 1|17cdc1 0|1c61a1 1|1de841 0|227c21 1|2402c1 0|2896a1 1|2a1d41 0|2eb121 1;0 0|1 0|d1f61 1|ea601 0|11b341 1|14c081 0|17cdc1 1|195461 0|258961 1|271001 0|2a1d41 1|2d2a81 0;0 0|1 0|2711 1|41eb1 0|5a551 1|72bf1 0|8b291 1|a3931 0|ecd11 1|1053b1 0|14e791 1|166e31 0|197b71 1|1c88b1 0|1e0f51 1|1f95f1 0|211c91 1|22a331 0|273711 1|28bdb1 0|2d5191 1;;;;;" TimeStep="1000 _ps" AutoExport="false" TresholdR="2.5 V" Bus="false,false,false,false,false,false,false,false," TresholdF="2.5 V" />
+
+<item itemtype="Subcircuit" CircId="7485-30" mainComp="false" Show_id="true" Show_Val="false" Pos="-236,100" rotation="0" hflip="1" vflip="1" label="7485-30" idLabPos="-3.6749,-14.2835" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-140,164" />
+
+<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-180,28" />
+
+<item itemtype="Node" CircId="Node-16" mainComp="false" Pos="-172,36" />
+
+<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="-140,44" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Node-11-2" endpinid="Buffer-7-out" pointList="-140,164,-148,164" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Resistor-10-rPin" endpinid="Rail-12-outnod" pointList="-116,64,-116,52" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Resistor-10-lPin" endpinid="Switch-13-switch0pinN" pointList="-116,96,-116,124" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Switch-13-pinP0" endpinid="Node-11-1" pointList="-116,156,-116,164,-140,164" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Node-15-1" endpinid="LAnalizer-14-Pin0" pointList="-180,28,-180,-60,-84,-60" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="Node-15-2" endpinid="TestUnit-2-in0" pointList="-180,28,-196,28" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Node-16-1" endpinid="LAnalizer-14-Pin1" pointList="-172,36,-172,-44,-84,-44" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="Node-16-2" endpinid="TestUnit-2-in1" pointList="-172,36,-196,36" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-17-1" endpinid="LAnalizer-14-Pin2" pointList="-140,44,-140,-28,-84,-28" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="TestUnit-2-in2" endpinid="Node-17-0" pointList="-196,44,-140,44" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Node-17-2" endpinid="Node-11-0" pointList="-140,44,-140,164" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="TestUnit-2-out0" endpinid="7485-30-A3" pointList="-244,28,-284,28,-284,156,-244,156" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="TestUnit-2-out2" endpinid="7485-30-iA<B" pointList="-244,44,-268,44,-268,108,-244,108" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="TestUnit-2-out1" endpinid="7485-30-B3" pointList="-244,36,-276,36,-276,188,-244,188" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="7485-30-A<B" endpinid="Node-15-0" pointList="-196,108,-180,108,-180,28" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="7485-30-A=B" endpinid="Node-16-0" pointList="-196,116,-172,116,-172,36" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Buffer-7-in0" endpinid="7485-30-A>B" pointList="-180,164,-180,124,-196,124" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="TestUnit-2-out3" endpinid="7485-30-iA=B" pointList="-244,52,-260,52,-260,116,-244,116" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="TestUnit-2-out4" endpinid="7485-30-iA>B" pointList="-244,60,-252,60,-252,124,-244,124" />
+
+</circuit>
