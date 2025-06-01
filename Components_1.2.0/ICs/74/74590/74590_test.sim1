@@ -1,0 +1,53 @@
+<circuit version="1.2.0-RC1" rev="250528" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Probe" CircId="Probe-1877" mainComp="false" Show_id="false" Show_Val="true" Pos="-112,132" rotation="-45" hflip="1" vflip="1" label="Probe-14" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Subcircuit" CircId="74590-478" mainComp="false" Show_id="true" Show_Val="false" Pos="-228,76" rotation="0" hflip="1" vflip="1" label="74590" idLabPos="1.61618,-12.9965" labelrot="0" valLabPos="17,52" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="7 Seg BCD" CircId="7-937" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,44" rotation="0" hflip="1" vflip="1" label="7-7" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="7 Seg BCD" CircId="7-938" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,44" rotation="0" hflip="1" vflip="1" label="7-8" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1893" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,140" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1893" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1894" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,124" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1894" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1895" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,108" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1895" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1897" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,92" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1897" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Clock" CircId="Clock-1898" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,68" rotation="0" hflip="1" vflip="1" label="Clock-1898" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="5 Hz" Always_On="false" />
+
+<item itemtype="Node" CircId="Node-1899" mainComp="false" Pos="-244,84" />
+
+<item itemtype="Connector" uid="Connector-1878" startpinid="Probe-1877-inpin" endpinid="74590-478-!RCO" pointList="-128,148,-188,148" />
+
+<item itemtype="Connector" uid="Connector-1899" startpinid="74590-478-Q0" endpinid="7-937-in0" pointList="-188,84,-116,84,-116,76" />
+
+<item itemtype="Connector" uid="Connector-1900" startpinid="7-937-in1" endpinid="74590-478-Q1" pointList="-124,76,-124,92,-188,92" />
+
+<item itemtype="Connector" uid="Connector-1901" startpinid="74590-478-Q2" endpinid="7-937-in2" pointList="-188,100,-132,100,-132,76" />
+
+<item itemtype="Connector" uid="Connector-1902" startpinid="74590-478-Q3" endpinid="7-937-in3" pointList="-188,108,-140,108,-140,76" />
+
+<item itemtype="Connector" uid="Connector-1903" startpinid="7-938-in0" endpinid="74590-478-Q4" pointList="-148,76,-148,116,-188,116" />
+
+<item itemtype="Connector" uid="Connector-1904" startpinid="74590-478-Q5" endpinid="7-938-in1" pointList="-188,124,-156,124,-156,76" />
+
+<item itemtype="Connector" uid="Connector-1905" startpinid="74590-478-Q6" endpinid="7-938-in2" pointList="-188,132,-164,132,-164,76" />
+
+<item itemtype="Connector" uid="Connector-1906" startpinid="7-938-in3" endpinid="74590-478-Q7" pointList="-172,76,-172,140,-188,140" />
+
+<item itemtype="Connector" uid="Connector-1907" startpinid="Fixed Voltage-1893-outnod" endpinid="74590-478-!OE" pointList="-244,140,-236,140" />
+
+<item itemtype="Connector" uid="Connector-1908" startpinid="Fixed Voltage-1894-outnod" endpinid="74590-478-!Rst" pointList="-244,124,-236,124" />
+
+<item itemtype="Connector" uid="Connector-1909" startpinid="Fixed Voltage-1895-outnod" endpinid="74590-478-!CE" pointList="-244,108,-236,108" />
+
+<item itemtype="Connector" uid="Connector-1913" startpinid="Node-1899-1" endpinid="74590-478-CkR" pointList="-244,84,-244,92,-236,92" />
+
+<item itemtype="Connector" uid="Connector-1914" startpinid="Clock-1898-outnod" endpinid="Node-1899-0" pointList="-260,68,-244,68,-244,84" />
+
+<item itemtype="Connector" uid="Connector-1915" startpinid="Node-1899-2" endpinid="74590-478-CkC" pointList="-244,84,-236,84" />
+
+</circuit>
