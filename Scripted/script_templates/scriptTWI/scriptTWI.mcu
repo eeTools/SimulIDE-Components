@@ -1,0 +1,12 @@
+<iou name="scriptTWI" core="scripted" script="scriptTWI.as" >
+
+  <propertygroup name="Main">
+    <property name="Control_Code" type="uint" add="true" />
+  </propertygroup>
+
+  <ioport name="PORTA" pins="A0,A1,A2" />
+  <ioport name="PORTD" pins="SDA,SCL" />
+
+  <twi name="twi" pins="SDA,SCL" />
+
+</iou>

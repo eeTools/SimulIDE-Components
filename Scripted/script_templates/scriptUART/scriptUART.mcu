@@ -1,0 +1,10 @@
+<iou name="scriptUART" core="scripted" script="scriptUART.as" >
+
+  <ioport name="PORTA" pins="Rx,Tx" />
+
+  <usart name="Uart0" number="1">
+    <trunit type="tx" pin="Tx" />
+    <trunit type="rx" pin="Rx" />
+  </usart>
+
+</iou>

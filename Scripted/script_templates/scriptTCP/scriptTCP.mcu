@@ -1,0 +1,5 @@
+<iou name="scriptTCP" core="scripted" script="scriptTCP.as" >
+    
+    <tcp name="Wb_link" />
+    
+</iou>
