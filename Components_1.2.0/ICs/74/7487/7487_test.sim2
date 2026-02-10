@@ -1,0 +1,39 @@
+<circuit version="2.0.0-" rev="260203" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-112" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-276" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-110" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-292" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-108" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-316" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-106" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-332" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-104" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-348" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-102" mainComp="false" Show_id="false" Show_Val="true" Pos="-432,-364" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-102" idLabPos="-64,-24" labelrot="0" valLabPos="-60,-8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Subcircuit" CircId="7487-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-388,-348" rotation="0" hflip="1" vflip="1" label="7487-1" idLabPos="0,-20" labelrot="0" valLabPos="13,32" valLabRot="-90" Package="1- Logic Symbol" />
+
+<item itemtype="LedBar" CircId="LedBar-113" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-316" rotation="0" hflip="1" vflip="1" label="LedBar-113" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="4 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="50 Ω" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Fixed Voltage-102-outnod" endpinid="7487-1-A1" pointList="-416,-364,-396,-364,-396,-340" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Fixed Voltage-104-outnod" endpinid="7487-1-A2" pointList="-416,-348,-404,-348,-404,-332,-396,-332" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="Fixed Voltage-106-outnod" endpinid="7487-1-A3" pointList="-416,-332,-416,-324,-396,-324" />
+
+<item itemtype="Connector" uid="Connector-109" startpinid="Fixed Voltage-108-outnod" endpinid="7487-1-A4" pointList="-416,-316,-396,-316" />
+
+<item itemtype="Connector" uid="Connector-111" startpinid="Fixed Voltage-110-outnod" endpinid="7487-1-S1" pointList="-416,-292,-416,-300,-396,-300" />
+
+<item itemtype="Connector" uid="Connector-113" startpinid="Fixed Voltage-112-outnod" endpinid="7487-1-S2" pointList="-416,-276,-396,-276,-396,-292" />
+
+<item itemtype="Connector" uid="Connector-114" startpinid="LedBar-113-led0-pinP" endpinid="7487-1-Y1" pointList="-340,-340,-348,-340" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="LedBar-113-led1-pinP" endpinid="7487-1-Y2" pointList="-340,-332,-348,-332" />
+
+<item itemtype="Connector" uid="Connector-116" startpinid="LedBar-113-led2-pinP" endpinid="7487-1-Y3" pointList="-340,-324,-348,-324" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="LedBar-113-led3-pinP" endpinid="7487-1-Y4" pointList="-340,-316,-348,-316" />
+
+</circuit>
