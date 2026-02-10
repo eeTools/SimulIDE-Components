@@ -1,0 +1,51 @@
+<circuit version="2.0.0-" rev="260203" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-313" mainComp="false" Show_id="false" Show_Val="true" Pos="-564,-312" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-284" idLabPos="-64,-24" labelrot="0" valLabPos="-46,-3" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-312" mainComp="false" Show_id="false" Show_Val="true" Pos="-564,-296" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-284" idLabPos="-64,-24" labelrot="0" valLabPos="-46,-3" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-285" mainComp="false" Show_id="false" Show_Val="true" Pos="-564,-328" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-284" idLabPos="-64,-24" labelrot="0" valLabPos="-46,-3" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-284" mainComp="false" Show_id="false" Show_Val="true" Pos="-564,-344" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-284" idLabPos="-64,-24" labelrot="0" valLabPos="-46,-3" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Subcircuit" CircId="7494-164" mainComp="false" Show_id="true" Show_Val="false" Pos="-484,-416" rotation="0" hflip="1" vflip="1" label="7494-164" idLabPos="0,-20" labelrot="0" valLabPos="13,36" valLabRot="-90" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-438" mainComp="false" Show_id="false" Show_Val="true" Pos="-564,-276" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-284" idLabPos="-64,-24" labelrot="0" valLabPos="-46,-3" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-443" mainComp="false" Show_id="false" Show_Val="true" Pos="-416,-424" rotation="-45" hflip="1" vflip="1" label="Probe-443" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="SwitchDip" CircId="SwitchDip-444" mainComp="false" Show_id="false" Show_Val="false" Pos="-516,-384" rotation="0" hflip="1" vflip="1" label="SwitchDip-444" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Size="8" Exclusive="false" CommonPin="true" State="153" />
+
+<item itemtype="Rail" CircId="Rail-445" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-532,-436" rotation="90" hflip="1" vflip="1" label="Rail-445" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Connector" uid="Connector-310" startpinid="Fixed Voltage-284-outnod" endpinid="7494-164-PE1" pointList="-548,-344,-528,-344,-528,-336,-492,-336" />
+
+<item itemtype="Connector" uid="Connector-311" startpinid="Fixed Voltage-285-outnod" endpinid="7494-164-PE2" pointList="-548,-328,-492,-328" />
+
+<item itemtype="Connector" uid="Connector-439" startpinid="Fixed Voltage-438-outnod" endpinid="7494-164-CLR" pointList="-548,-276,-516,-276,-516,-304,-492,-304" />
+
+<item itemtype="Connector" uid="Connector-440" startpinid="Fixed Voltage-312-outnod" endpinid="7494-164-Ck" pointList="-548,-296,-524,-296,-524,-312,-492,-312" />
+
+<item itemtype="Connector" uid="Connector-441" startpinid="Fixed Voltage-313-outnod" endpinid="7494-164-DI" pointList="-548,-312,-548,-320,-492,-320" />
+
+<item itemtype="Connector" uid="Connector-444" startpinid="Probe-443-inpin" endpinid="7494-164-Q" pointList="-432,-408,-444,-408" />
+
+<item itemtype="Connector" uid="Connector-452" startpinid="SwitchDip-444-switch0-pinN" endpinid="7494-164-P1A" pointList="-500,-408,-492,-408" />
+
+<item itemtype="Connector" uid="Connector-453" startpinid="SwitchDip-444-switch1-pinN" endpinid="7494-164-P2A" pointList="-500,-400,-492,-400" />
+
+<item itemtype="Connector" uid="Connector-454" startpinid="SwitchDip-444-switch2-pinN" endpinid="7494-164-P1B" pointList="-500,-392,-492,-392" />
+
+<item itemtype="Connector" uid="Connector-455" startpinid="SwitchDip-444-switch3-pinN" endpinid="7494-164-P2B" pointList="-500,-384,-492,-384" />
+
+<item itemtype="Connector" uid="Connector-456" startpinid="SwitchDip-444-switch4-pinN" endpinid="7494-164-P1C" pointList="-500,-376,-492,-376" />
+
+<item itemtype="Connector" uid="Connector-457" startpinid="SwitchDip-444-switch5-pinN" endpinid="7494-164-P2C" pointList="-500,-368,-492,-368" />
+
+<item itemtype="Connector" uid="Connector-458" startpinid="SwitchDip-444-switch6-pinN" endpinid="7494-164-P1D" pointList="-500,-360,-492,-360" />
+
+<item itemtype="Connector" uid="Connector-459" startpinid="SwitchDip-444-switch7-pinN" endpinid="7494-164-P2D" pointList="-500,-352,-492,-352" />
+
+<item itemtype="Connector" uid="Connector-460" startpinid="Rail-445-outnod" endpinid="SwitchDip-444-switch0-pinP" pointList="-532,-420,-532,-408,-524,-408" />
+
+</circuit>
