@@ -1,0 +1,69 @@
+<circuit version="2.0.0-" rev="260203" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="74171-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-348,-268" rotation="0" hflip="1" vflip="1" label="74171" idLabPos="1.50281,-13.9888" labelrot="0" valLabPos="13,56" valLabRot="-90" Package="3- Compack LS" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" Show_id="false" Show_Val="true" Pos="-380,-220" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-19" idLabPos="-64,-24" labelrot="0" valLabPos="-52,-6" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-28" mainComp="false" Show_id="false" Show_Val="true" Pos="-380,-204" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-19" idLabPos="-64,-24" labelrot="0" valLabPos="-52,-6" valLabRot="0" Voltage="5 V" Small="true" Out="true" />
+
+<item itemtype="Subcircuit" CircId="Encoder-226" mainComp="false" Show_id="true" Show_Val="false" Pos="-452,-268" rotation="0" hflip="1" vflip="1" label="Encoder" idLabPos="10.0187,-15.4916" labelrot="0" valLabPos="-16,20" valLabRot="0" HEX="true" Value="7">
+<mainCompProps MainCompId="Encoderscript-11" Package="2- Encoderscript_LS" Links="226@Dial-2," MainMcu="true" />
+</item>
+
+<item itemtype="7 Seg BCD" CircId="7 Seg BCD-227" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,-300" rotation="0" hflip="1" vflip="1" label="7 Seg BCD-227" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" invertPins="in4," Show_Point_Pin="false" Show_Enable_Pin="false" />
+
+<item itemtype="LedBar" CircId="LedBar-228" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-236" rotation="0" hflip="1" vflip="1" label="LedBar-228" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="50 Ω" />
+
+<item itemtype="Node" CircId="Node-229" mainComp="false" Pos="-268,-260" />
+
+<item itemtype="Node" CircId="Node-230" mainComp="false" Pos="-276,-244" />
+
+<item itemtype="Node" CircId="Node-231" mainComp="false" Pos="-284,-228" />
+
+<item itemtype="Node" CircId="Node-232" mainComp="false" Pos="-292,-212" />
+
+<item itemtype="Connector" uid="Connector-237" startpinid="Fixed Voltage-27-outnod" endpinid="74171-1-CLK" pointList="-364,-220,-356,-220" />
+
+<item itemtype="Connector" uid="Connector-241" startpinid="Fixed Voltage-28-outnod" endpinid="74171-1-!RES" pointList="-364,-204,-356,-204" />
+
+<item itemtype="Connector" uid="Connector-243" startpinid="Encoder-226-1" endpinid="74171-1-1D" pointList="-396,-260,-356,-260" />
+
+<item itemtype="Connector" uid="Connector-244" startpinid="Encoder-226-2" endpinid="74171-1-2D" pointList="-396,-252,-356,-252" />
+
+<item itemtype="Connector" uid="Connector-245" startpinid="Encoder-226-4" endpinid="74171-1-3D" pointList="-396,-244,-356,-244" />
+
+<item itemtype="Connector" uid="Connector-246" startpinid="Encoder-226-8" endpinid="74171-1-4D" pointList="-396,-236,-356,-236" />
+
+<item itemtype="Connector" uid="Connector-251" startpinid="LedBar-228-led0-pinP" endpinid="Node-229-1" pointList="-260,-260,-268,-260" />
+
+<item itemtype="Connector" uid="Connector-252" startpinid="74171-1-1Q" endpinid="Node-229-0" pointList="-308,-260,-268,-260" />
+
+<item itemtype="Connector" uid="Connector-253" startpinid="Node-229-2" endpinid="7 Seg BCD-227-in0" pointList="-268,-260,-268,-268" />
+
+<item itemtype="Connector" uid="Connector-254" startpinid="LedBar-228-led1-pinP" endpinid="74171-1-!1Q" pointList="-260,-252,-308,-252" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="LedBar-228-led2-pinP" endpinid="Node-230-1" pointList="-260,-244,-276,-244" />
+
+<item itemtype="Connector" uid="Connector-256" startpinid="74171-1-2Q" endpinid="Node-230-0" pointList="-308,-244,-276,-244" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="Node-230-2" endpinid="7 Seg BCD-227-in1" pointList="-276,-244,-276,-268" />
+
+<item itemtype="Connector" uid="Connector-258" startpinid="LedBar-228-led3-pinP" endpinid="74171-1-!2Q" pointList="-260,-236,-308,-236" />
+
+<item itemtype="Connector" uid="Connector-259" startpinid="LedBar-228-led4-pinP" endpinid="Node-231-1" pointList="-260,-228,-284,-228" />
+
+<item itemtype="Connector" uid="Connector-260" startpinid="74171-1-3Q" endpinid="Node-231-0" pointList="-308,-228,-284,-228" />
+
+<item itemtype="Connector" uid="Connector-261" startpinid="Node-231-2" endpinid="7 Seg BCD-227-in2" pointList="-284,-228,-284,-268" />
+
+<item itemtype="Connector" uid="Connector-262" startpinid="LedBar-228-led5-pinP" endpinid="74171-1-!3Q" pointList="-260,-220,-308,-220" />
+
+<item itemtype="Connector" uid="Connector-263" startpinid="LedBar-228-led6-pinP" endpinid="Node-232-1" pointList="-260,-212,-292,-212" />
+
+<item itemtype="Connector" uid="Connector-264" startpinid="74171-1-4Q" endpinid="Node-232-0" pointList="-308,-212,-292,-212" />
+
+<item itemtype="Connector" uid="Connector-265" startpinid="Node-232-2" endpinid="7 Seg BCD-227-in3" pointList="-292,-212,-292,-268" />
+
+<item itemtype="Connector" uid="Connector-266" startpinid="LedBar-228-led7-pinP" endpinid="74171-1-!4Q" pointList="-260,-204,-308,-204" />
+
+</circuit>
